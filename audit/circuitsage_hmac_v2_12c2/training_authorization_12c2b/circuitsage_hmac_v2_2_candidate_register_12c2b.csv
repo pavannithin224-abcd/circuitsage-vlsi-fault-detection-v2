@@ -1,0 +1,5 @@
+candidate_id,trainable,graph_encoder,response_encoder,fusion,parameter_cap,role,gradient_partition,authorization
+V22_EXACT_SIGNATURE_GRAPH_BASELINE,NO,NONE,EXACT HASH,GRAPH-CONSTRAINED EXACT RETRIEVAL,0,mandatory non-learning comparator,NONE,AUTHORIZED / BOUNDED
+V22_GRAPHSAGE_METRIC_SMALL,YES,GraphSAGE 3-layer,masked MLP,contrastive metric retrieval + pairwise reranker,750000,primary compact candidate,GENERALIZATION_TRAIN,AUTHORIZED / BOUNDED
+V22_GATV2_CROSS_FUSION,YES,GATv2 3-layer,masked temporal convolution,cross-attention + graph reranker,1500000,higher-capacity candidate,GENERALIZATION_TRAIN,AUTHORIZED / BOUNDED
+V22_GRAPHSAGE_OOD_ENSEMBLE,YES,GraphSAGE shared encoder,masked MLP ensemble,metric retrieval + calibrated OOD ensemble,1500000,uncertainty-focused candidate,GENERALIZATION_TRAIN,AUTHORIZED / BOUNDED

@@ -1,0 +1,30 @@
+{
+  "input": {
+    "circuit_graph": "portable node features, directed edges, graph metadata and schema version",
+    "golden_response": "expected external/probe response tensor",
+    "observed_response": "captured external/probe response tensor",
+    "test_vector_commitment": "hash binding the ordered vector schedule",
+    "validity_mask": "valid vectors, cycles, probes and timeout/status fields"
+  },
+  "interface_version": "FAULTIVA-RESEARCH-INFERENCE-INTERFACE-12C1A-v1",
+  "model_or_threshold_update_during_inference": "PROHIBITED",
+  "online_learning": "DISABLED",
+  "output": {
+    "candidate_nodes": "ordered list of portable node references with scores",
+    "candidate_set_complete": "boolean under the frozen catalog and threshold contract",
+    "confidence": "calibrated score plus explicit calibration-scope label",
+    "evidence": "vector/probe groups contributing to the decision without exposing fault identity",
+    "fault_probability": "float [0,1]",
+    "ood_score": "float with frozen rejection threshold",
+    "polarity_probability": "SA0/SA1 distribution when supported",
+    "status": [
+      "FAULT_FREE",
+      "FAULT_DETECTED",
+      "AMBIGUOUS_CANDIDATE_SET",
+      "UNKNOWN_OR_OUT_OF_DISTRIBUTION"
+    ]
+  },
+  "stage": "12C-1A",
+  "status": "FROZEN",
+  "unsupported_input_behavior": "REJECT WITH SCHEMA OR OOD STATUS; DO NOT SILENTLY COERCE"
+}

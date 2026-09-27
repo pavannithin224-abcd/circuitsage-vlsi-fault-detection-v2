@@ -1,0 +1,82 @@
+{
+  "acceptance_checks": {
+    "fault_free_false_alarm_rate": true,
+    "observable_candidate_coverage": false,
+    "observable_fault_detection_recall": true,
+    "observable_top5_site_accuracy": false,
+    "unique_signature_top1_site_accuracy": false
+  },
+  "advancement_target_on_calibration": "NOT_MET",
+  "calibration_rankings": {
+    "bytes": 417990,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_training_12a1d/circuitsage_hmac_v2_selected_calibration_rankings_12a1d.npz",
+    "sha256": "c4c0bc8f4b9ada7499b4c7cd61862e67ddb46683e4b92c50cb36a9b35431a21e"
+  },
+  "detector": "EXACT GOLDEN-REFERENCE ANOMALY GATE",
+  "deterministic_replay": {
+    "metrics_exact": true,
+    "rankings_exact": true,
+    "scores_exact": true,
+    "status": "PASS",
+    "weights_exact": true
+  },
+  "dev_site_test_opened": false,
+  "holdout_access_count": 0,
+  "lock_version": "CIRCUITSAGE-HMAC-V2-SELECTION-LOCK-v1",
+  "model": {
+    "bytes": 1205829,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_training_12a1d/circuitsage_hmac_v2_selected_ranker_12a1d.npz",
+    "sha256": "21b19c859264026034e5122ae065c2a9ebe7f2863f4aa879b73fc9e7bccd4ded"
+  },
+  "model_metadata": {
+    "bytes": 1737,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_training_12a1d/circuitsage_hmac_v2_selected_ranker_metadata_12a1d.json",
+    "sha256": "f31d69e8cd9c0173df785a0634b393fe24918a63cde59885079922c60e58fc36"
+  },
+  "selected_candidate": {
+    "candidate_hidden": [
+      64,
+      32
+    ],
+    "candidate_id": "V2_LINKED_RANKER_SMALL_A1E5",
+    "epochs": 8,
+    "fusion_hidden": [
+      64,
+      16
+    ],
+    "learning_rate": 0.001,
+    "negative_candidates_per_query": 128,
+    "query_batch_size": 64,
+    "random_seed": 20260914,
+    "response_hidden": [
+      128,
+      64
+    ],
+    "trainable_parameters": 324545,
+    "weight_decay": 1e-05
+  },
+  "selected_candidate_id": "V2_LINKED_RANKER_SMALL_A1E5",
+  "selected_metrics": {
+    "all_injected_detection_recall": 0.5019922063137615,
+    "calibration_observable_fault_instances": 3442,
+    "calibration_observable_profiles": 2758,
+    "candidate_id": "V2_LINKED_RANKER_SMALL_A1E5",
+    "cross_partition_profile_mrr": 0.003984255945893376,
+    "fault_free_false_alarm_rate": 0.0,
+    "observable_candidate_coverage_top50": 0.04154561301568855,
+    "observable_detection_recall": 1.0,
+    "observable_mean_reciprocal_rank": 0.006296510211273277,
+    "observable_top1_site_accuracy": 0.0017431725740848344,
+    "observable_top5_site_accuracy": 0.004067402672864613,
+    "partition_local_profile_mrr": 0.009031040461706705,
+    "sa0_sa1_accuracy_given_top1_site": 0.6666666666666666,
+    "trainable_parameters": 324545,
+    "unique_signature_top1_site_accuracy": 0.003484320557491289
+  },
+  "selection_status": "FROZEN",
+  "stage": "12A-1D",
+  "status": "PASS",
+  "training_status": "FROZEN",
+  "v1_model_modified": false,
+  "validation_access_count": 0
+}

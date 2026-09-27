@@ -1,0 +1,17 @@
+{
+  "authorization_consumed": false,
+  "authorization_version": "CIRCUITSAGE-HMAC-V2.1-SITE-TEST-AUTHORIZATION-v1",
+  "candidate_selection_changes": "PROHIBITED",
+  "dev_site_test_evaluation": "AUTHORIZED ONCE UNDER LOCKED CONTRACT / NOT STARTED",
+  "dev_site_test_inference": "AUTHORIZED ONCE UNDER LOCKED CONTRACT / NOT STARTED",
+  "holdout_access": "NOT AUTHORIZED",
+  "model_training": "PROHIBITED",
+  "next_authorized_stage": "12B-1F",
+  "selected_candidate_id": "V21_EXACT_SIGNATURE_SET",
+  "stage": "12B-1E",
+  "status": "FROZEN",
+  "threshold_changes": "PROHIBITED",
+  "v1_model": "FROZEN READ-ONLY / MODIFICATION PROHIBITED",
+  "v2_core": "FROZEN READ-ONLY / MODIFICATION PROHIBITED",
+  "validation_access": "NOT AUTHORIZED"
+}

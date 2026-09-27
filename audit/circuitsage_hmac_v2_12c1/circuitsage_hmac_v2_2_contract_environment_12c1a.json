@@ -1,0 +1,20 @@
+{
+  "contracts_only": true,
+  "created_at": "2026-09-17T19:18:44Z",
+  "datasets_read": 0,
+  "dev_site_test_access": 0,
+  "environment_version": "CIRCUITSAGE-HMAC-V2.2-CONTRACT-ENVIRONMENT-12C1A-v1",
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "machine": "x86_64",
+  "models_deserialized": 0,
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "repair_site_test_access": 0,
+  "rtl_or_netlists_read": 0,
+  "stage": "12C-1A",
+  "status": "FROZEN",
+  "training_calls": 0,
+  "validation_access": 0
+}

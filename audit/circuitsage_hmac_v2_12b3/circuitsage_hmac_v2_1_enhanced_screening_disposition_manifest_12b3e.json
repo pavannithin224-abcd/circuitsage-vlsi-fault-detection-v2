@@ -1,0 +1,57 @@
+{
+  "canonical_netlists_modified": false,
+  "capture_calls": 0,
+  "frozen_rtl_modified": false,
+  "full_capture_readiness": "READY FOR SEPARATE AUTHORIZATION",
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-SCREENING-DISPOSITION-MANIFEST-12B3E-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_screening_disposition_policy_12b3e.json": {
+      "bytes": 1252,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_screening_disposition_policy_12b3e.json",
+      "sha256": "2d943c938394ea1bdbbc9bade050b5e4d132c2dcc27adb702df7f491a4508ec3"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_full_repair_capture_readiness_contract_12b3e.json": {
+      "bytes": 1880,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_repair_capture_readiness_contract_12b3e.json",
+      "sha256": "239fb7544df7fe05da631a0223a5259f1d9bea647db6e8625ccd777a043d43cb"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_disposition_12b3e/circuitsage_hmac_v2_1_enhanced_measurement_winner_lock_12b3e.json": {
+      "bytes": 1209,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_disposition_12b3e/circuitsage_hmac_v2_1_enhanced_measurement_winner_lock_12b3e.json",
+      "sha256": "f735fc23c28d7a009841274c85b0cc59ddc82c3b4dad6778ae1896406eb3f0ef"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_disposition_12b3e/circuitsage_hmac_v2_1_enhanced_screening_candidate_disposition_12b3e.csv": {
+      "bytes": 426,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_disposition_12b3e/circuitsage_hmac_v2_1_enhanced_screening_candidate_disposition_12b3e.csv",
+      "sha256": "695b26f48341bd0621e0dae69a2e893096f9e79e8b625167b92b1d4279867c18"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_disposition_12b3e/circuitsage_hmac_v2_1_enhanced_screening_disposition_report_12b3e.md": {
+      "bytes": 1735,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_disposition_12b3e/circuitsage_hmac_v2_1_enhanced_screening_disposition_report_12b3e.md",
+      "sha256": "e576f5d2d1966d8995079975670ed8516da7d0e56962a74735817d640b8ad4aa"
+    }
+  },
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "screening_acceptance": "PASS",
+  "selected_candidate": "EM_TESTPOINT_4X64_T16",
+  "simulation_calls": 0,
+  "stage": "12B-3E",
+  "stage_12b3d_audit": {
+    "bytes": 2532,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_screening_execution_dataset_freeze_12b3d.json",
+    "sha256": "892e305c41099b6ba986631632227de66ead1c6dc00fe6b1f930890c85c2ea4b"
+  },
+  "stage_12b3d_manifest": {
+    "bytes": 29620,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_screening_dataset_manifest_12b3d.json",
+    "sha256": "5ac0b7fa29349d5e53bc8bfdd16a25f66237077280399b6590aa2be7f94dcfc4"
+  },
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0
+}

@@ -1,0 +1,5 @@
+family_id,partition,top_module,source_files,verilator_elaboration,yosys_generic_synthesis,cells,wires,wire_bits,public_wires,wrapper_feasibility,deterministic_replay,upstream_rtl_modified
+opentitan_hmac_sha256,GENERALIZATION_TRAIN,hmac_core,5,PASS,PASS,18392,8314,126137,58,PASS,PASS / BYTE-EXACT,NO
+picorv32_cpu,GENERALIZATION_TRAIN,picorv32,1,PASS,PASS,9665,3583,10957,202,PASS,PASS / BYTE-EXACT,NO
+secworks_aes,GENERALIZATION_TRAIN,aes_core,6,PASS,PASS,26565,10256,53016,1391,PASS,PASS / BYTE-EXACT,NO
+secworks_sha256,GENERALIZATION_CALIBRATION,sha256_core,3,PASS,PASS,9127,2698,11220,122,PASS,PASS / BYTE-EXACT,NO

@@ -1,0 +1,34 @@
+{
+  "acceptance_status": "FROZEN",
+  "audit_version": "CIRCUITSAGE-HMAC-V2-CORE-CONTRACT-FREEZE-v1",
+  "blinding_status": "FROZEN",
+  "frozen_inputs": {
+    "config/diagnostic_model/hmac_final_diagnostic_model_lock_11d2d.json": "7985b534c62d93717a179d6d2b20f247a531ec0452003e35f0f65cf640d0b30d",
+    "config/release/hmac_final_project_disposition_11e1h.json": "32f27f32e1a6102304e42a8cc9c886702fddaa65ce4081251ecb95edb4f5d6d7",
+    "config/release/hmac_github_remote_integrity_lock_11e1k.json": "3d93cd8bb9c3bba47dd665ba6a45ad4e193613c1f6d386e32b3265471d94dd5a",
+    "results/hmac_behavior_diagnosis_pilot/execution_11e1f/freeze.json": "b4a83f640bf0ea024625dc8c2e59d6d30f6048e72b0eb7cb979a911f968a2677",
+    "results/hmac_behavior_diagnosis_pilot/hmac_behavior_diagnosis_pilot_disposition_freeze_11e1g.json": "3a402e789346bdc99fbe0ef3629031e45d5f4b9556ece5b91de28e5bace1c7a4",
+    "results/hmac_fault_campaign_11c5/canonical_dataset_11c5c/hmac_fault_campaign_canonical_train_11c5c.csv.gz": "dcc79c94fa3a8d592b516e5f5683b1bf007682745103a9419ee20ef20a7ec78f",
+    "results/hmac_fault_campaign_11d1/graph_dataset_11d1a/hmac_golden_netlist_graph_11d1a.npz": "e3c2dd2214b544231186c29d8d9cb5aa6621b4d4b4bc9002150ac4f6c208c052",
+    "results/hmac_fault_campaign_11d1/graph_dataset_11d1a/hmac_golden_netlist_graph_schema_11d1a.json": "d24c3dd285891e284d20d1adcd93f793bedfd3042f20159a8a486359bc25e393",
+    "results/hmac_fault_campaign_11d2/hybrid_training_11d2b/hmac_selected_hybrid_model_11d2b.joblib": "12fea5eabf4a6c605325b6ce4c1217f6a37cc59750065db8b85c3da14713f6b8",
+    "results/hmac_project_release_11e1k/hmac_github_remote_integrity_freeze_11e1k.json": "ca949a25697deb4bce317cf1e0e6181a68bca61ecbf111b252a21417aaff47a4"
+  },
+  "frozen_outputs": {
+    "config/v2/circuitsage_hmac_v2_acceptance_contract_12a1a.json": "3943601adcdd603e78b07699317066b3a187d22d1f7f9b71106aab4feed95c93",
+    "config/v2/circuitsage_hmac_v2_core_scope_contract_12a1a.json": "38118c0ba90c7d2af6ef8a01fcf7bd1e86ef13929fa7766e640db1ee08d482e6",
+    "config/v2/circuitsage_hmac_v2_linked_pipeline_contract_12a1a.json": "312fde4cb5ecc7819418e4affe88d1b07c7dbe5cbdeab5af92f14403ffd7427d"
+  },
+  "holdout_access_count": 0,
+  "linked_pipeline_status": "FROZEN",
+  "model_inference_performed": false,
+  "next_gate": "STAGE 12A-1B \u2014 BLINDED TRAIN-RESPONSE DATASET CONSTRUCTION AND SCHEMA FREEZE",
+  "scope_status": "FROZEN",
+  "simulation_performed": false,
+  "stage": "12A-1A",
+  "status": "PASS",
+  "training_performed": false,
+  "unknown_fault_identity_in_input": "PROHIBITED",
+  "v1_status": "VERIFIED AND PRESERVED",
+  "validation_access_count": 0
+}

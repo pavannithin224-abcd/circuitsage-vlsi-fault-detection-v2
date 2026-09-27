@@ -1,0 +1,50 @@
+{
+  "absolute_detection_gain": 0.00146484375,
+  "adaptive_vector_localization": "PRESERVED — EXACT 0.41748047 / MEAN 6.0925 / MAX 69",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-PROBE-MEASUREMENT-DISPOSITION-FREEZE-v1",
+  "combined_detection_ceiling": 0.5029296875,
+  "combined_observable_faults": "1030/2048",
+  "disposition": {
+    "bytes": 1500,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_measurement_disposition_policy_12b2i.json",
+    "sha256": "89b7a73279cf39b74572931090563b2009406c2ef8f45c91047357086664b17e"
+  },
+  "disposition_status": "FROZEN",
+  "enhanced_measurement_capture_training": "NOT AUTHORIZED / NOT AUTHORIZED",
+  "enhanced_measurement_contract_creation": "AUTHORIZED",
+  "external_detection_ceiling": 0.50146484375,
+  "external_observable_faults": "1027/2048",
+  "frozen_detection_target": 0.7,
+  "full_repair_campaign": "BLOCKED",
+  "gap_to_target": 0.19707031249999996,
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 2628,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_probe_measurement_disposition_manifest_12b2i.json",
+    "sha256": "5cb064b8e248445e73741f0049380e7363024cabd539aa5f4d992f4261a3e476"
+  },
+  "measurement_target": "NOT_MET",
+  "next_gate": "STAGE 12B-3A — ENHANCED MEASUREMENT ARCHITECTURE AND BUDGET CONTRACT FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "probe_capture_dataset": "VALID / FROZEN",
+  "probe_rescued_faults": 3,
+  "redesign_contract": {
+    "bytes": 2165,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_redesign_contract_12b2i.json",
+    "sha256": "89c478eaa01e884cebae087a4dde2eec9093643f67c265b0fb7956f9695f4e4f"
+  },
+  "repair_calibration": "LOCKED / NOT ACCESSED",
+  "repair_model_training": "BLOCKED / NOT AUTHORIZED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "report": {
+    "bytes": 1490,
+    "path": "results/circuitsage_hmac_v2_12b2/probe_measurement_disposition_12b2i/circuitsage_hmac_v2_1_probe_measurement_disposition_report_12b2i.md",
+    "sha256": "948a443aa3ebc1b619d0732abda9e2d79ccbc899da4a0ffd4ba93058182e4d6f"
+  },
+  "stage": "12B-2I",
+  "status": "PASS",
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access": 0
+}

@@ -1,0 +1,84 @@
+{
+  "advancement_gate": {
+    "acceptance_thresholds": {
+      "fault_free_false_alarm_rate": 0.05,
+      "observable_candidate_coverage_top50": 0.95,
+      "observable_detection_recall": 0.9,
+      "observable_top5_site_accuracy": 0.8,
+      "unique_signature_top1_site_accuracy": 0.8
+    },
+    "all_original_calibration_targets_must_pass": true,
+    "if_met": "authorize a new locked DEV_SITE_TEST evaluation stage",
+    "if_not_met": "FREEZE NEGATIVE RESULT; DO NOT OPEN DEV_SITE_TEST"
+  },
+  "authorized_data_use": {
+    "DEV_CALIBRATION": "candidate selection and acceptance measurement only",
+    "DEV_SITE_TEST": "LOCKED / NOT AUTHORIZED UNTIL CALIBRATION ADVANCEMENT PASSES",
+    "DEV_TRAIN": "gradients, hard-negative mining, ablations, and deterministic replay",
+    "HOLDOUT": "PROHIBITED",
+    "VALIDATION": "PROHIBITED",
+    "unknown_fault_identity_as_query_input": "PROHIBITED"
+  },
+  "contract_version": "CIRCUITSAGE-HMAC-V2-LOCALIZATION-REPAIR-CONTRACT-v1",
+  "execution_limits": {
+    "candidate_execution": "SEQUENTIAL",
+    "checkpoint_resume": "REQUIRED",
+    "deterministic_replay": "EXACT",
+    "maximum_new_trainable_candidates": 4,
+    "one_week_scope_preserved": true,
+    "parallel_candidates": 1
+  },
+  "locked_evaluation_authorization": "NOT AUTHORIZED BY THIS CONTRACT",
+  "purpose": "repair calibration localization without weakening blinding or opening locked partitions",
+  "repair_training_authorization": "AUTHORIZED FOR DEV_TRAIN ONLY",
+  "required_repair_architecture": {
+    "ambiguity_policy": "rank candidate sets for ambiguous signatures; never force an exact site",
+    "candidate_generation": "response-conditioned shortlist before neural reranking",
+    "direct_interactions": [
+      "query deviation mask × frozen 64-vector V1 support",
+      "absolute response/support difference",
+      "cosine and weighted agreement summaries"
+    ],
+    "graph_conditioning": "retain frozen K3 graph features and add response-conditioned feature crosses",
+    "hard_negatives": [
+      "highest-scoring incorrect DEV_TRAIN candidates",
+      "response-support-near DEV_TRAIN candidates",
+      "graph-neighbor DEV_TRAIN candidates",
+      "SA0/SA1 sibling candidate"
+    ],
+    "losses": [
+      "site-level multi-positive contrastive retrieval",
+      "hard-negative margin or full-shortlist softmax",
+      "conditional SA0/SA1 classification after site retrieval"
+    ],
+    "minimum_ablation_set": [
+      "V1-support similarity retrieval without neural reranker",
+      "response-conditioned feature-cross ranker",
+      "feature-cross ranker plus hard negatives",
+      "feature-cross ranker plus hard negatives plus graph features"
+    ],
+    "shortlist_sizes_to_test": [
+      256,
+      512,
+      1024
+    ]
+  },
+  "retraining_of_v1": "PROHIBITED",
+  "stage": "12A-1D-R1",
+  "status": "FROZEN",
+  "threshold_changes_to_v1": "PROHIBITED",
+  "unchanged_components": {
+    "acceptance_thresholds": {
+      "fault_free_false_alarm_rate": 0.05,
+      "observable_candidate_coverage_top50": 0.95,
+      "observable_detection_recall": 0.9,
+      "observable_top5_site_accuracy": 0.8,
+      "unique_signature_top1_site_accuracy": 0.8
+    },
+    "candidate_catalog": 45678,
+    "detector": "EXACT GOLDEN-REFERENCE GATE",
+    "fault_scope": "SINGLE PERSISTENT SA0/SA1",
+    "golden_netlist_graph": "FROZEN / READ-ONLY",
+    "v1_hybrid_model": "FROZEN / READ-ONLY SUPPORT"
+  }
+}

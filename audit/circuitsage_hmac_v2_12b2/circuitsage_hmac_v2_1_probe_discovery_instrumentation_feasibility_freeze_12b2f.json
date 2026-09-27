@@ -1,0 +1,29 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-PROBE-DISCOVERY-INSTRUMENTATION-FEASIBILITY-FREEZE-v1",
+  "canonical_batch_netlists_modified": false,
+  "cross_batch_consistency": "PASS / 45/45",
+  "fault_selector_value_raw_as_features": "PROHIBITED",
+  "frozen_rtl_modified": false,
+  "global_probe_bank": "64 BITS / TOPOLOGY ONLY / IDENTITY INDEPENDENT",
+  "golden_netlist_modified": false,
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 4108,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_probe_discovery_manifest_12b2f.json",
+    "sha256": "801b647764cd0fac7c0995ff1fbe36aa5bc9dd428b9c8b7b4ca0e126c460db29"
+  },
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-2G — BOUNDED PROBE-CAPTURE EXECUTION AUTHORIZATION FREEZE",
+  "observer_canary": "YOSYS PASS / VERILATOR LINT PASS / NOT EXECUTED",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "probe_capture": "NOT AUTHORIZED",
+  "probe_discovery_status": "FROZEN / COMPLETE",
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "sequential_combinational_probes": [
+    32,
+    32
+  ],
+  "stage": "12B-2F",
+  "status": "PASS",
+  "validation_access": 0
+}

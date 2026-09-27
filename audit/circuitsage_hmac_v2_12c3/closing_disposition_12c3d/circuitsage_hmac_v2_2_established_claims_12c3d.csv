@@ -1,0 +1,9 @@
+claim_id,claim,evidence_stages,strength
+C1,"Localization degrades with candidate-catalog scale, not with circuit change: the same HMAC circuit and faults fell from 0.5488 to 0.0286 exact-site (19.2x) when the catalog grew from one family to four","12B-3P, 12C-2F",CONTROLLED SINGLE-VARIABLE
+C2,Behavioural signature uniqueness varies ~26x across circuit classes (0.0183 CPU to 0.4771 crypto hash) and orders families identically to exact-site rate,"12C-1P, 12C-2F, 12C-2G","MEASURED, 4 CIRCUITS"
+C3,"Fault observability is bimodal, not continuous: ~99.8% in crypto datapaths versus 38-44% in CPU-class circuits, with nothing between",12C-2A,"MEASURED, 4 CIRCUITS"
+C4,Four independent learned formulations failed to exceed the non-learning comparator on an unseen circuit; the comparator was 182x better on MRR,"12C-2C, 12C-2E, 12C-2F, 12C-2G, 12C-2K",FOUR PRE-REGISTERED FALSIFICATIONS
+C5,"Within-collision-set localization is not identifiable under a uniform fault prior: every site carries exactly 2 faults, so posterior is 1/k and a measured 1.00x lift is the correct result",12C-2J,PROOF PLUS EMPIRICAL CORROBORATION
+C6,"Residual ambiguity is dominated by structural fault equivalence (83.3-99.8% of collision sets), so candidate sets are the fault equivalence class and the localizer operates at the structural limit",12C-2L,"MEASURED, ADJACENCY-BASED INDICATOR"
+C7,"On observable and behaviourally unique faults, localization is exact with zero false alarms across 7,849,696 transactions",12C-1O,"MEASURED, FULL CAMPAIGN"
+C8,"A crypto-class prediction frozen before any seal was broken was confirmed on a genuinely unseen circuit: secworks_chacha predicted [0.20, 0.70], measured 0.3440","12C-2H, 12C-3B","PREDICTION BEFORE TRUTH, 1 CIRCUIT"

@@ -1,0 +1,54 @@
+{
+  "all_injected_detection_recall": 0.5001459427904261,
+  "all_injected_exact_site_rate": 0.19381202568593112,
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-DISPOSITION-GENERALIZATION-READINESS-FREEZE-v1",
+  "capability_registry_csv": {
+    "bytes": 1040,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_capability_registry_12b1g.csv",
+    "sha256": "5c8fc6992b1cfcbdb90f427f2b28807c1a4830cfecc65cfaa7854a693fa55025"
+  },
+  "capability_registry_json": {
+    "bytes": 1822,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_capability_registry_12b1g.json",
+    "sha256": "51749922926dab7531dceb9c4a164cfe0bd727ec8a07671b11763947251ba6cd"
+  },
+  "closed_catalog_research_target": "MET",
+  "dev_site_test": "CONSUMED AND FROZEN / REOPENING PROHIBITED",
+  "disposition_policy": {
+    "bytes": 1288,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_final_disposition_policy_12b1g.json",
+    "sha256": "a041be430e0b9238c8d0f20aebfaa60f542ebb33a9ccc6fdc39039aeb32d1c11"
+  },
+  "disposition_status": "FROZEN",
+  "generalization_policy": {
+    "bytes": 1060,
+    "path": "config/v2_2/circuitsage_hmac_v2_2_generalization_readiness_policy_12b1g.json",
+    "sha256": "08e2320e70c4d30d90b045521824f7175a5dd3b8595d6244f5711d8d9e9ffc85"
+  },
+  "holdout_access_count": 0,
+  "independent_generalization": "NOT ESTABLISHED",
+  "manifest": {
+    "bytes": 6320,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_disposition_manifest_12b1g.json",
+    "sha256": "92dec9ac010fa836b6c3922d36640722aeb15c0c3f2608dfe46e0784074b266c"
+  },
+  "maximum_observable_candidate_sites": 1668,
+  "mean_observable_candidate_sites": 141.6267872775022,
+  "model_inference_calls": 0,
+  "model_training_calls": 0,
+  "next_gate": "STAGE 12C-1A — V2.2 GENERALIZATION ARCHITECTURE, DATA-PARTITION, AND ACCEPTANCE-CONTRACT FREEZE",
+  "report": {
+    "bytes": 1805,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_final_report_12b1g.md",
+    "sha256": "8ebe509066e3055a37cdcaeecf78582e27874c248cec61e5fe975935a48cf404"
+  },
+  "stage": "12B-1G",
+  "status": "PASS",
+  "v1_modified": false,
+  "v2_1_lifecycle": "COMPLETED AND FROZEN CLOSED-CATALOG RESEARCH COMPONENT",
+  "v2_1_modified": false,
+  "v2_2_contract_creation": "AUTHORIZED",
+  "v2_2_training": "NOT YET AUTHORIZED",
+  "v2_core_modified": false,
+  "validation_access_count": 0
+}

@@ -1,0 +1,51 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-PROBE-DISCOVERY-STRUCTURAL-FREEZE-12B3B-v1",
+  "bounded_screening": "NOT YET AUTHORIZED",
+  "canary_execution_response_capture": "0 / 0",
+  "candidate_probe_bits": {
+    "EM_STATE_CHECKPOINT_2X64_T32": 128,
+    "EM_TESTPOINT_4X64_T16": 256,
+    "EM_TOPOLOGY_4X64_T24": 256
+  },
+  "candidate_probe_entries": 640,
+  "candidate_structural_feasibility": "PASS / 3 OF 3",
+  "canonical_netlists_modified": false,
+  "consistency": {
+    "bytes": 36954,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_cross_batch_consistency_12b3b.json",
+    "sha256": "6c94117035b979135657d2b384b11db40a7c63029f34df365f8f34360d4bbb20"
+  },
+  "cross_batch_consistency": "PASS / 45/45",
+  "fault_identity_conditioned_selection": false,
+  "fault_selector_value_raw_as_features": "PROHIBITED",
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 9255,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_probe_discovery_manifest_12b3b.json",
+    "sha256": "7d587576cfdc308080f0cec9a53b9ad427525da5e8ae359260ba24b4d54ad5d9"
+  },
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-3C — ENHANCED MEASUREMENT BOUNDED-SCREENING AUTHORIZATION FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "partition_labels_used": false,
+  "probe_bank": {
+    "bytes": 28325,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_probe_banks_12b3b.json",
+    "sha256": "f7ee21e7b1f166c88486607689a0ec1c951de484175a7a54757ed185d58db537"
+  },
+  "probe_discovery_status": "FROZEN / COMPLETE",
+  "repair_calibration": "LOCKED / NOT ACCESSED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "repair_train_externally_invisible_faults": 1021,
+  "screening_contract": {
+    "bytes": 1387,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_probe_screening_contract_12b3b.json",
+    "sha256": "c62c2a319be63d6c3d2557a0b69fd2b8508af9cabadf5e5cf21fad81de930e38"
+  },
+  "stage": "12B-3B",
+  "status": "PASS",
+  "validation_access": 0,
+  "verilator_lints": "PASS / 3 OF 3",
+  "yosys_structural_checks": "PASS / 3 OF 3"
+}

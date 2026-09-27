@@ -1,0 +1,7 @@
+capability,status,value,scope
+adaptive_vector_localization,PRESERVED,exact_site=0.41748047; mean_candidates=6.0925; max_candidates=69,REPAIR_TRAIN PILOT / OBSERVABLE SUBSET
+external_io_detection,LIMITED,1027/2048 (0.50146484),REPAIR_TRAIN PILOT
+fixed_64bit_probe_detection,NOT_MET,1030/2048 (0.50292969); rescued=3,REPAIR_TRAIN PILOT
+repair_model_training,BLOCKED,observation ceiling below 0.70,ALL REPAIR PARTITIONS
+enhanced_measurement_redesign,CONTRACT_CREATION_AUTHORIZED,up to 4x64 probes and 32 snapshots; no capture yet,ARCHITECTURE ONLY
+independent_generalization,NOT_ESTABLISHED,no unseen circuit or unseen fault family,PROJECT

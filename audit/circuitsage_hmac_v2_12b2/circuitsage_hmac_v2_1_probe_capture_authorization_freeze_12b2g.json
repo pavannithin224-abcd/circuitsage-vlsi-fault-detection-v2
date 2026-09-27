@@ -1,0 +1,31 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-PROBE-CAPTURE-AUTHORIZATION-FREEZE-v1",
+  "authorization_status": "FROZEN",
+  "bounded_probe_capture": "AUTHORIZED / NOT STARTED",
+  "canonical_netlists_modified": false,
+  "enabled_transactions": 196608,
+  "execution_plan": "45 BATCHES / 1024 SITES / 2048 FAULTS",
+  "fault_selector_value_raw_as_features": "PROHIBITED",
+  "frozen_rtl_modified": false,
+  "full_repair_campaign": "NOT AUTHORIZED",
+  "holdout_access": 0,
+  "identity_independent_schedule": "FROZEN / PASS",
+  "manifest": {
+    "bytes": 2387,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_probe_capture_authorization_manifest_12b2g.json",
+    "sha256": "a17c50ea81a2b1f27b4003e30c48ff0d2ba026511e8e77f334c43e32cbd43623"
+  },
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-2H — BOUNDED PROBE-CAPTURE EXECUTION AND DATASET INTEGRITY FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "repair_calibration": "LOCKED / NOT AUTHORIZED",
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "selected_vectors_probe_bits_snapshots": [
+    96,
+    64,
+    16
+  ],
+  "stage": "12B-2G",
+  "status": "PASS",
+  "validation_access": 0
+}

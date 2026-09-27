@@ -1,0 +1,429 @@
+module opentitan_hmac_sha256_msg32 (
+    input  logic         clk_i,
+    input  logic         rst_ni,
+
+    input  logic         start_i,
+
+    input  logic [255:0] key_i,
+    input  logic [255:0] message_i,
+
+    output logic         busy_o,
+    output logic         done_o,
+    output logic [255:0] digest_o
+);
+
+    // ========================================================
+    // Fixed first-stage contract
+    // ========================================================
+
+    localparam int FIFO_DEPTH = 16;
+
+
+    // ========================================================
+    // Latched transaction inputs
+    // ========================================================
+
+    logic [255:0] key_q;
+    logic [255:0] message_q;
+
+    logic [1023:0] secret_key;
+
+    // OpenTitan hmac_core consumes a 256-bit key from
+    // secret_key_i[1023:768].
+    assign secret_key = {
+        key_q,
+        768'b0
+    };
+
+
+    // ========================================================
+    // Bridge signals
+    // ========================================================
+
+    logic        bridge_hash_done;
+    logic        bridge_hmac_idle;
+    logic        bridge_sha_idle;
+    logic        bridge_hash_running;
+    logic        bridge_digest_on_blk;
+
+    logic [255:0] bridge_digest;
+
+    logic bridge_start;
+    logic bridge_process;
+
+    logic        bridge_fifo_rvalid;
+    logic [31:0] bridge_fifo_rdata;
+    logic [3:0]  bridge_fifo_rmask;
+    logic        bridge_fifo_rready;
+
+    logic        hmac_fifo_wsel;
+    logic        hmac_fifo_wvalid;
+    logic [3:0]  hmac_fifo_wdata_sel;
+    logic        hmac_fifo_wready;
+
+
+    // ========================================================
+    // Local message FIFO
+    //
+    // Used for:
+    // 1. user message
+    // 2. inner-HMAC digest feedback for outer HMAC round
+    // ========================================================
+
+    logic [31:0] fifo_data_mem [0:FIFO_DEPTH-1];
+    logic [3:0]  fifo_mask_mem [0:FIFO_DEPTH-1];
+
+    logic [3:0] fifo_wptr;
+    logic [3:0] fifo_rptr;
+    logic [4:0] fifo_count;
+
+    logic fifo_empty;
+    logic fifo_full;
+
+    assign fifo_empty = (fifo_count == 0);
+    assign fifo_full  = (fifo_count == FIFO_DEPTH[4:0]);
+
+    assign bridge_fifo_rvalid = ~fifo_empty;
+    assign bridge_fifo_rdata  = fifo_data_mem[fifo_rptr];
+    assign bridge_fifo_rmask  = fifo_mask_mem[fifo_rptr];
+
+    assign hmac_fifo_wready = ~fifo_full;
+
+
+    // ========================================================
+    // Controller
+    // ========================================================
+
+    typedef enum logic [2:0] {
+        ST_IDLE,
+        ST_START,
+        ST_WRITE_MESSAGE,
+        ST_DRAIN_MESSAGE,
+        ST_PROCESS,
+        ST_WAIT
+    } state_e;
+
+    state_e state_q;
+
+    logic [3:0] msg_word_index;
+    logic [3:0] msg_words_consumed;
+
+    logic user_fifo_push;
+    logic user_message_pop;
+    logic hmac_fifo_push;
+    logic fifo_push;
+    logic fifo_pop;
+
+    logic [31:0] user_fifo_data;
+    logic [31:0] hmac_fifo_data;
+    logic [31:0] selected_fifo_data;
+
+
+    // --------------------------------------------------------
+    // 32-byte user message.
+    //
+    // SHA input is big-endian:
+    // message_i[255:224] is the first 32-bit word.
+    // --------------------------------------------------------
+
+    always_comb begin
+        unique case (msg_word_index)
+            4'd0: user_fifo_data = message_q[255:224];
+            4'd1: user_fifo_data = message_q[223:192];
+            4'd2: user_fifo_data = message_q[191:160];
+            4'd3: user_fifo_data = message_q[159:128];
+            4'd4: user_fifo_data = message_q[127:96];
+            4'd5: user_fifo_data = message_q[95:64];
+            4'd6: user_fifo_data = message_q[63:32];
+            4'd7: user_fifo_data = message_q[31:0];
+            default: user_fifo_data = 32'b0;
+        endcase
+    end
+
+
+    // --------------------------------------------------------
+    // Inner digest feedback.
+    //
+    // This reproduces the SHA-256 behavior used in the
+    // OpenTitan HMAC top: digest[index][31:0].
+    // --------------------------------------------------------
+
+    always_comb begin
+        unique case (hmac_fifo_wdata_sel[2:0])
+            3'd0: hmac_fifo_data = bridge_digest[255:224];
+            3'd1: hmac_fifo_data = bridge_digest[223:192];
+            3'd2: hmac_fifo_data = bridge_digest[191:160];
+            3'd3: hmac_fifo_data = bridge_digest[159:128];
+            3'd4: hmac_fifo_data = bridge_digest[127:96];
+            3'd5: hmac_fifo_data = bridge_digest[95:64];
+            3'd6: hmac_fifo_data = bridge_digest[63:32];
+            3'd7: hmac_fifo_data = bridge_digest[31:0];
+        endcase
+    end
+
+
+    // HMAC feedback gets priority whenever hmac_core selects it.
+    assign hmac_fifo_push =
+        hmac_fifo_wsel &&
+        hmac_fifo_wvalid &&
+        !fifo_full;
+
+    assign user_fifo_push =
+        (state_q == ST_WRITE_MESSAGE) &&
+        !hmac_fifo_wsel &&
+        !fifo_full;
+
+    assign fifo_push =
+        hmac_fifo_push ||
+        user_fifo_push;
+
+    assign selected_fifo_data =
+        hmac_fifo_push
+        ? hmac_fifo_data
+        : user_fifo_data;
+
+    assign fifo_pop =
+        bridge_fifo_rvalid &&
+        bridge_fifo_rready;
+
+    // Before bridge_process is issued, every FIFO pop belongs
+    // to the eight-word user message. Feedback words are written
+    // only after processing begins, so they are not counted here.
+    assign user_message_pop =
+        fifo_pop &&
+        ((state_q == ST_WRITE_MESSAGE) ||
+         (state_q == ST_DRAIN_MESSAGE));
+
+
+    // ========================================================
+    // FIFO storage
+    // ========================================================
+
+    always_ff @(posedge clk_i or negedge rst_ni) begin
+        if (!rst_ni) begin
+
+            fifo_wptr  <= '0;
+            fifo_rptr  <= '0;
+            fifo_count <= '0;
+
+        end else begin
+
+            // New transaction begins with an empty FIFO.
+            if ((state_q == ST_IDLE) && start_i) begin
+
+                fifo_wptr  <= '0;
+                fifo_rptr  <= '0;
+                fifo_count <= '0;
+
+            end else begin
+
+                if (fifo_push) begin
+                    fifo_data_mem[fifo_wptr] <= selected_fifo_data;
+                    fifo_mask_mem[fifo_wptr] <= 4'hF;
+                    fifo_wptr <= fifo_wptr + 1'b1;
+                end
+
+                if (fifo_pop) begin
+                    fifo_rptr <= fifo_rptr + 1'b1;
+                end
+
+                unique case ({fifo_push, fifo_pop})
+
+                    2'b10:
+                        fifo_count <= fifo_count + 1'b1;
+
+                    2'b01:
+                        fifo_count <= fifo_count - 1'b1;
+
+                    default:
+                        fifo_count <= fifo_count;
+
+                endcase
+
+            end
+        end
+    end
+
+
+    // ========================================================
+    // Transaction controller
+    // ========================================================
+
+    always_ff @(posedge clk_i or negedge rst_ni) begin
+
+        if (!rst_ni) begin
+
+            state_q        <= ST_IDLE;
+            key_q          <= '0;
+            message_q      <= '0;
+            msg_word_index      <= '0;
+            msg_words_consumed <= '0;
+
+            bridge_start   <= 1'b0;
+            bridge_process <= 1'b0;
+
+            busy_o         <= 1'b0;
+            done_o         <= 1'b0;
+            digest_o       <= '0;
+
+        end else begin
+
+            // one-cycle pulses
+            bridge_start   <= 1'b0;
+            bridge_process <= 1'b0;
+            done_o         <= 1'b0;
+
+            // Count actual message transfers into hmac_core,
+            // not merely writes into the local FIFO.
+            if (user_message_pop &&
+                (msg_words_consumed < 4'd8)) begin
+                msg_words_consumed <=
+                    msg_words_consumed + 1'b1;
+            end
+
+
+            unique case (state_q)
+
+                ST_IDLE: begin
+
+                    busy_o <= 1'b0;
+
+                    if (start_i) begin
+
+                        key_q             <= key_i;
+                        message_q         <= message_i;
+                        msg_word_index    <= 4'd0;
+                        msg_words_consumed <= 4'd0;
+
+                        busy_o  <= 1'b1;
+                        state_q <= ST_START;
+
+                    end
+                end
+
+
+                ST_START: begin
+
+                    bridge_start <= 1'b1;
+
+                    state_q <= ST_WRITE_MESSAGE;
+
+                end
+
+
+                ST_WRITE_MESSAGE: begin
+
+                    if (user_fifo_push) begin
+
+                        if (msg_word_index == 4'd7) begin
+
+                            msg_word_index <= 4'd0;
+                            state_q        <= ST_DRAIN_MESSAGE;
+
+                        end else begin
+
+                            msg_word_index <=
+                                msg_word_index + 1'b1;
+
+                        end
+                    end
+                end
+
+
+                ST_DRAIN_MESSAGE: begin
+
+                    // Do not finish the message until all eight
+                    // user words have completed the valid/ready
+                    // FIFO handshake and the local FIFO is empty.
+                    if ((msg_words_consumed == 4'd8) &&
+                        fifo_empty) begin
+                        state_q <= ST_PROCESS;
+                    end
+                end
+
+
+                ST_PROCESS: begin
+
+                    bridge_process <= 1'b1;
+
+                    state_q <= ST_WAIT;
+
+                end
+
+
+                ST_WAIT: begin
+
+                    if (bridge_hash_done) begin
+
+                        digest_o <= bridge_digest;
+
+                        busy_o <= 1'b0;
+                        done_o <= 1'b1;
+
+                        state_q <= ST_IDLE;
+
+                    end
+                end
+
+
+                default: begin
+
+                    state_q <= ST_IDLE;
+
+                end
+
+            endcase
+        end
+    end
+
+
+    // ========================================================
+    // Validated OpenTitan bridge
+    // ========================================================
+
+    opentitan_hmac_sha256_bridge u_bridge (
+        .clk_i                  (clk_i),
+        .rst_ni                 (rst_ni),
+
+        .secret_key_i           (secret_key),
+
+        .reg_hash_start_i       (bridge_start),
+        .reg_hash_stop_i        (1'b0),
+        .reg_hash_continue_i    (1'b0),
+        .reg_hash_process_i     (bridge_process),
+
+        .fifo_rvalid_i          (bridge_fifo_rvalid),
+        .fifo_rdata_i           (bridge_fifo_rdata),
+        .fifo_rmask_i           (bridge_fifo_rmask),
+        .fifo_rready_o          (bridge_fifo_rready),
+
+        .fifo_wsel_o            (hmac_fifo_wsel),
+        .fifo_wvalid_o          (hmac_fifo_wvalid),
+        .fifo_wdata_sel_o       (hmac_fifo_wdata_sel),
+        .fifo_wready_i          (hmac_fifo_wready),
+
+        .message_length_i       (64'd256),
+
+        .hash_done_o            (bridge_hash_done),
+
+        .hmac_idle_o            (bridge_hmac_idle),
+        .sha_idle_o             (bridge_sha_idle),
+        .hash_running_o         (bridge_hash_running),
+        .digest_on_blk_o        (bridge_digest_on_blk),
+
+        .digest_o               (bridge_digest)
+    );
+
+
+    // Suppress unused-status warnings while keeping these signals
+    // available for later diagnostics.
+    logic unused_status;
+
+    assign unused_status = ^{
+        bridge_hmac_idle,
+        bridge_sha_idle,
+        bridge_hash_running,
+        bridge_digest_on_blk
+    };
+
+endmodule

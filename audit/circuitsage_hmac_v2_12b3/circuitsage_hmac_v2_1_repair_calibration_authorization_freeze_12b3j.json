@@ -1,0 +1,50 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-CALIBRATION-AUTHORIZATION-FREEZE-12B3J-v1",
+  "authorization": {
+    "bytes": 1629,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_calibration_capture_authorization_12b3j.json",
+    "sha256": "491f8ef630af1d409e9230d069b8f8c2abcacfd4f475e4642d74cb9fc13a1918"
+  },
+  "authorization_status": "FROZEN",
+  "baseline_enabled_total_records": [
+    4320,
+    98304,
+    102624
+  ],
+  "canonical_batches": "45/45",
+  "capture_execution": "AUTHORIZED / NOT STARTED",
+  "dev_site_test": "CONSUMED / NOT REOPENED",
+  "manifest": {
+    "bytes": 13257,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_calibration_authorization_manifest_12b3j.json",
+    "sha256": "6b1832b36d2fdd55d85a529042f4c58fe4f679cac72b338ca69b55d146e9a576"
+  },
+  "model_training_inference": "NOT AUTHORIZED / NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-3K — ENHANCED REPAIR_CALIBRATION CAPTURE EXECUTION AND DATASET FREEZE",
+  "probe_bits_banks_snapshots": [
+    256,
+    4,
+    16
+  ],
+  "repair_classification": "SPLIT-ANCHOR ROUTING ONLY; NO CONTRACT, DATA, OR SELECTION CHANGE",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "selected_sites_faults_vectors": [
+    512,
+    1024,
+    96
+  ],
+  "source_partition": "REPAIR_CALIBRATION",
+  "source_partition_sites": 2398,
+  "stage": "12B-3J",
+  "status": "PASS",
+  "v1_v2_core_v2_1_modified": [
+    false,
+    false,
+    false
+  ],
+  "validation_holdout_access": [
+    0,
+    0
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "contract_version": "CIRCUITSAGE-HMAC-V2-ACCEPTANCE-v1",
+  "development_rules": {
+    "allowed_vectors": "TRAIN ONLY",
+    "development_labels": "ALLOWED ONLY INSIDE TRAIN/CALIBRATION SCORING",
+    "grouping_unit": "PHYSICAL SITE; SA0 AND SA1 MUST REMAIN TOGETHER",
+    "historical_validation": "REPORT-ONLY EVIDENCE; NOT A V2 SELECTION PARTITION",
+    "holdout": "SEALED UNTIL STAGE 12A-1F AUTHORIZATION"
+  },
+  "final_disposition": {
+    "deadline": "END OF SEVEN-DAY V2 CORE SPRINT",
+    "outcomes": [
+      "PASS_AND_FROZEN",
+      "RESEARCH_RESULT_NOT_MET_AND_FROZEN"
+    ],
+    "production_claim_allowed": false
+  },
+  "holdout_protocol": {
+    "after_access": "NO RETRAINING, RESELECTION, FEATURE CHANGES, OR THRESHOLD CHANGES",
+    "execution_count": 1,
+    "failure_disposition": "FREEZE AND REPORT NOT_MET; DO NOT TUNE ON HOLDOUT",
+    "prerequisite": "FINAL DETECTOR, LOCATOR, V1 LINK, RERANKER, AND THRESHOLDS FROZEN"
+  },
+  "minimum_advancement_targets": {
+    "deterministic_replay": "EXACT",
+    "fault_free_false_alarm_rate_max": 0.05,
+    "observable_candidate_coverage_min": 0.95,
+    "observable_fault_detection_recall_min": 0.9,
+    "observable_top5_site_accuracy_min": 0.8,
+    "post_simulation_target_feature_count": 0,
+    "unique_signature_top1_site_accuracy_min": 0.8,
+    "unknown_identity_feature_count": 0
+  },
+  "required_reported_metrics": {
+    "breakdowns": [
+      "SA0_VS_SA1",
+      "SITE_CATEGORY",
+      "DRIVER_CELL_TYPE",
+      "OBSERVABILITY_CLASS"
+    ],
+    "detection": [
+      "MCC",
+      "BALANCED_ACCURACY",
+      "PRECISION",
+      "RECALL",
+      "SPECIFICITY",
+      "F1",
+      "PR_AUC",
+      "ROC_AUC",
+      "FALSE_ALARM_RATE"
+    ],
+    "localization": [
+      "TOP1_SITE_ACCURACY",
+      "TOP5_SITE_ACCURACY",
+      "TOP10_SITE_ACCURACY",
+      "MEAN_RECIPROCAL_RANK",
+      "CANDIDATE_COVERAGE",
+      "MEAN_CANDIDATE_SET_SIZE",
+      "UNRESOLVED_RATE"
+    ]
+  },
+  "selection_metric": "PHYSICAL-SITE-GROUPED MCC FOR DETECTION; MRR FOR LOCALIZATION",
+  "stage": "12A-1A",
+  "status": "FROZEN"
+}

@@ -1,0 +1,47 @@
+{
+  "allowed_query_evidence": [
+    "golden-versus-observed external response deltas",
+    "timing/status/timeout masks defined before capture",
+    "fault-identity-independent internal probe deltas when licensed and pre-registered",
+    "normalized netlist graph features available at deployment"
+  ],
+  "brand_boundary": "RESERVED; V2.2 IS NOT YET FAULTIVA",
+  "contract_version": "CIRCUITSAGE-HMAC-V2.2-GENERALIZATION-SCOPE-12C1A-v1",
+  "dataset_construction": "NOT AUTHORIZED BY THIS STAGE",
+  "fault_scope": "SINGLE PERSISTENT SA0/SA1 ONLY",
+  "future_combined_release_brand": "Faultiva 1.0 — Hybrid VLSI Fault Intelligence",
+  "objective": "DETECT AND LOCALIZE SINGLE PERSISTENT SA0/SA1 FAULTS ON CIRCUIT FAMILIES ABSENT FROM TRAINING",
+  "out_of_scope": [
+    "multiple simultaneous faults",
+    "delay, transient, bridging, analog, power, thermal, and physical-defect faults",
+    "production or physical-silicon readiness",
+    "self-learning or online model updates"
+  ],
+  "primary_generalization_axes": [
+    "unseen circuit families",
+    "unseen physical sites",
+    "unseen response signatures",
+    "unseen synthesis instances grouped with their parent circuit"
+  ],
+  "prohibited_query_fields": [
+    "fault_id",
+    "site_id",
+    "selector",
+    "stuck_value",
+    "injected_node_index",
+    "partition_truth"
+  ],
+  "project": "CircuitSage-HMAC V2.2 independent-generalization research branch",
+  "query_fault_identity": "PROHIBITED",
+  "required_output_semantics": [
+    "FAULT_FREE",
+    "FAULT_DETECTED",
+    "AMBIGUOUS_CANDIDATE_SET",
+    "UNKNOWN_OR_OUT_OF_DISTRIBUTION"
+  ],
+  "stage": "12C-1A",
+  "status": "FROZEN",
+  "training_or_inference": "NOT AUTHORIZED BY THIS STAGE",
+  "v1_role": "OPTIONAL FROZEN VERIFICATION SUPPORT AFTER V2.2 DETECTION/LOCALIZATION; NEVER A SOURCE OF TEST LABELS",
+  "v2_1_role": "IMMUTABLE CLOSED-CATALOG COMPARATOR"
+}

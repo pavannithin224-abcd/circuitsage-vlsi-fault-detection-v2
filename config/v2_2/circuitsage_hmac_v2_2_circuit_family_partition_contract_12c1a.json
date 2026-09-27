@@ -1,0 +1,39 @@
+{
+  "family_definition": "same RTL ancestry, fork, parameterization, derivative, generated variant, or functionally equivalent implementation remains one family",
+  "leakage_prohibitions": [
+    "no source clone or near-duplicate across partitions",
+    "no fitted scaler, threshold, vocabulary, probe selector, or feature selector using test/holdout",
+    "no test or holdout vector optimization",
+    "no test-label inspection before prediction commitment"
+  ],
+  "license_and_provenance": "EVERY RTL/NETLIST FAMILY MUST HAVE SOURCE URL/COMMIT, SPDX LICENSE, REDISTRIBUTION DECISION, AND RESTRICTED-MATERIAL REVIEW",
+  "minimum_family_counts": {
+    "GENERALIZATION_CALIBRATION": 1,
+    "GENERALIZATION_HOLDOUT": 1,
+    "GENERALIZATION_TRAIN": 3,
+    "INDEPENDENT_CIRCUIT_TEST": 2
+  },
+  "minimum_independent_circuit_families": 7,
+  "minimum_per_family_reporting": [
+    "fault-free cases",
+    "injected faults",
+    "observable ceiling",
+    "detection",
+    "localization",
+    "abstention",
+    "false alarms"
+  ],
+  "partition_access": {
+    "GENERALIZATION_CALIBRATION": "locked until capture authorization; no gradient updates",
+    "GENERALIZATION_HOLDOUT": "blocked; excluded from V2.2 development and final test",
+    "GENERALIZATION_TRAIN": "dataset construction requires separate authorization",
+    "INDEPENDENT_CIRCUIT_TEST": "sealed until one committed final evaluation"
+  },
+  "partition_contract_version": "CIRCUITSAGE-HMAC-V2.2-CIRCUIT-FAMILY-PARTITION-12C1A-v1",
+  "split_hash_domain": "CIRCUITSAGE-HMAC-V2.2-CIRCUIT-FAMILY-SPLIT-12C1A-v1",
+  "split_order": "LICENSE/PROVENANCE ELIGIBILITY -> FAMILY GROUPING -> HASH-BASED PARTITION -> SYNTHESIS -> FAULT INJECTION",
+  "split_unit": "CIRCUIT FAMILY — NOT SITE, FAULT, VECTOR, NETLIST, OR SYNTHESIS SEED",
+  "stage": "12C-1A",
+  "status": "FROZEN",
+  "synthesis_variants": "ALL VARIANTS OF ONE FAMILY MUST REMAIN IN ONE PARTITION"
+}

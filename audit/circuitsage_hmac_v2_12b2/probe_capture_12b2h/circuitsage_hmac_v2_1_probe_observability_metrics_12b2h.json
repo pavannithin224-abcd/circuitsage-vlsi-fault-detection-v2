@@ -1,0 +1,17 @@
+{
+  "combined_measurement_detection_ceiling": 0.5029296875,
+  "combined_observable_faults": 1030,
+  "external_detection_ceiling": 0.50146484375,
+  "external_observable_faults": 1027,
+  "fault_instances": 2048,
+  "frozen_target": 0.7,
+  "interpretation": "REPAIR_TRAIN PILOT MEASUREMENT FEASIBILITY; NOT INDEPENDENT MODEL ACCURACY",
+  "metrics_version": "CIRCUITSAGE-HMAC-V2.1-PROBE-OBSERVABILITY-12B2H-v1",
+  "probe_bits": 64,
+  "probe_observable_faults": 1008,
+  "probe_rescued_external_invisible_faults": 3,
+  "selected_vectors": 96,
+  "stage": "12B-2H",
+  "status": "FROZEN",
+  "target_feasible_on_pilot_with_probes": false
+}

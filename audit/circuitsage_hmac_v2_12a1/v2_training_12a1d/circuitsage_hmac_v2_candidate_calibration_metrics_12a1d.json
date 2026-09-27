@@ -1,0 +1,41 @@
+{
+  "candidates": [
+    {
+      "all_injected_detection_recall": 0.5019922063137615,
+      "calibration_observable_fault_instances": 3442,
+      "calibration_observable_profiles": 2758,
+      "candidate_id": "V2_LINKED_RANKER_SMALL_A1E5",
+      "cross_partition_profile_mrr": 0.003984255945893376,
+      "fault_free_false_alarm_rate": 0.0,
+      "observable_candidate_coverage_top50": 0.04154561301568855,
+      "observable_detection_recall": 1.0,
+      "observable_mean_reciprocal_rank": 0.006296510211273277,
+      "observable_top1_site_accuracy": 0.0017431725740848344,
+      "observable_top5_site_accuracy": 0.004067402672864613,
+      "partition_local_profile_mrr": 0.009031040461706705,
+      "sa0_sa1_accuracy_given_top1_site": 0.6666666666666666,
+      "trainable_parameters": 324545,
+      "unique_signature_top1_site_accuracy": 0.003484320557491289
+    },
+    {
+      "all_injected_detection_recall": 0.5019922063137615,
+      "calibration_observable_fault_instances": 3442,
+      "calibration_observable_profiles": 2758,
+      "candidate_id": "V2_LINKED_RANKER_WIDE_A1E5",
+      "cross_partition_profile_mrr": 0.003273299462185827,
+      "fault_free_false_alarm_rate": 0.0,
+      "observable_candidate_coverage_top50": 0.03864032539221383,
+      "observable_detection_recall": 1.0,
+      "observable_mean_reciprocal_rank": 0.004836362172359284,
+      "observable_top1_site_accuracy": 0.0002905287623474724,
+      "observable_top5_site_accuracy": 0.0031958163858221964,
+      "partition_local_profile_mrr": 0.006684879581663974,
+      "sa0_sa1_accuracy_given_top1_site": 1.0,
+      "trainable_parameters": 487537,
+      "unique_signature_top1_site_accuracy": 0.0006968641114982578
+    }
+  ],
+  "selection_metric": "OBSERVABLE MRR",
+  "stage": "12A-1D",
+  "status": "PASS"
+}

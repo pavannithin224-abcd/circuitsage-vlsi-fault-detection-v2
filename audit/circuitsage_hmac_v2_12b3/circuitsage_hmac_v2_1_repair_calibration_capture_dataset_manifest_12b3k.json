@@ -1,0 +1,526 @@
+{
+  "authorization": {
+    "bytes": 1629,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_calibration_capture_authorization_12b3j.json",
+    "sha256": "491f8ef630af1d409e9230d069b8f8c2abcacfd4f475e4642d74cb9fc13a1918"
+  },
+  "baseline_failures": 0,
+  "baseline_records": 4320,
+  "canonical_batches": 45,
+  "canonical_netlists_modified": false,
+  "checkpoint": {
+    "bytes": 175954,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_checkpoint_12b3k.json",
+    "sha256": "f81ec7b96d608f09f8ee5268c97ed38def91c33e227cc475d7f5a322b2cfa1ea"
+  },
+  "duplicate_samples": 0,
+  "enabled_records": 98304,
+  "engine_lineage": "STAGE 12B-3G-R1 PROVEN CAPTURE ENGINE; CALIBRATION-SCOPE SPECIALIZATION",
+  "fault_free_false_alarms": 0,
+  "fault_instances": 1024,
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-CALIBRATION-CAPTURE-DATASET-MANIFEST-12B3K-v1",
+  "missing_samples": 0,
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_dataset_schema_12b3k.json": {
+      "bytes": 3210,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_dataset_schema_12b3k.json",
+      "sha256": "dc59d2efda4e1f7490abfe23ed19a39f203bed09c485bd882bd3708b495ca8b9"
+    },
+    "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_features_12b3k.npz": {
+      "bytes": 23589853,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_features_12b3k.npz",
+      "sha256": "4a75ac2a4cc11690490ba29d26665cca29a67b0b59ae4140c6e233e32520ddc5"
+    },
+    "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_metrics_12b3k.json": {
+      "bytes": 1740,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_metrics_12b3k.json",
+      "sha256": "5e07d8c9aa75bed7916b752b58d4a245a2fe5b4e5becce9b364b1683040abcc5"
+    },
+    "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_signature_summary_12b3k.csv": {
+      "bytes": 74343,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_signature_summary_12b3k.csv",
+      "sha256": "15b39af6b8a082a8dd47f11897ae773067a91b05d5913a35af4bcc7d0223b46e"
+    },
+    "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_site_bootstrap_12b3k.csv": {
+      "bytes": 29960,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_site_bootstrap_12b3k.csv",
+      "sha256": "f2335da8a8322f144c93fe30d3e2d481304190a8c4c430a51b64015a30b65b6c"
+    },
+    "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_targets_12b3k.npz": {
+      "bytes": 3965,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_targets_12b3k.npz",
+      "sha256": "a97f822efe95f41cc619743824d327c03e22da3104f9dfdbfae2cb0ef885923f"
+    }
+  },
+  "per_batch_npz": {
+    "000": {
+      "bytes": 401762,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_000.npz",
+      "sha256": "cd688a11859c77f733ed4048c73eb31092b5df3fd3df6eecf7a4c2d2c8cacc5c"
+    },
+    "001": {
+      "bytes": 931232,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_001.npz",
+      "sha256": "e66bc071649f548ff854e4ef14adad284697def8dd7e0fb6481ef39a00bd5022"
+    },
+    "002": {
+      "bytes": 572478,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_002.npz",
+      "sha256": "cdb8e163ee7e43797a4a9b2aa0eee12045d432224e4ad398b44ae7b40053e0c5"
+    },
+    "003": {
+      "bytes": 819996,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_003.npz",
+      "sha256": "40a208b1e38180a8c716112334ee935ef8a80fd9c4e3fa3a28f247d961106073"
+    },
+    "004": {
+      "bytes": 712118,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_004.npz",
+      "sha256": "c9ba129296257fe49239bce5daf3bf40c3a26a8d47d78797339fde3f868c6f6c"
+    },
+    "005": {
+      "bytes": 671534,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_005.npz",
+      "sha256": "9db1608a82f7241b7a427b3b8ba07c72f4ffe38f515c998cf2915866e4086f1a"
+    },
+    "006": {
+      "bytes": 837140,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_006.npz",
+      "sha256": "f7a163789a6bc351eb8154d6a0532a5184b567a3af469622b0360dfe63e1a209"
+    },
+    "007": {
+      "bytes": 888269,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_007.npz",
+      "sha256": "a33f182be28adf9b500fae669951bf1abfcd9eef7655c0eae9ced6bfa027a3ad"
+    },
+    "008": {
+      "bytes": 332655,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_008.npz",
+      "sha256": "8ae4e0526a1afebe4a49c6e72457aa0057f18210cdc47be90671d24b311eb485"
+    },
+    "009": {
+      "bytes": 519364,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_009.npz",
+      "sha256": "4ac1c7497aa718cfaa65007a7a9d1e453ab053ccc25b3397c00632816023eaf9"
+    },
+    "010": {
+      "bytes": 975970,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_010.npz",
+      "sha256": "68b4ecc7f92026423e1efa3030fa19be755a2d731f8fbb99bec560e518955532"
+    },
+    "011": {
+      "bytes": 628453,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_011.npz",
+      "sha256": "5a86cdaca5991421655d15ffc004cf1b059a1dfd65995997862ee9db2414c0c5"
+    },
+    "012": {
+      "bytes": 349235,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_012.npz",
+      "sha256": "10e618728719ebc2694712fe7a47af1e92ec71e1244364bc2480848bad7a9d9e"
+    },
+    "013": {
+      "bytes": 453322,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_013.npz",
+      "sha256": "81f4f3f1be5fb1faa2d1c77936104dcdfe13c9a97969e2aa4ff435847f41b2e7"
+    },
+    "014": {
+      "bytes": 535309,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_014.npz",
+      "sha256": "e1ee6690cf4783a69b2c1492f83e838bbd739d0f6d202c22f139da479f7ef4f1"
+    },
+    "015": {
+      "bytes": 602062,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_015.npz",
+      "sha256": "67d2b47cbb782cdc08965b68ec81fe339862a0473173923820c7f6672cd99de3"
+    },
+    "016": {
+      "bytes": 723102,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_016.npz",
+      "sha256": "20d67096f419130de4b4dacfd0e3610d00bfb00348b2ce18926cdf39466d2af0"
+    },
+    "017": {
+      "bytes": 440928,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_017.npz",
+      "sha256": "7c95071fa593027f09191213573edd486223fa41aa52e6500f701cac1141d9b1"
+    },
+    "018": {
+      "bytes": 637820,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_018.npz",
+      "sha256": "a72a5fbb997c8ec4c2b9dc61e927b042bf38dc05006c29746b10efa31e52f5bd"
+    },
+    "019": {
+      "bytes": 304182,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_019.npz",
+      "sha256": "f7dbb6ea5ab1495568a295d34d7f991df0c7e0b22cb6f7ea04279b414df0f91e"
+    },
+    "020": {
+      "bytes": 256181,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_020.npz",
+      "sha256": "32b47a09d009af04c317fc2f6d137fe77f3daa63cdadea72c78ea696be619959"
+    },
+    "021": {
+      "bytes": 353384,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_021.npz",
+      "sha256": "38dec36ba1f05fe8737b715907684844593f11d63c18678a1025984b339fdff7"
+    },
+    "022": {
+      "bytes": 362282,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_022.npz",
+      "sha256": "69a545482db7ece99deafc8e8753f9b874686061a3ab6aabe7aecd008f04068c"
+    },
+    "023": {
+      "bytes": 206002,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_023.npz",
+      "sha256": "1bc478add3ee351bd2e69a933085a427b74edac8c01beaa761bbe30ae87eb68d"
+    },
+    "024": {
+      "bytes": 264410,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_024.npz",
+      "sha256": "85fcfa175dfb46d65ab2aa34df4fa3428f52350fbb1c6841febf88345f5bdbd0"
+    },
+    "025": {
+      "bytes": 1000918,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_025.npz",
+      "sha256": "47007e7577d9763b2e015aeeb86d34c83863ad81290f1d5d3f6688c7623118e5"
+    },
+    "026": {
+      "bytes": 914329,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_026.npz",
+      "sha256": "220314330b882de4c2e8cf0497432373f019c89f33bbf1d8aba8d17f9a8ba0a4"
+    },
+    "027": {
+      "bytes": 802201,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_027.npz",
+      "sha256": "d9119dc0cf8ff16850fbab469f7a5426268bb9099961a7b66025265c2318d359"
+    },
+    "028": {
+      "bytes": 394404,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_028.npz",
+      "sha256": "a85d806915a35cee80403c5b5a3cdbea42956f512c3c996cfed58e3c134f20f9"
+    },
+    "029": {
+      "bytes": 630768,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_029.npz",
+      "sha256": "43f319bd03cd60d0f4507d888c4f456aec49967e0f4353d214904f4e20ecec4f"
+    },
+    "030": {
+      "bytes": 263795,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_030.npz",
+      "sha256": "66a23b1fdf9334ad75e59e89c2e4c2deddb210f65cc611351b5fbc835711ad62"
+    },
+    "031": {
+      "bytes": 373148,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_031.npz",
+      "sha256": "e55f750c5291e746abb24e2c3ad0a3ab1da6792347e1b8a080a732067cf74411"
+    },
+    "032": {
+      "bytes": 352884,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_032.npz",
+      "sha256": "4069cdd8903611f544e466f110e09c526ba778e77417550cc9a2d8d0a601a52a"
+    },
+    "033": {
+      "bytes": 354006,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_033.npz",
+      "sha256": "8ae83f64474887b5341a32d0fc9fb328e8875b6176a087e60d1fdd9f55e4657b"
+    },
+    "034": {
+      "bytes": 644782,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_034.npz",
+      "sha256": "e3d2d6792317bfe29ca4786671d45e93c71d185eb05aa575a3099833e674de05"
+    },
+    "035": {
+      "bytes": 804602,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_035.npz",
+      "sha256": "d3cf4592136e4ab0bf7321ee49f8b847246014b8566b093a533b9c8ab056289a"
+    },
+    "036": {
+      "bytes": 343225,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_036.npz",
+      "sha256": "576a8752006575572b065da10e5023d2a31ab1498e099903b86b53b33b3a8676"
+    },
+    "037": {
+      "bytes": 902666,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_037.npz",
+      "sha256": "d8d15364b95deeaf83627cc4c0e329e94c0d99131af89348e8c05bbfc97732d5"
+    },
+    "038": {
+      "bytes": 259315,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_038.npz",
+      "sha256": "c798d4ca49f3256c58731bc2e9821a6b730d2910cb49c18ff0ac5cfd941a3cca"
+    },
+    "039": {
+      "bytes": 380023,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_039.npz",
+      "sha256": "a87c49dac56423c57579aafb798b909ae2c7292c4585af60946178e511607aee"
+    },
+    "040": {
+      "bytes": 180545,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_040.npz",
+      "sha256": "375d83d24566125e6564a26e2f093847f804d68b6e0ddf27851b230af50eadcf"
+    },
+    "041": {
+      "bytes": 608370,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_041.npz",
+      "sha256": "a79123dc2ac89b9f50f186f154a15aeb9a6adf385811f2795192d273064be391"
+    },
+    "042": {
+      "bytes": 883863,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_042.npz",
+      "sha256": "2efcc5e6af835d6f4b055ef00fbf772a59d4c08437878ac4a632195e1c7339ca"
+    },
+    "043": {
+      "bytes": 678422,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_043.npz",
+      "sha256": "d5d12a9e9a8fad8d3f9f283fec3d693f19bb27426fa7d0f364f41d19b1126dfc"
+    },
+    "044": {
+      "bytes": 542564,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/per_batch_npz/circuitsage_hmac_v2_1_repair_calibration_capture_batch_044.npz",
+      "sha256": "8877f92999658b6446fb3362877fb0ca3fce75ce659eb11bf1380865a3e520a8"
+    }
+  },
+  "raw_batch_csvs": {
+    "000": {
+      "bytes": 5369479,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_000/circuitsage_hmac_v2_1_repair_calibration_capture_batch_000.csv",
+      "sha256": "c4683ca8738cfeeb85116009916fdeee6669272cf13ba9ef1199c4c7e8f1dfca"
+    },
+    "001": {
+      "bytes": 8377261,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_001/circuitsage_hmac_v2_1_repair_calibration_capture_batch_001.csv",
+      "sha256": "e8d50cee94485c26b8e6de050ebd9a81f82e679ef8e927b7bfe3b591e9e32ed7"
+    },
+    "002": {
+      "bytes": 4510003,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_002/circuitsage_hmac_v2_1_repair_calibration_capture_batch_002.csv",
+      "sha256": "45a767c9cfd372e94dc78146ac4cac1abbce7f2e8c7dad8859809c5b30231408"
+    },
+    "003": {
+      "bytes": 5799697,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_003/circuitsage_hmac_v2_1_repair_calibration_capture_batch_003.csv",
+      "sha256": "199c2f04cb0ac47007a83b2b3e75edf5287cb13a8085ec240b9d3589c38414af"
+    },
+    "004": {
+      "bytes": 5369479,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_004/circuitsage_hmac_v2_1_repair_calibration_capture_batch_004.csv",
+      "sha256": "1cfaba68e6c72a75ae1f283c45f2f479a7ebc9952b848021d95412aa634ac1d4"
+    },
+    "005": {
+      "bytes": 4940029,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_005/circuitsage_hmac_v2_1_repair_calibration_capture_batch_005.csv",
+      "sha256": "af07b81ad6a5e49470a98d8f34690bf341e6d475049e70b7f585962ff75b1f37"
+    },
+    "006": {
+      "bytes": 5798545,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_006/circuitsage_hmac_v2_1_repair_calibration_capture_batch_006.csv",
+      "sha256": "f9efa915a817f15520ee089593d7eff2cd3c3869408bc90bcff7346c905eddac"
+    },
+    "007": {
+      "bytes": 7517497,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_007/circuitsage_hmac_v2_1_repair_calibration_capture_batch_007.csv",
+      "sha256": "323a61f1b80c2914f66f1e792632fd88cbf9cda5466219ca313874a617544ccd"
+    },
+    "008": {
+      "bytes": 3221269,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_008/circuitsage_hmac_v2_1_repair_calibration_capture_batch_008.csv",
+      "sha256": "dc27baf7bfa8e6ff2091ded3decd4976c35200ff1b22e7bd4da3d2e40b36df7b"
+    },
+    "009": {
+      "bytes": 5369383,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_009/circuitsage_hmac_v2_1_repair_calibration_capture_batch_009.csv",
+      "sha256": "818c4c13aec1c96e1dd1d550c648eaf92f74acf9f6e4495cba98ea37f3dfa62e"
+    },
+    "010": {
+      "bytes": 8381485,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_010/circuitsage_hmac_v2_1_repair_calibration_capture_batch_010.csv",
+      "sha256": "087a3078ea40b22b8871ee9152e6bf8d8f03e310c94d96f840b863ff7902566a"
+    },
+    "011": {
+      "bytes": 5372167,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_011/circuitsage_hmac_v2_1_repair_calibration_capture_batch_011.csv",
+      "sha256": "495bffe1351fe6e37116695f4b7b2079b3cd23918dfb330ebbc06dbd90505959"
+    },
+    "012": {
+      "bytes": 2793451,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_012/circuitsage_hmac_v2_1_repair_calibration_capture_batch_012.csv",
+      "sha256": "115e72d8ab46bc8fd50a0e02c49a88f409ef7330f179f60a1881407edab354d9"
+    },
+    "013": {
+      "bytes": 3652927,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_013/circuitsage_hmac_v2_1_repair_calibration_capture_batch_013.csv",
+      "sha256": "b60d100a9be79f4522d979ccd13411c65c8f752b0660f16af077a09e0f8f9b2a"
+    },
+    "014": {
+      "bytes": 4512211,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_014/circuitsage_hmac_v2_1_repair_calibration_capture_batch_014.csv",
+      "sha256": "1b9487e6df0aeb0ed26a7c39917ba546844ca58b600cc241e9f683745d640d82"
+    },
+    "015": {
+      "bytes": 6232123,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_015/circuitsage_hmac_v2_1_repair_calibration_capture_batch_015.csv",
+      "sha256": "a6eb059382b3fa3d476c256906ad9b51fe1811468a15e3eb9edf193ac6f3bb33"
+    },
+    "016": {
+      "bytes": 6661381,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_016/circuitsage_hmac_v2_1_repair_calibration_capture_batch_016.csv",
+      "sha256": "f71499064f9d25affe64931cdc172ba9dd163c9c189b11c9d3461e1cda9b0bf0"
+    },
+    "017": {
+      "bytes": 4942333,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_017/circuitsage_hmac_v2_1_repair_calibration_capture_batch_017.csv",
+      "sha256": "107b1a5ba0f7b582807eae5d96aa26f91e180ca831885e39bd743bd45b177548"
+    },
+    "018": {
+      "bytes": 7951363,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_018/circuitsage_hmac_v2_1_repair_calibration_capture_batch_018.csv",
+      "sha256": "49b65573effc6e2eba5862bb85ffbc8fb29f5d17492587322c506932026213ea"
+    },
+    "019": {
+      "bytes": 4082761,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_019/circuitsage_hmac_v2_1_repair_calibration_capture_batch_019.csv",
+      "sha256": "3fe6200a894286b2c4ed06584e9af91cbe90210a66a1a0df50a7099a69f35cde"
+    },
+    "020": {
+      "bytes": 4082761,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_020/circuitsage_hmac_v2_1_repair_calibration_capture_batch_020.csv",
+      "sha256": "64b44fae744c1b93df92d3984d6b748103704337e10ae43fe5d342f653f3b941"
+    },
+    "021": {
+      "bytes": 5372263,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_021/circuitsage_hmac_v2_1_repair_calibration_capture_batch_021.csv",
+      "sha256": "923586df69048b1d46dc7a1eff7a78de2f06919a3a2d69e7f50368676e3c43dd"
+    },
+    "022": {
+      "bytes": 4512211,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_022/circuitsage_hmac_v2_1_repair_calibration_capture_batch_022.csv",
+      "sha256": "4cd59518df7f7a7a32c1d9f985d503b8184c2fadfa17d3b0dde8f5e3676a7fa8"
+    },
+    "023": {
+      "bytes": 3222709,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_023/circuitsage_hmac_v2_1_repair_calibration_capture_batch_023.csv",
+      "sha256": "338cd891d4d3211a258d089afa781346571515643564535b96689d26ae49078e"
+    },
+    "024": {
+      "bytes": 3222325,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_024/circuitsage_hmac_v2_1_repair_calibration_capture_batch_024.csv",
+      "sha256": "7a986e6f8a76eba299d7b2e57318f99b7b7d51c9122d3d61721aef939a6d1e93"
+    },
+    "025": {
+      "bytes": 5372455,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_025/circuitsage_hmac_v2_1_repair_calibration_capture_batch_025.csv",
+      "sha256": "1028eeb5dd40e2305912ed85b0386233f05acd805eee2acec5c2d8450617507b"
+    },
+    "026": {
+      "bytes": 4942237,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_026/circuitsage_hmac_v2_1_repair_calibration_capture_batch_026.csv",
+      "sha256": "8d7071747d79b7bb6d378fd19eb85cac425ef16b534da5a1634a77da52fcf708"
+    },
+    "027": {
+      "bytes": 7091695,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_027/circuitsage_hmac_v2_1_repair_calibration_capture_batch_027.csv",
+      "sha256": "83c860a03b1a4bf9cf24386bc1b96e9935b3278bd301afb8ab8b210a8bbf47a5"
+    },
+    "028": {
+      "bytes": 5371687,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_028/circuitsage_hmac_v2_1_repair_calibration_capture_batch_028.csv",
+      "sha256": "6e08809ee655f0abf73ec36c61db2f6897ae3074189a4f0abe28996201a7b42c"
+    },
+    "029": {
+      "bytes": 6231739,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_029/circuitsage_hmac_v2_1_repair_calibration_capture_batch_029.csv",
+      "sha256": "bd39236e0ea9a1cd12ec2b9791f4b10e8ac0be27d500e3d00d44e42768463892"
+    },
+    "030": {
+      "bytes": 2793451,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_030/circuitsage_hmac_v2_1_repair_calibration_capture_batch_030.csv",
+      "sha256": "1e67e2b586667c334d6a1dc31f22498d756c8cd40b0a2408bd7089e174649def"
+    },
+    "031": {
+      "bytes": 4942621,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_031/circuitsage_hmac_v2_1_repair_calibration_capture_batch_031.csv",
+      "sha256": "b2f3ab2b406c1f139ddfda689db48e2e9f2c6db50983ac0d6c642fe87e2315e0"
+    },
+    "032": {
+      "bytes": 5372455,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_032/circuitsage_hmac_v2_1_repair_calibration_capture_batch_032.csv",
+      "sha256": "4a4add0dbae01e907b7bf35cf2bdebfccf7355edf97f3d223e6e83407d1b77d4"
+    },
+    "033": {
+      "bytes": 5801713,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_033/circuitsage_hmac_v2_1_repair_calibration_capture_batch_033.csv",
+      "sha256": "61dfc8641ad3f039b1df7e66cb57fabb49a67143e7e1dba7f2cd03529de6a662"
+    },
+    "034": {
+      "bytes": 4082761,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_034/circuitsage_hmac_v2_1_repair_calibration_capture_batch_034.csv",
+      "sha256": "e13e935dcf90e143dbee727fe1aaa486c80d3c219e6d7cb4f4262abf978c8fa0"
+    },
+    "035": {
+      "bytes": 5802577,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_035/circuitsage_hmac_v2_1_repair_calibration_capture_batch_035.csv",
+      "sha256": "74ec44351e3659037eff201db5d18954959f9562ef02845725089bdbc2eb4c6e"
+    },
+    "036": {
+      "bytes": 2793259,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_036/circuitsage_hmac_v2_1_repair_calibration_capture_batch_036.csv",
+      "sha256": "e3e040cd380920a7d4fbecbc56e5789361f3384ff1c7daa03b0a93c4057b345c"
+    },
+    "037": {
+      "bytes": 7090927,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_037/circuitsage_hmac_v2_1_repair_calibration_capture_batch_037.csv",
+      "sha256": "6cb3c4d21567044f7ab8e63035bc9b69d65e98cf6c0b1cd353d7d6e7c6f0682c"
+    },
+    "038": {
+      "bytes": 3222901,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_038/circuitsage_hmac_v2_1_repair_calibration_capture_batch_038.csv",
+      "sha256": "6009bc0bea93d19c9373f5d6aeb1c6b676d84df4400f9a9dbf35d2d90d4e79a0"
+    },
+    "039": {
+      "bytes": 4081993,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_039/circuitsage_hmac_v2_1_repair_calibration_capture_batch_039.csv",
+      "sha256": "72ed45cd654aa0ee1e0c19b6ec7eafdf1147a32b567d435ac9c1f2fb5775e973"
+    },
+    "040": {
+      "bytes": 2793259,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_040/circuitsage_hmac_v2_1_repair_calibration_capture_batch_040.csv",
+      "sha256": "6c886c5a9c0487b0169f56cd8da0960ff6425e938ed2e03b4d20715b24a985ba"
+    },
+    "041": {
+      "bytes": 6661669,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_041/circuitsage_hmac_v2_1_repair_calibration_capture_batch_041.csv",
+      "sha256": "c243ede97796534bd145d231d1513dd2100886549d1deb5b314f75e04e2ad38b"
+    },
+    "042": {
+      "bytes": 5801521,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_042/circuitsage_hmac_v2_1_repair_calibration_capture_batch_042.csv",
+      "sha256": "7579c8c4fec1d47c882da1f4ae29978ed09a6f5e70d411fc6f3ab6eec6329f90"
+    },
+    "043": {
+      "bytes": 4512403,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_043/circuitsage_hmac_v2_1_repair_calibration_capture_batch_043.csv",
+      "sha256": "328c72c7522f85b5488f177ab8f399d9295a47b2c61e926ed1ad90e88291f918"
+    },
+    "044": {
+      "bytes": 3652351,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/raw_batches/batch_044/circuitsage_hmac_v2_1_repair_calibration_capture_batch_044.csv",
+      "sha256": "ee5fc91820cd9f3e6ca29a17741dca81f2c7657e0ca481607a25e3f7e5788a98"
+    }
+  },
+  "repair_calibration_enabled_records": 98304,
+  "repair_calibration_sites_accessed": 512,
+  "repair_site_test_access": 0,
+  "repair_train_access": 0,
+  "sites": 512,
+  "stage": "12B-3K",
+  "status": "PASS",
+  "total_records": 102624,
+  "training_calls": 0,
+  "unknown_records": 0,
+  "validation_access": 0,
+  "vectors": 96
+}

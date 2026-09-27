@@ -1,0 +1,17 @@
+circuit_family,gate,threshold,measured,shortfall,meets
+opentitan_hmac_sha256,all_injected_exact_site_rate_min,0.15,0.02862658,0.12137342,NO
+opentitan_hmac_sha256,fault_free_false_alarm_rate_max,0.02,0.0,0.0,YES
+opentitan_hmac_sha256,observable_candidate_set_coverage_min,0.8,1.0,0.0,YES
+opentitan_hmac_sha256,observable_detection_recall_min,0.8,1.0,0.0,YES
+picorv32_cpu,all_injected_exact_site_rate_min,0.15,0.00450078,0.14549922,NO
+picorv32_cpu,fault_free_false_alarm_rate_max,0.02,0.0,0.0,YES
+picorv32_cpu,observable_candidate_set_coverage_min,0.8,1.0,0.0,YES
+picorv32_cpu,observable_detection_recall_min,0.8,1.0,0.0,YES
+secworks_aes,all_injected_exact_site_rate_min,0.15,0.36752636,0.0,YES
+secworks_aes,fault_free_false_alarm_rate_max,0.02,0.0,0.0,YES
+secworks_aes,observable_candidate_set_coverage_min,0.8,1.0,0.0,YES
+secworks_aes,observable_detection_recall_min,0.8,1.0,0.0,YES
+secworks_sha256,all_injected_exact_site_rate_min,0.15,0.45161644,0.0,YES
+secworks_sha256,fault_free_false_alarm_rate_max,0.02,0.0,0.0,YES
+secworks_sha256,observable_candidate_set_coverage_min,0.8,1.0,0.0,YES
+secworks_sha256,observable_detection_recall_min,0.8,1.0,0.0,YES

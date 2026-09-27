@@ -1,0 +1,8 @@
+dependency,kind,upstream_home,role,substitutable_without_changing_semantics
+lc_ctrl_pkg,SystemVerilog package,OpenTitan hw/ip/lc_ctrl,life-cycle controller encoding,NO
+prim_ram_1p_pkg,SystemVerilog package,OpenTitan hw/ip/prim,single-port RAM configuration types,NO
+prim_ram_1r1w_pkg,SystemVerilog package,OpenTitan hw/ip/prim,1R1W RAM configuration types,NO
+PRIM_FLOP_SPARSE_FSM,compiler macro,OpenTitan prim_flop_macros.sv,sparse-encoded FSM register instantiation,NO
+RVFI,global define,ibex formal verification harness,RISC-V formal interface gate,PARTIAL - define only
+prim_buf / prim_flop / prim_clock_gating / prim_ram_1p,technology primitive modules,OpenTitan per-target prim libraries,"buffers, flops, clock gates, memory macros",NO
+dv_fcov_macros.svh,verification include,OpenTitan dv/sv/dv_utils,functional-coverage macros,"YES - verification-only, no-op stub adds no logic"

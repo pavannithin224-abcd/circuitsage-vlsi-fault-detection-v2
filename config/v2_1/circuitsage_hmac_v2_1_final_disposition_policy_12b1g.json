@@ -1,0 +1,27 @@
+{
+  "closed_catalog_research_target": "MET",
+  "detector_disposition": "ACCEPTED FOR OBSERVABLE DEVIATIONS IN FROZEN HMAC CATALOG",
+  "dev_site_test": "CONSUMED AND FROZEN",
+  "evaluation_lock": {
+    "bytes": 3305,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_evaluation_12b1f/circuitsage_hmac_v2_1_site_test_evaluation_lock_12b1f.json",
+    "sha256": "6ca9417085b894d3dafd97643062757ca0a2e1f892df4a8b9296801bb40bf732"
+  },
+  "exact_site_claim": "AUTHORIZED ONLY FOR UNIQUE CATALOG SIGNATURES",
+  "holdout_access_count": 0,
+  "independent_generalization_target": "NOT_ESTABLISHED",
+  "lifecycle": "COMPLETED AND FROZEN CLOSED-CATALOG RESEARCH COMPONENT",
+  "locator_disposition": "ACCEPTED AS AMBIGUITY-AWARE CANDIDATE-SET LOCATOR",
+  "normal_compatible_fault_instances": 3425,
+  "overall_detection_recall": 0.5001459427904261,
+  "overall_exact_site_rate": 0.19381202568593112,
+  "policy_version": "CIRCUITSAGE-HMAC-V2.1-FINAL-DISPOSITION-v1",
+  "retraining_or_threshold_changes": "PROHIBITED UNDER V2.1",
+  "scientific_scope": "OpenTitan HMAC; single persistent SA0/SA1; frozen behavior catalog",
+  "selected_candidate_id": "V21_EXACT_SIGNATURE_SET",
+  "stage": "12B-1G",
+  "status": "FROZEN",
+  "v1_modified": false,
+  "v2_core_modified": false,
+  "validation_access_count": 0
+}

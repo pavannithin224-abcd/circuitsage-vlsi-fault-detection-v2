@@ -1,0 +1,131 @@
+{
+  "candidate_count": 3,
+  "candidate_probe_entries": 640,
+  "canonical_batches_checked": 45,
+  "canonical_netlists_modified": false,
+  "cross_batch_consistency": "PASS / EXACT",
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-PROBE-DISCOVERY-MANIFEST-12B3B-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_probe_screening_contract_12b3b.json": {
+      "bytes": 1387,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_probe_screening_contract_12b3b.json",
+      "sha256": "c62c2a319be63d6c3d2557a0b69fd2b8508af9cabadf5e5cf21fad81de930e38"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_cross_batch_consistency_12b3b.json": {
+      "bytes": 36954,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_cross_batch_consistency_12b3b.json",
+      "sha256": "6c94117035b979135657d2b384b11db40a7c63029f34df365f8f34360d4bbb20"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_probe_banks_12b3b.csv": {
+      "bytes": 152568,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_probe_banks_12b3b.csv",
+      "sha256": "d7f9b984d48db4e9a8c242e1ee4e859ef5f321d6d5546b901bde569d5009eae2"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_probe_banks_12b3b.json": {
+      "bytes": 28325,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_probe_banks_12b3b.json",
+      "sha256": "f7ee21e7b1f166c88486607689a0ec1c951de484175a7a54757ed185d58db537"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_structural_metrics_12b3b.csv": {
+      "bytes": 390,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/circuitsage_hmac_v2_1_enhanced_structural_metrics_12b3b.csv",
+      "sha256": "6ad9e9ee07752b7f3cd32d001602d53fdac35d8c137fcea220d5761fad04ac12"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/opentitan_hmac_sha256_msg32_faultbatch000_observer.json": {
+      "bytes": 19120251,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/opentitan_hmac_sha256_msg32_faultbatch000_observer.json",
+      "sha256": "d13894d343b67de12c9769277d2785a7eb5bb40152f112aa10bc749515b58b8a"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/opentitan_hmac_sha256_msg32_faultbatch000_observer.v": {
+      "bytes": 3617581,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/opentitan_hmac_sha256_msg32_faultbatch000_observer.v",
+      "sha256": "8341d816747bebbfeece9158aa78aef09fb61d009c68c59fcf9a1a5452984307"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/tb_em_state_checkpoint_2x64_t32.sv": {
+      "bytes": 703,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/tb_em_state_checkpoint_2x64_t32.sv",
+      "sha256": "6a26072e59a66ea9fc1764ced99b3309b7bde7217a9f1700eb8f18138565c990"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/verilator_lint.log": {
+      "bytes": 196257,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/verilator_lint.log",
+      "sha256": "f7c4571adea36e5ddb5b3a35825699543bab7f246cee5710b5fd30d31dcfdefe"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/yosys_structural_check.log": {
+      "bytes": 1789,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_state_checkpoint_2x64_t32/yosys_structural_check.log",
+      "sha256": "8803e997cacf6738eb147b948f909180c5bb9342a7c3a456a822b9042f581798"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/opentitan_hmac_sha256_msg32_faultbatch000_observer.json": {
+      "bytes": 19125145,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/opentitan_hmac_sha256_msg32_faultbatch000_observer.json",
+      "sha256": "cd3727f5de18ea94754ee93302e7798da6c5a9b816bef75a1e22fb990916a38e"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/opentitan_hmac_sha256_msg32_faultbatch000_observer.v": {
+      "bytes": 4315590,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/opentitan_hmac_sha256_msg32_faultbatch000_observer.v",
+      "sha256": "b88cde9e76e1d6627d24f7b7a05c060698ec95e77828407cc1da64672c5206c1"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/tb_em_testpoint_4x64_t16.sv": {
+      "bytes": 696,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/tb_em_testpoint_4x64_t16.sv",
+      "sha256": "c04e5081a1a7bddffa9d237dcdb8fdf8cd0785a3dd2481a124c30e06805159b2"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/verilator_lint.log": {
+      "bytes": 245023,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/verilator_lint.log",
+      "sha256": "f5dfeddc91a482e875950d24870a08518b7f9e600b6d69eeb82c0ef776684212"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/yosys_structural_check.log": {
+      "bytes": 1775,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_testpoint_4x64_t16/yosys_structural_check.log",
+      "sha256": "a866b0b8cf3d1807a011872acd61b63c2cfc38db0f65c1f88636de5106e2cbcc"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/opentitan_hmac_sha256_msg32_faultbatch000_observer.json": {
+      "bytes": 19124805,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/opentitan_hmac_sha256_msg32_faultbatch000_observer.json",
+      "sha256": "b223482c5ced3d1a793991f6d6c40846979aa38aa89bf21f1f99d0993e3766eb"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/opentitan_hmac_sha256_msg32_faultbatch000_observer.v": {
+      "bytes": 3649916,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/opentitan_hmac_sha256_msg32_faultbatch000_observer.v",
+      "sha256": "a394964bd45f200f4036707072c60f53393057aa0c0314d85b8c5d7a1061a0de"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/tb_em_topology_4x64_t24.sv": {
+      "bytes": 695,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/tb_em_topology_4x64_t24.sv",
+      "sha256": "d23514b732785e9dc581d49f062500f6885d85b413cf983b4097765dbe9abdb4"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/verilator_lint.log": {
+      "bytes": 219005,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/verilator_lint.log",
+      "sha256": "c572f08c28635b1f496caa73cde5cc3049ce895c1d470830fd6f512f1de1d693"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/yosys_structural_check.log": {
+      "bytes": 1773,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_probe_discovery_12b3b/observer_canaries/em_topology_4x64_t24/yosys_structural_check.log",
+      "sha256": "453b181cfab21a0ccf41bb2bd48cf10474de98fe00ff051b2ea33e5cb2422e93"
+    }
+  },
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "repair_train_externally_invisible_faults": 1021,
+  "response_values_captured": 0,
+  "simulation_binaries_executed": 0,
+  "stage": "12B-3B",
+  "stage_12b3a_audit": {
+    "bytes": 2682,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_measurement_architecture_budget_freeze_12b3a.json",
+    "sha256": "399dd270710dcb12559279b7bcf9a76c2da8004a335791a452039333cfd25ca5"
+  },
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0,
+  "verilator_lints_passed": 3,
+  "yosys_checks_passed": 3
+}

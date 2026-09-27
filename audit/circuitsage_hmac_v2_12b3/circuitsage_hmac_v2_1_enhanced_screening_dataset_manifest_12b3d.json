@@ -1,0 +1,535 @@
+{
+  "authorization": {
+    "bytes": 1821,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_screening_authorization_12b3c.json",
+    "sha256": "c89a6676dd3b8c46f8fa876c9fce3d317d047aa975a5fabe4081474330ab6397"
+  },
+  "baseline_failures": 0,
+  "baseline_records": 2160,
+  "candidate_feature_datasets": {
+    "EM_STATE_CHECKPOINT_2X64_T32": {
+      "bytes": 3128694,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_state_screening_features_12b3d.npz",
+      "sha256": "c1d36a0a6d95477b74a3abb2a4a3e018805cf9549d40b151e743027bd3a89d85"
+    },
+    "EM_TESTPOINT_4X64_T16": {
+      "bytes": 4388468,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_testpoint_screening_features_12b3d.npz",
+      "sha256": "08c0b0e8645bee9dcc063f51ff1744207a18c47e5a717839e4bb463b34107f15"
+    },
+    "EM_TOPOLOGY_4X64_T24": {
+      "bytes": 3619253,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_topology_screening_features_12b3d.npz",
+      "sha256": "bd3321993598469f18bd883702c19c308dff8fb0f6ab1dcc4f31ef2bc73d1f3b"
+    }
+  },
+  "canonical_batches": 45,
+  "canonical_netlists_modified": false,
+  "checkpoint": {
+    "bytes": 192412,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_checkpoint_12b3d.json",
+    "sha256": "b2a98422b2f020b400cf315cd19803dd8d98f6331bf6c6fb208f4f06edb807df"
+  },
+  "duplicate_samples": 0,
+  "fault_free_false_alarms": 0,
+  "fault_instances": 512,
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "logical_candidate_evaluations": 73728,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-SCREENING-DATASET-MANIFEST-12B3D-v1",
+  "missing_samples": 0,
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_candidate_metrics_12b3d.csv": {
+      "bytes": 602,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_candidate_metrics_12b3d.csv",
+      "sha256": "9205f9815ed7e4c300eb2ccaa07b22ba3103307adad3ecf2e51fbef1a9e590e7"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_candidate_metrics_12b3d.json": {
+      "bytes": 2510,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_candidate_metrics_12b3d.json",
+      "sha256": "3e4b20ba8d51452c7f895f8c595ab383495cd5234d5455afd37bbbfc316405b3"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_dataset_schema_12b3d.json": {
+      "bytes": 3257,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_dataset_schema_12b3d.json",
+      "sha256": "fbf9e10b354efb4c577a765fdb68e4ee8baed2cdce185a3e0163c506fad0ac94"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_site_bootstrap_12b3d.csv": {
+      "bytes": 122719,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_site_bootstrap_12b3d.csv",
+      "sha256": "d82dee4c3c8566ce46d4682263dae58b24be7fe5a9d111794add44527b55e0e6"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_targets_12b3d.npz": {
+      "bytes": 2557,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_targets_12b3d.npz",
+      "sha256": "f6f7d7cd4829448c5dfde133811de84a7489a24f27e874d41379fc789e1f833a"
+    }
+  },
+  "per_batch_npz": {
+    "000": {
+      "bytes": 145667,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_000.npz",
+      "sha256": "62361b19f0e27cd0efef888f90281e1f4384cdc072c139cf48f208ccc0088b0a"
+    },
+    "001": {
+      "bytes": 342673,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_001.npz",
+      "sha256": "cbf4c2b7e5ab778db684426165d0e34fc32fbd178602e0a666fb7b1e276a180d"
+    },
+    "002": {
+      "bytes": 452963,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_002.npz",
+      "sha256": "9e20919173e007649e03dd8531cb82737802ac563ad9e13ed309126ff64c126d"
+    },
+    "003": {
+      "bytes": 81243,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_003.npz",
+      "sha256": "cdffba8ff0754df3586ed202374665e90f7850ca557b505dc50faedc2e1b5a70"
+    },
+    "004": {
+      "bytes": 523120,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_004.npz",
+      "sha256": "dc27d8bb5f20c366ba9e16af256ddaa2a653b161d33315076365df8fb69fdcee"
+    },
+    "005": {
+      "bytes": 411960,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_005.npz",
+      "sha256": "b1651b5514786caf17750c80903a273400bd32294f80440a9d95d9e9b475bf53"
+    },
+    "006": {
+      "bytes": 433268,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_006.npz",
+      "sha256": "2f4ac8a4ce5274e5906665bc5774483089b93d46e4c77c34e095e21f586f3df2"
+    },
+    "007": {
+      "bytes": 291074,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_007.npz",
+      "sha256": "a8c897eed0b0b7b5f5d9484dc35808ff2abcc368a89d2a18ce42c768ac1c5518"
+    },
+    "008": {
+      "bytes": 371843,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_008.npz",
+      "sha256": "b6d64cfc1d09a2de9a31c6a206f9f4f895171dd59ce7aec5363e7c13ccb0aaf5"
+    },
+    "009": {
+      "bytes": 153443,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_009.npz",
+      "sha256": "a6c866ca75731922599622d531ac35ce55d4343f4b9e2f9163194e4cd62afda6"
+    },
+    "010": {
+      "bytes": 269971,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_010.npz",
+      "sha256": "5ebfe7790158deab4a029520aa031c885d333f03fd0ad85206312614c0e4ab3e"
+    },
+    "011": {
+      "bytes": 253709,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_011.npz",
+      "sha256": "4f1fa863e19f624acd2b88bd8cc034423f40964b9a52019c5846dd62d63c4156"
+    },
+    "012": {
+      "bytes": 198272,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_012.npz",
+      "sha256": "981d30be25e6d0c5a54a63f1f9bc7a73921a7c66a3db911b1be31becdaea1779"
+    },
+    "013": {
+      "bytes": 375282,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_013.npz",
+      "sha256": "2edb766033001ae5e2e0d647446889534384bc05649154029648c508b2200e1f"
+    },
+    "014": {
+      "bytes": 291938,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_014.npz",
+      "sha256": "904cbdf7e9b7f89377c92a7268f69f73cca854098680081062b514f676f322f6"
+    },
+    "015": {
+      "bytes": 424646,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_015.npz",
+      "sha256": "25b39ce3af2d9cb7397824344b638842652faf1387066a84fda5ba3648cc79b4"
+    },
+    "016": {
+      "bytes": 446681,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_016.npz",
+      "sha256": "ac18f6f16a715d779389a56a29da4b8f382fbcd1b0e6be15db035d2f6513356b"
+    },
+    "017": {
+      "bytes": 204844,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_017.npz",
+      "sha256": "4d4fbd290667142309f39f6a93bd86a38bcf66f5ce46acb6f6b9a875bf50b476"
+    },
+    "018": {
+      "bytes": 119194,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_018.npz",
+      "sha256": "f2940201222a4f304a5591a4dab79d92176388e244db9b50af4688253175b4f5"
+    },
+    "019": {
+      "bytes": 242791,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_019.npz",
+      "sha256": "ec13c0c8a46e5f8f2317059b7e41c52e95aa0f91bd158a0b36e0982b133f51ca"
+    },
+    "020": {
+      "bytes": 76983,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_020.npz",
+      "sha256": "4caef6103b1f466c656267c068960d498e21b90830353709e91023760cffbdff"
+    },
+    "021": {
+      "bytes": 105544,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_021.npz",
+      "sha256": "94292743fa30fcb406e3e7e78f769b4576d688a63191721487afe1220f9efa39"
+    },
+    "022": {
+      "bytes": 77941,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_022.npz",
+      "sha256": "9e21b5ef89bfa481e81ebeadd1807922878773feafda8be8818662881e3c5396"
+    },
+    "023": {
+      "bytes": 65761,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_023.npz",
+      "sha256": "5bd60c9473e0508ce97e3809b43d5a82ca3c0a3415292e34190061efa25a5d37"
+    },
+    "024": {
+      "bytes": 194530,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_024.npz",
+      "sha256": "de12313ded1cef3a4ff0e3f823f3bd1fe4cb43fc1fdd7c27384dab7b23841d24"
+    },
+    "025": {
+      "bytes": 677164,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_025.npz",
+      "sha256": "62f639fdea028b5890a65a58551e987de569376e3d6b7fda8f19c0e9f35d332d"
+    },
+    "026": {
+      "bytes": 485518,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_026.npz",
+      "sha256": "3b0c3e11734e4c4d7d26c50dbba1062a78799fc120bd053f53fb392e53fcac54"
+    },
+    "027": {
+      "bytes": 389483,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_027.npz",
+      "sha256": "093392823cf7afa172b8ade6b5a5b68c5d13200302f2dfb9f74cbdf02f12f097"
+    },
+    "028": {
+      "bytes": 73287,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_028.npz",
+      "sha256": "a7fed1425a0b4bc6bddc905987e1a000dcbe12beec79aba89fc39fa00e0375ed"
+    },
+    "029": {
+      "bytes": 558486,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_029.npz",
+      "sha256": "c4a8a3b6df5157b83b12e55fd9c6d0c2a2e28ad0d35572bbfb7bea832ff836ce"
+    },
+    "030": {
+      "bytes": 223176,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_030.npz",
+      "sha256": "5beef713ad91d8c1376935b7d366fc29199dd26d87bc9d8efaf169fedd0b3938"
+    },
+    "031": {
+      "bytes": 153379,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_031.npz",
+      "sha256": "ddbaee0d002a6b805f841f6c4979794e8196b5b56e2783bb80a5aed55cd11ae3"
+    },
+    "032": {
+      "bytes": 78212,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_032.npz",
+      "sha256": "732c0f1e527ebfefff15e472366b582b4b7ea99ae6a69a092a21db29ccfd8952"
+    },
+    "033": {
+      "bytes": 209560,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_033.npz",
+      "sha256": "a18702bc316156b0be3f3f2983ea6d83a78007ab002813e29ccb8d76311a10a2"
+    },
+    "034": {
+      "bytes": 281478,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_034.npz",
+      "sha256": "dda7848746c830541a7720104c9013682a3697a7677a5aaaf7c5aead652d76c7"
+    },
+    "035": {
+      "bytes": 575710,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_035.npz",
+      "sha256": "ee752bd3abe5ac4348e737e3c0f9c4331ecb4551b3b55f3584ffef665aa59c49"
+    },
+    "036": {
+      "bytes": 286232,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_036.npz",
+      "sha256": "ec4c161eb061eebf73ce0c820ed5e9b0499c75cd3b9f425fb980d05dbff871cf"
+    },
+    "037": {
+      "bytes": 685694,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_037.npz",
+      "sha256": "b5315d0db0bdefe28f552b8bd283c6e478d09b9a5ab50f878e96ad09c0075934"
+    },
+    "038": {
+      "bytes": 90594,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_038.npz",
+      "sha256": "d530327cfb3ae17d448c1ad3506acba43c1a4d050273188050f14ff740d55283"
+    },
+    "039": {
+      "bytes": 77988,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_039.npz",
+      "sha256": "8e021eb923bcb6a097a8efd8237c9478879390a13961e1fe3856ee762b4a4d8b"
+    },
+    "040": {
+      "bytes": 89748,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_040.npz",
+      "sha256": "16bf5627f3eaa4c164f402286374f04dc3457f916c5743b9161cf234fa15ae0f"
+    },
+    "041": {
+      "bytes": 200183,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_041.npz",
+      "sha256": "a58cb00e3ccd775484fd67b4039701930e0b442798c70bc31e0090fdd98959d2"
+    },
+    "042": {
+      "bytes": 645289,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_042.npz",
+      "sha256": "429d2f52a99f78b142afe94872c533fc89988228c1fe4f9e9ac75160bd69dad1"
+    },
+    "043": {
+      "bytes": 460089,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_043.npz",
+      "sha256": "464b35b0f2f4f5f44a1c2ba99c97c1137db7b61e3bdec5156f164e2c259f84b2"
+    },
+    "044": {
+      "bytes": 209819,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/per_batch_npz/circuitsage_hmac_v2_1_enhanced_screen_batch_044.npz",
+      "sha256": "087f1bfd02c39f88a45b34563f2467c4ad7afa5ea63f33a46b0d73c28dd5608e"
+    }
+  },
+  "physical_enabled_records": 24576,
+  "raw_batch_csvs": {
+    "000": {
+      "bytes": 3949465,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_000/circuitsage_hmac_v2_1_enhanced_screen_batch_000.csv",
+      "sha256": "089029ebf6d62e77a74f7e7bd47d37b8146be41bcb1f0aba50196c1f0cda3134"
+    },
+    "001": {
+      "bytes": 3949513,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_001/circuitsage_hmac_v2_1_enhanced_screen_batch_001.csv",
+      "sha256": "20e39b0aefa01c6ffa1390a4b2a72e4cbc8ed638274351e38d94cd3e86654957"
+    },
+    "002": {
+      "bytes": 5772235,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_002/circuitsage_hmac_v2_1_enhanced_screen_batch_002.csv",
+      "sha256": "6e87d46c0cf4ca31c9fb52a33ce4e8cd14f5da77fc0d2e8c0655997289b6ba2a"
+    },
+    "003": {
+      "bytes": 3949417,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_003/circuitsage_hmac_v2_1_enhanced_screen_batch_003.csv",
+      "sha256": "84c5de3c6984cf3f788d81dd4a30fb3eec8f12a418c6bd04e99ad46efe748406"
+    },
+    "004": {
+      "bytes": 5772235,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_004/circuitsage_hmac_v2_1_enhanced_screen_batch_004.csv",
+      "sha256": "e44685eb42ebd9c88c54985912a6582f6b6ca209480b51d86ea78b31ca26bce3"
+    },
+    "005": {
+      "bytes": 3341779,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_005/circuitsage_hmac_v2_1_enhanced_screen_batch_005.csv",
+      "sha256": "3fb633a27780c7641d2eed4e91cf5898d1f6980d63b2c35a812128cbdf0da3eb"
+    },
+    "006": {
+      "bytes": 4557055,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_006/circuitsage_hmac_v2_1_enhanced_screen_batch_006.csv",
+      "sha256": "0457e4c0b46559d663497bf0a87116d27b231258318388b0a63182af6151cc6f"
+    },
+    "007": {
+      "bytes": 2126599,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_007/circuitsage_hmac_v2_1_enhanced_screen_batch_007.csv",
+      "sha256": "514edbfcae2e830fd6fc3096944a216e94f459c187a9b1ec8ad96a8e7e3009ca"
+    },
+    "008": {
+      "bytes": 3341779,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_008/circuitsage_hmac_v2_1_enhanced_screen_batch_008.csv",
+      "sha256": "24670019edcb8cdab9464710929e819d419b2157e19d5ca5ce2bbccced8393d3"
+    },
+    "009": {
+      "bytes": 3341827,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_009/circuitsage_hmac_v2_1_enhanced_screen_batch_009.csv",
+      "sha256": "d78ee77b5ed0457d768994dc1f6b1a444e9bfeeb7adbc156371ef87a5f268b42"
+    },
+    "010": {
+      "bytes": 2734621,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_010/circuitsage_hmac_v2_1_enhanced_screen_batch_010.csv",
+      "sha256": "8fe658016f9fc2e921b855b68916b4da9d1323ff84f03cbb014332598f8a5bb6"
+    },
+    "011": {
+      "bytes": 2126935,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_011/circuitsage_hmac_v2_1_enhanced_screen_batch_011.csv",
+      "sha256": "4f4cd5897f76640e72e2eea22f6b04f01972a22bdbc51fd8a8d5b0242f722ce5"
+    },
+    "012": {
+      "bytes": 2126839,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_012/circuitsage_hmac_v2_1_enhanced_screen_batch_012.csv",
+      "sha256": "8d97e5d821dcb2baf5150dc86d003f5a60d5edd12f5dd4b2ef14eeea114f0d9f"
+    },
+    "013": {
+      "bytes": 3950137,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_013/circuitsage_hmac_v2_1_enhanced_screen_batch_013.csv",
+      "sha256": "32bf6ccd2be01d7b038a24caf2eeb65a58e34d3580a68a97d6fcedc838a1b540"
+    },
+    "014": {
+      "bytes": 4557583,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_014/circuitsage_hmac_v2_1_enhanced_screen_batch_014.csv",
+      "sha256": "855a90b62bb5268496f2637219935c461774bab5ce726c0eb7803154dd180c47"
+    },
+    "015": {
+      "bytes": 5165461,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_015/circuitsage_hmac_v2_1_enhanced_screen_batch_015.csv",
+      "sha256": "f9bfe3a9be3121f698f88e2c66c3ced711339f4ea7759e63bdf9c745d8da5c64"
+    },
+    "016": {
+      "bytes": 4557871,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_016/circuitsage_hmac_v2_1_enhanced_screen_batch_016.csv",
+      "sha256": "1da8fa9b29adc05dd8dab751d8e5c1765057d1bb7eaa9614effbfa57ae6d301a"
+    },
+    "017": {
+      "bytes": 3949753,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_017/circuitsage_hmac_v2_1_enhanced_screen_batch_017.csv",
+      "sha256": "f72fec22176864c3e79f98a404f88aa22ca5eadcee0d175d7074e358e7ca86f9"
+    },
+    "018": {
+      "bytes": 911467,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_018/circuitsage_hmac_v2_1_enhanced_screen_batch_018.csv",
+      "sha256": "6ca63f3dc5bdd486c39f4172d842eac3df5d1414889c2591b8bbe250ae1d469b"
+    },
+    "019": {
+      "bytes": 5773243,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_019/circuitsage_hmac_v2_1_enhanced_screen_batch_019.csv",
+      "sha256": "ff77bf1d6288e84592061878e35e4108f1cf99eebd29120f05b1071fbbccfbd8"
+    },
+    "020": {
+      "bytes": 3342403,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_020/circuitsage_hmac_v2_1_enhanced_screen_batch_020.csv",
+      "sha256": "5cd6554a3e87939833b1387624d49f4aa2df4fdbc8bac0d5fdd3b1cc27e24094"
+    },
+    "021": {
+      "bytes": 5773051,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_021/circuitsage_hmac_v2_1_enhanced_screen_batch_021.csv",
+      "sha256": "8eb9137c96892e4af216380b8f52b6435061494d76b04b96c183522394ff5bb1"
+    },
+    "022": {
+      "bytes": 2126935,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_022/circuitsage_hmac_v2_1_enhanced_screen_batch_022.csv",
+      "sha256": "4901ab35db8832cfa87e5714006488bedac8055b266165c5878fad3a04cc9720"
+    },
+    "023": {
+      "bytes": 911467,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_023/circuitsage_hmac_v2_1_enhanced_screen_batch_023.csv",
+      "sha256": "4b0f7a332a4b3bd825f97dda6ab011cd5232784823ebc08167d3fef165dd14f8"
+    },
+    "024": {
+      "bytes": 3950041,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_024/circuitsage_hmac_v2_1_enhanced_screen_batch_024.csv",
+      "sha256": "7aac03377e617f03b3ef7cea38781856c8ca2545c70bc29e2d3cdfe8a477509a"
+    },
+    "025": {
+      "bytes": 3950137,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_025/circuitsage_hmac_v2_1_enhanced_screen_batch_025.csv",
+      "sha256": "f3e0e4ec9621c4a69b94e661e20866d8686d75c2c44a3729a1b92f6055c40834"
+    },
+    "026": {
+      "bytes": 2734573,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_026/circuitsage_hmac_v2_1_enhanced_screen_batch_026.csv",
+      "sha256": "74ae6befddce529d4edf87adaae3388725b851c5b416cb0c53af40ef5334e022"
+    },
+    "027": {
+      "bytes": 4557727,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_027/circuitsage_hmac_v2_1_enhanced_screen_batch_027.csv",
+      "sha256": "2ad12b294787d90db443ff3a9da923eee4a97dc4a54f439cbd47ffd8d3d53efc"
+    },
+    "028": {
+      "bytes": 2126839,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_028/circuitsage_hmac_v2_1_enhanced_screen_batch_028.csv",
+      "sha256": "27808e209e0fe5ec68944008e5f7d9dad49430cebb03365e7ee9a7e1096ec940"
+    },
+    "029": {
+      "bytes": 5165413,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_029/circuitsage_hmac_v2_1_enhanced_screen_batch_029.csv",
+      "sha256": "2fda9a00dc0c53434276b6108b36a9977e5512e5bc484a8a60d974a8f9df6dca"
+    },
+    "030": {
+      "bytes": 3949945,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_030/circuitsage_hmac_v2_1_enhanced_screen_batch_030.csv",
+      "sha256": "64525969e4b63e22ed2ed53215784b7964ac0fffc970a7b361b5e266d29a7cf0"
+    },
+    "031": {
+      "bytes": 3342211,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_031/circuitsage_hmac_v2_1_enhanced_screen_batch_031.csv",
+      "sha256": "8b54f9b037a23c89b9e0a07e5db741348015eaa2e152c6fcebc9bef3896c49e6"
+    },
+    "032": {
+      "bytes": 3342019,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_032/circuitsage_hmac_v2_1_enhanced_screen_batch_032.csv",
+      "sha256": "9ba639b6693b0f1d36672708e27a7547d4e32e17ff7a289b65fdf695da3fe07f"
+    },
+    "033": {
+      "bytes": 7596253,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_033/circuitsage_hmac_v2_1_enhanced_screen_batch_033.csv",
+      "sha256": "56458e78236fb921d709f26c2e58814eefcf52262f058c30ad73a37d759270c7"
+    },
+    "034": {
+      "bytes": 2126935,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_034/circuitsage_hmac_v2_1_enhanced_screen_batch_034.csv",
+      "sha256": "31e28a28bceb8c52716b141783bebb1fd017a75824f870a5b9a2ff6eb4e0a717"
+    },
+    "035": {
+      "bytes": 5165893,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_035/circuitsage_hmac_v2_1_enhanced_screen_batch_035.csv",
+      "sha256": "06d69bbed57fd3e1ad5a1c05d36e88b2d30f82a81d857c649120bc6cf3b93f12"
+    },
+    "036": {
+      "bytes": 2734573,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_036/circuitsage_hmac_v2_1_enhanced_screen_batch_036.csv",
+      "sha256": "11e7c5883d1e6ee59a9d9885e553168aeda77e10296a734e1628f938f5a9046f"
+    },
+    "037": {
+      "bytes": 5772955,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_037/circuitsage_hmac_v2_1_enhanced_screen_batch_037.csv",
+      "sha256": "f3b898d8f84488f2bbf9860e213a65c8d3a2f8172ce0f914509a926c5eb07d31"
+    },
+    "038": {
+      "bytes": 4557583,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_038/circuitsage_hmac_v2_1_enhanced_screen_batch_038.csv",
+      "sha256": "4ed705153f03e0169aa0fb9c612b20c5afd2d2c1b9bc0f04daa8927b6575e3b6"
+    },
+    "039": {
+      "bytes": 2734573,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_039/circuitsage_hmac_v2_1_enhanced_screen_batch_039.csv",
+      "sha256": "a787bcf8b774da660e37d905cb1e6367bbb5cab9cff065856851a3bc234e355a"
+    },
+    "040": {
+      "bytes": 3342211,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_040/circuitsage_hmac_v2_1_enhanced_screen_batch_040.csv",
+      "sha256": "1b9fb19e51e30b6a5f1d1202ba3e22e6075fd960c76392bf8cb6d5fcbc58e7af"
+    },
+    "041": {
+      "bytes": 3342115,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_041/circuitsage_hmac_v2_1_enhanced_screen_batch_041.csv",
+      "sha256": "f7abe546f39e0b83657e633ca1f15fc57fb02d7540cfa09a07993a1a91b5b5ef"
+    },
+    "042": {
+      "bytes": 5165605,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_042/circuitsage_hmac_v2_1_enhanced_screen_batch_042.csv",
+      "sha256": "dc063c7f84096d2729bdf8e218b730274e0f6089abf9faafa0139961e91f74e4"
+    },
+    "043": {
+      "bytes": 3950137,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_043/circuitsage_hmac_v2_1_enhanced_screen_batch_043.csv",
+      "sha256": "59b132f369db3e274d3c47cb38e5f694338c4893f2ff42991c43a624e8eb99b4"
+    },
+    "044": {
+      "bytes": 1519105,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/raw_batches/batch_044/circuitsage_hmac_v2_1_enhanced_screen_batch_044.csv",
+      "sha256": "519e11bd1c84be75778c62549bc7b19bff0093517333797e18dfcf1a8f27be77"
+    }
+  },
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "screen_sites": 256,
+  "selected_vectors": 48,
+  "stage": "12B-3D",
+  "status": "PASS",
+  "training_calls": 0,
+  "unknown_records": 0,
+  "validation_access": 0
+}

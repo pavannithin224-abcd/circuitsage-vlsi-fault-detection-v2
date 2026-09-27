@@ -1,0 +1,47 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-TRAINING-AUTHORIZATION-FREEZE-v1",
+  "authorization": {
+    "bytes": 759,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_training_authorization_12b1c.json",
+    "sha256": "0ff527e90fefbfd529e259fc15e71eb1f7340959075da6234778f7efbf776a6f"
+  },
+  "authorization_status": "FROZEN",
+  "candidate_execution": "SEQUENTIAL",
+  "candidates": 3,
+  "dataset_preflight": "PASS",
+  "dev_site_test": "LOCKED / NOT OPENED / NOT AUTHORIZED",
+  "execution_contract": {
+    "bytes": 4444,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_training_execution_contract_12b1c.json",
+    "sha256": "16d717a40d261d7a8cbd5affbdbe0f6fa1afe432f05d8898a32e4594cc3c5f36"
+  },
+  "execution_contract_status": "FROZEN",
+  "execution_plan": {
+    "bytes": 484,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_candidate_execution_plan_12b1c.csv",
+    "sha256": "7b617c5f29d3fa104421b6dabee8d86e3cbac9c68e8117d259a3e4a72af096f1"
+  },
+  "fit_partition": "DEV_TRAIN ONLY",
+  "holdout_access_count": 0,
+  "inference_calls": 0,
+  "locator_training": "AUTHORIZED FOR DEV_TRAIN ONLY / NOT STARTED",
+  "manifest": {
+    "bytes": 5922,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_training_authorization_manifest_12b1c.json",
+    "sha256": "9c869922d6114dab8c1cabcc4b0482a69a4b558da4cd8fbfc7c5b08fc5e29225"
+  },
+  "next_gate": "STAGE 12B-1D — V2.1 LOCATOR TRAINING AND CALIBRATION EXECUTION",
+  "preflight": {
+    "bytes": 918,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_training_preflight_12b1c.json",
+    "sha256": "21b85931298b681ad29acc6ec7591959636ff19693f0cd6fac729e021232da1e"
+  },
+  "selection_partition": "DEV_CALIBRATION ONLY",
+  "stage": "12B-1C",
+  "status": "PASS",
+  "trainable_candidates": 2,
+  "training_calls": 0,
+  "v1_modified": false,
+  "v2_core_modified": false,
+  "validation_access_count": 0
+}

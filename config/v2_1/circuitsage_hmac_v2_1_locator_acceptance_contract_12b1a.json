@@ -1,0 +1,40 @@
+{
+  "calibration_advancement_targets": {
+    "ambiguous_false_unique_rate_max": 0.01,
+    "deterministic_replay": "EXACT",
+    "exact_signature_candidate_set_coverage_min": 0.95,
+    "fault_free_false_alarm_rate_max": 0.05,
+    "no_catalog_match_false_unique_rate_max": 0.01,
+    "observable_candidate_set_coverage_min": 0.95,
+    "observable_detection_recall_min": 0.9,
+    "observable_mean_reciprocal_rank_greater_than_v2_core": 0.00629651,
+    "unique_signature_top1_site_accuracy_min": 0.95
+  },
+  "claim_boundaries": {
+    "independent_generalization": "NOT ESTABLISHED BY THIS EXPERIMENT",
+    "normal_response": "CANNOT PROVE ABSENCE OF AN INVISIBLE OR UNACTIVATED FAULT",
+    "production_or_silicon_readiness": "NOT ESTABLISHED",
+    "successful_result": "closed-catalog HMAC SA0/SA1 behavior-based localization only"
+  },
+  "contract_version": "CIRCUITSAGE-HMAC-V2.1-LOCATOR-ACCEPTANCE-v1",
+  "if_met": "authorize a separate locked DEV_SITE_TEST evaluation contract",
+  "if_not_met": "freeze negative result; do not open DEV_SITE_TEST",
+  "primary_selection_order": [
+    "observable candidate-set coverage",
+    "unique-signature top-1 site accuracy",
+    "ambiguous false-unique rate",
+    "observable mean reciprocal rank",
+    "mean returned candidate-set size"
+  ],
+  "rationale": "exact top-k accuracy is not a valid sole target when multiple catalog sites have identical observable signatures",
+  "reported_not_primary_gates": [
+    "top-5 site accuracy",
+    "top-10 site accuracy",
+    "top-50 candidate coverage",
+    "conditional SA0/SA1 accuracy",
+    "candidate-set size distribution",
+    "exact-match, near-match and no-match breakdowns"
+  ],
+  "stage": "12B-1A",
+  "status": "FROZEN"
+}

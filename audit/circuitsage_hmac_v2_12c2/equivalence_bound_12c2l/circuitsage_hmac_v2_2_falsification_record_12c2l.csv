@@ -1,0 +1,7 @@
+stage,formulation,target,outcome,predicted_to_work
+12C-2C,"metric retrieval, uniform random negatives",response -> rank over all nodes,no transfer to unseen circuit,YES
+12C-2E,"metric retrieval, topology-stratified hard negatives",response -> rank over all nodes,no transfer; contract violation fixed,YES
+12C-2F,measurement against non-learning comparator,acceptance gates,comparator 182x better (MRR 0.6745 vs 0.0037),N/A
+12C-2G,graph-constrained reranking within collision sets,select true site inside set,lift exactly 1.00x,YES
+12C-2J,identifiability analysis,is within-set selection learnable,PROVED NOT IDENTIFIABLE,N/A
+12C-2K,message-passing GNN on observability,per-site observability,"calibration AUROC 0.348, below random; depth threshold 0.768 beats it",YES

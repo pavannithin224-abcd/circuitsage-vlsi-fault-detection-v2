@@ -1,0 +1,49 @@
+{
+  "feature_identity_fields": 0,
+  "features": {
+    "bytes": 46329857,
+    "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_features_12b3g.npz",
+    "sha256": "ea3af3be023fcafa4023776f6650ac9fc1c4cac429b2730eac5329a22e1d161d"
+  },
+  "frozen_dimensions": {
+    "fault_instances": 2048,
+    "probe_bits": 256,
+    "sites": 1024,
+    "snapshots": 16,
+    "vectors": 96
+  },
+  "lock_version": "CIRCUITSAGE-HMAC-V2.1-FULL-CAPTURE-WINNER-DATASET-LOCK-12B3H-v1",
+  "metrics": {
+    "bytes": 1592,
+    "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_metrics_12b3g.json",
+    "sha256": "f41502e7e76c9bb381b926f81db538cfff47bf4d11c5988bdd419925de96b1de"
+  },
+  "schema": {
+    "bytes": 3084,
+    "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_dataset_schema_12b3g.json",
+    "sha256": "f719dab6fd324cc093de41853fa374278d327db67e01ad5259fdc21808121b20"
+  },
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "signature_summary": {
+    "bytes": 154928,
+    "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_signature_summary_12b3g.csv",
+    "sha256": "6525f34f7b6321faf38d9229a11b1e453db804b536d322137af73f37ac271706"
+  },
+  "source_audit": {
+    "bytes": 1924,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_execution_dataset_freeze_12b3g.json",
+    "sha256": "dcfb5139d6353218bb0f1899160767e0a6f885cf334f4589c31d25f11ae9e4b6"
+  },
+  "source_manifest": {
+    "bytes": 28130,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_dataset_manifest_12b3g.json",
+    "sha256": "9af923d5596491fb730a1574a6d3c299ca970a2e2e6a64bc0ee1f8a43b24110a"
+  },
+  "stage": "12B-3H",
+  "status": "FROZEN",
+  "targets": {
+    "bytes": 7675,
+    "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_targets_12b3g.npz",
+    "sha256": "895457c94418b16e8d0f5e2a1464c5f03bb5a1673e40e23cdd71c95002ddd5b3"
+  }
+}

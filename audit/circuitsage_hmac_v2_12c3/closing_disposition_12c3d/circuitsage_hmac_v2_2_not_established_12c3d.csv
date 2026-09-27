@@ -1,0 +1,6 @@
+item,why,evidence_stage
+independent-circuit generalization of the acceptance contract,the contract requires the per-circuit floor on BOTH test circuits; ibex_cpu could not be captured from the acquired snapshot,12C-3C
+any CPU-class independent test result,the only CPU-class test circuit was uncapturable and the holdout CPU remains sealed by decision,"12C-3C, 12C-3A"
+that learned models cannot help this problem in principle,four formulations were falsified; that is not a proof over all models,12C-2L
+that the structural-equivalence bound is formally proven per fault,"adjacency is a strong structural indicator, not a per-fault equivalence proof",12C-2L
+behaviour under fault models other than single stuck-at,"delay, bridging and transient faults were never in the catalog",12C-1F

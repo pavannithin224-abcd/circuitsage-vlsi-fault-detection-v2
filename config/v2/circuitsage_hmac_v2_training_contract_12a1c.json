@@ -1,0 +1,104 @@
+{
+  "acceptance": {
+    "deterministic_replay": "EXACT",
+    "fault_free_false_alarm_rate_max": 0.05,
+    "observable_candidate_coverage_min": 0.95,
+    "observable_fault_detection_recall_min": 0.9,
+    "observable_top5_site_accuracy_min": 0.8,
+    "post_simulation_target_feature_count": 0,
+    "unique_signature_top1_site_accuracy_min": 0.8,
+    "unknown_identity_feature_count": 0
+  },
+  "ambiguous_site_fault_instances": 13759,
+  "backend": "CUSTOM DETERMINISTIC NUMPY BACKPROPAGATION / ADAMW",
+  "candidate_execution": "SEQUENTIAL",
+  "contract_version": "CIRCUITSAGE-HMAC-V2-TRAINING-CONTRACT-v1",
+  "detector_training": "NONE; exact frozen rule",
+  "deterministic_replay": {
+    "metrics": "EXACT",
+    "ranking": "EXACT",
+    "scores": "EXACT",
+    "weights": "EXACT"
+  },
+  "estimated_cpu_training_time": "60-180 MINUTES",
+  "fault_instances": 45678,
+  "gpu_required": false,
+  "internet_required": false,
+  "locator_training": {
+    "activation": "RELU",
+    "candidate_static_cache": "may be generated from frozen pre-simulation inputs; labels must not enter cache",
+    "candidate_static_features": "frozen graph K3 features + SA0/SA1 one-hot + frozen V1 support vector",
+    "checkpoint_resume": "ENABLED; exact epoch boundary",
+    "early_stopping": "DISABLED; fixed candidate epochs",
+    "eligible_queries": "observable DEV_TRAIN fault instances only",
+    "gradient_clip_l2": 5.0,
+    "loss": "MULTI-POSITIVE SAMPLED SOFTMAX RANKING LOSS",
+    "negative_sampling": "deterministic, within DEV_TRAIN; exclude all known same-profile positives in that partition",
+    "optimizer": "ADAMW",
+    "positive_definition": "same observable response profile within the active partition"
+  },
+  "locked_evaluation_after_selection": {
+    "DEV_SITE_TEST": "one evaluation only after model and calibration lock",
+    "HOLDOUT": "blocked until a separately frozen authorization",
+    "VALIDATION": "historical V1 evidence only; V2 access prohibited"
+  },
+  "normal_compatible_fault_instances": 22748,
+  "observable_fault_instances": 22930,
+  "parallel_candidates": 1,
+  "prohibitions": [
+    "opening DEV_SITE_TEST during fitting or selection",
+    "opening VALIDATION or HOLDOUT",
+    "modifying or fine-tuning V1",
+    "using fault/site/type identity from the query as input",
+    "using profile_index or catalog membership as a query feature",
+    "treating normal-compatible faults as observable detections"
+  ],
+  "required_breakdowns": [
+    "unique vs ambiguous response",
+    "cross-partition profile vs partition-local profile",
+    "SA0 vs SA1",
+    "site category",
+    "driver cell type"
+  ],
+  "required_metrics": [
+    "fault-free false-alarm rate",
+    "observable detection recall",
+    "observable candidate coverage",
+    "unique-signature top1 site accuracy",
+    "observable top5 site accuracy",
+    "mean reciprocal rank",
+    "median candidate-set size",
+    "SA0/SA1 accuracy conditional on observable anomaly"
+  ],
+  "selection": {
+    "partition": "DEV_CALIBRATION",
+    "primary_metric": "OBSERVABLE MEAN RECIPROCAL RANK",
+    "profile_overlap_policy": "report cross-partition and profile-novel subsets separately; unique-site top1 is mandatory",
+    "threshold_selection": "NONE FOR EXACT DETECTOR; ranker uncertainty calibration only",
+    "tie_breakers": [
+      "UNIQUE-SIGNATURE TOP1 SITE ACCURACY",
+      "OBSERVABLE TOP5 SITE ACCURACY",
+      "LOWER PARAMETER COUNT"
+    ]
+  },
+  "site_partitions": {
+    "DEV_CALIBRATION": {
+      "sites": 3426,
+      "use": "candidate selection and uncertainty calibration only"
+    },
+    "DEV_SITE_TEST": {
+      "sites": 3426,
+      "use": "LOCKED; not opened by training"
+    },
+    "DEV_TRAIN": {
+      "sites": 15987,
+      "use": "gradient updates"
+    }
+  },
+  "source_partition": "TRAIN RESPONSES ONLY",
+  "source_vectors": 64,
+  "stage": "12A-1C",
+  "status": "FROZEN",
+  "training_authorization": "AUTHORIZED FOR DEV_TRAIN ONLY AFTER THIS FREEZE PASSES",
+  "unique_site_fault_instances": 9171
+}

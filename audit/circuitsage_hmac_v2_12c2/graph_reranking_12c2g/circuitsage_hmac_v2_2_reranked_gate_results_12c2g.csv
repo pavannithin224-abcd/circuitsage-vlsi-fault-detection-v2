@@ -1,0 +1,5 @@
+circuit_family,gate,threshold,baseline_12c2f,reranked_12c2g,perfect_ceiling,improvement,would_meet_on_this_family,acceptance_decision
+opentitan_hmac_sha256,all_injected_exact_site_rate_min,0.15,0.06807308,0.07853958,0.26761635,0.0104665,NO,NOT EVALUATED - DEVELOPMENT PARTITION
+picorv32_cpu,all_injected_exact_site_rate_min,0.15,0.02431454,0.04040352,0.24588722,0.01608898,NO,NOT EVALUATED - DEVELOPMENT PARTITION
+secworks_aes,all_injected_exact_site_rate_min,0.15,0.53064759,0.6359375,0.97140437,0.10528991,YES,NOT EVALUATED - DEVELOPMENT PARTITION
+secworks_sha256,all_injected_exact_site_rate_min,0.15,0.63852055,0.63852055,0.94668493,0.0,YES,NOT EVALUATED - DEVELOPMENT PARTITION

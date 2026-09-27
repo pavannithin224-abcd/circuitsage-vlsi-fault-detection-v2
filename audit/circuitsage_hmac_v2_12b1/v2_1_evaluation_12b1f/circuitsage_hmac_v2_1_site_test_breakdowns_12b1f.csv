@@ -1,0 +1,6 @@
+category,group,fault_instances,observable_fault_instances,detection_recall_all_injected,candidate_set_coverage,exact_site_rate,mean_candidate_set_size
+observability_class,NORMAL_COMPATIBLE,3425,0,0.0,1.0,0.0,12019.0
+observability_class,UNIQUE_SITE,1328,1328,1.0,1.0,1.0,1.0
+observability_class,AMBIGUOUS_SITES,2099,2099,1.0,1.0,0.0,230.5988565983802
+fault_model,SA0,3426,1649,0.4813193228254524,1.0,0.21862230005837713,6274.302977232925
+fault_model,SA1,3426,1778,0.5189725627553999,1.0,0.1690017513134851,5882.856976065383

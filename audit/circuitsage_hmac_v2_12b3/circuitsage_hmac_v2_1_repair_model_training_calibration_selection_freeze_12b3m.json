@@ -1,0 +1,58 @@
+{
+  "ambiguous_false_unique_rate": 0.0,
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-MODEL-TRAINING-CALIBRATION-SELECTION-FREEZE-12B3M-v1",
+  "calibration_all_injected_exact_site_rate": 0.6337890625,
+  "calibration_candidate_set_coverage": 1.0,
+  "calibration_detection_recall": 0.7080078125,
+  "calibration_mean_maximum_candidate_sites": [
+    1.670344827586207,
+    17
+  ],
+  "calibration_observable_mrr": 1.0,
+  "calibration_polarity_accuracy_given_correct_unique_site": 1.0,
+  "calibration_use": "ONE SELECTION PASS / ZERO GRADIENT UPDATES",
+  "candidate_bundle": {
+    "bytes": 1634169,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_trained_repair_candidates_12b3m.joblib",
+    "sha256": "39b7f8e38672f6a34da42117ff1850b4ef52fa6c43dd2b679074c992c6d2147d"
+  },
+  "candidates_evaluated_trainable_runs": [
+    4,
+    9
+  ],
+  "deterministic_prediction_replay": "PASS / EXACT",
+  "dev_site_test": "CONSUMED / NOT REOPENED",
+  "fault_free_false_alarm_rate": 0.0,
+  "independent_generalization": "NOT ESTABLISHED",
+  "learned_advancement_target": "NOT_MET",
+  "manifest": {
+    "bytes": 12599,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_model_training_manifest_12b3m.json",
+    "sha256": "b6d2f8820dc6fba71ae1ad48a42c817d8dec83f29cea906b9122af71ccbbe95e"
+  },
+  "next_gate": "STAGE 12B-3N — LOCKED REPAIR_SITE_TEST CAPTURE AND EVALUATION AUTHORIZATION FREEZE",
+  "query_fault_identity": "PROHIBITED / ABSENT",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "safety_and_coverage_acceptance": "PASS",
+  "selected_candidate": "R31_EXACT_SIGNATURE_SET",
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "selected_model": {
+    "bytes": 1644,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_selected_repair_model_12b3m.npz",
+    "sha256": "2f1d35c3f2b71f975859a99238d07e1e0d8620f02d79f3808ca1e5c2ccf6f39a"
+  },
+  "selection_lock": {
+    "bytes": 1995,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_repair_model_selection_lock_12b3m.json",
+    "sha256": "7b9cb7d6c4dd9e8123fdfc3b327bcd6213b827d6338cdc7bd0326f739704bf53"
+  },
+  "selection_reason": "MANDATORY EXACT-SIGNATURE FALLBACK: LEARNED IMPROVEMENT NOT ESTABLISHED",
+  "stage": "12B-3M",
+  "status": "PASS",
+  "training_partition": "REPAIR_TRAIN ONLY",
+  "training_selection_status": "FROZEN / FROZEN",
+  "validation_holdout_access": [
+    0,
+    0
+  ]
+}

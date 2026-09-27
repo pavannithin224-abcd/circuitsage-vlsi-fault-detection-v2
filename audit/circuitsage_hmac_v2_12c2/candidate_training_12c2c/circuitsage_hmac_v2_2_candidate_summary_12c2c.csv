@@ -1,0 +1,4 @@
+candidate_id,parameters,parameter_cap,cap_respected,epochs_run,best_epoch,best_calibration_top1,final_train_top1,wall_clock_s
+V22_GRAPHSAGE_METRIC_SMALL,80708,750000,True,10,1,0.015625,0.059196,1767.3
+V22_GATV2_CROSS_FUSION,182052,1500000,True,9,0,0.014974,0.064443,1550.5
+V22_GRAPHSAGE_OOD_ENSEMBLE,133702,1500000,True,9,0,0.018555,0.060838,1049.0

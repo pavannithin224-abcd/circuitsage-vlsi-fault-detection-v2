@@ -1,0 +1,75 @@
+{
+  "acceptance_contract": {
+    "bytes": 1237,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_acceptance_contract_12b3i.json",
+    "sha256": "ca95bc7fc7587e995f48b0efa03390734192fd251cd82ebd25387c5663d1e0d2"
+  },
+  "acceptance_contract_status": "FROZEN",
+  "ambiguity_preservation": "MANDATORY",
+  "architecture": {
+    "bytes": 2065,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_architecture_12b3i.json",
+    "sha256": "61d593a3f490d39bcb2d5dfd731e37ec0ab76af9978a44bc0f9463f6042ab407"
+  },
+  "architecture_status": "FROZEN",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-MODEL-CONTRACT-FREEZE-12B3I-v1",
+  "candidate_grid": {
+    "bytes": 646,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_candidate_grid_12b3i.csv",
+    "sha256": "d9026b2f9c487adc3abc552637a54791960b20f0fbc8c023d55a0f49f2f56fdc"
+  },
+  "candidate_models": 4,
+  "data_partition_contract_status": "FROZEN",
+  "dev_site_test_validation_holdout_access": [
+    0,
+    0,
+    0
+  ],
+  "environment": {
+    "bytes": 449,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_contract_12b3i/circuitsage_hmac_v2_1_repair_model_environment_12b3i.json",
+    "sha256": "c6c79520bc320544616f533646935040445db2021232a37347c00770e8bf7455"
+  },
+  "feature_contract": {
+    "bytes": 2912,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_feature_contract_12b3i.json",
+    "sha256": "b9cfd0d73a0f76e4d661c5476615fc7f236e85c5038eedcd83e3068cf021cbf6"
+  },
+  "feature_contract_status": "FROZEN",
+  "manifest": {
+    "bytes": 8304,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_model_contract_manifest_12b3i.json",
+    "sha256": "b3d62d856dc420a0e5cc51db53fbb09c2fcc2d985b8f4b7bb6ef124d17cd5fc2"
+  },
+  "model_family": "EXACT SIGNATURE RETRIEVAL + BLOCK-WEIGHTED RETRIEVAL + PAIRWISE RERANKING",
+  "next_gate": "STAGE 12B-3J — ENHANCED REPAIR_CALIBRATION CAPTURE AUTHORIZATION FREEZE",
+  "partition_contract": {
+    "bytes": 1797,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_data_partition_contract_12b3i.json",
+    "sha256": "44420dd5fb37cdca9a8207920d69fd5e3bfee6847a4f63db34b91bae54ece562"
+  },
+  "query_fault_identity": "PROHIBITED",
+  "repair_calibration": "LOCKED / NOT OPENED",
+  "repair_site_test": "LOCKED / NOT OPENED",
+  "report": {
+    "bytes": 1422,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_contract_12b3i/circuitsage_hmac_v2_1_repair_model_contract_report_12b3i.md",
+    "sha256": "ec44396e32d2fcf1c88017a1feca78d49370c1cf52c531caa7f41741745b768b"
+  },
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "stage": "12B-3I",
+  "status": "PASS",
+  "trainable_candidates": 3,
+  "training": "NOT AUTHORIZED / NOT STARTED",
+  "training_contract": {
+    "bytes": 1964,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_training_contract_12b3i.json",
+    "sha256": "aeb765ef519313679fe3feba9714de8231401928631a2dc157c68db715a10e2d"
+  },
+  "training_contract_status": "FROZEN",
+  "v1_v2_core_v2_1_modified": [
+    false,
+    false,
+    false
+  ]
+}

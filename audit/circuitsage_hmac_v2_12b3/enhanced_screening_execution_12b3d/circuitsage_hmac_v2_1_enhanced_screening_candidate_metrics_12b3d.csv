@@ -1,0 +1,4 @@
+candidate_id,probe_bits,snapshots,external_observable_faults,probe_observable_faults,probe_rescued_faults,combined_observable_faults,combined_detection_recall,site_bootstrap_ci_low,site_bootstrap_ci_high,fault_free_false_alarms,fault_free_baseline_records,frozen_detection_target,acceptance
+EM_TOPOLOGY_4X64_T24,256,24,247,250,9,256,0.50000000,0.44335938,0.55664062,0,2160,0.70000000,NOT_MET
+EM_STATE_CHECKPOINT_2X64_T32,128,32,247,250,9,256,0.50000000,0.44335938,0.55664062,0,2160,0.70000000,NOT_MET
+EM_TESTPOINT_4X64_T16,256,16,247,383,142,389,0.75976562,0.71875000,0.80078125,0,2160,0.70000000,PASS

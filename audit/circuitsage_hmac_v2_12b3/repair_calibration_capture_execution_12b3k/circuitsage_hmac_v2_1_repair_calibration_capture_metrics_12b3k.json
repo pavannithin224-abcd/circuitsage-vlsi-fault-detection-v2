@@ -1,0 +1,47 @@
+{
+  "acceptance_targets": {
+    "all_injected_exact_site_rate_min": 0.35,
+    "combined_all_injected_detection_recall_min": 0.7,
+    "fault_free_false_alarm_rate_max": 0.0,
+    "maximum_observable_candidate_sites_max": 500,
+    "mean_observable_candidate_sites_max": 50.0
+  },
+  "authorized_cohort_exact_site_rate": 0.6337890625,
+  "authorized_cohort_observable_candidate_set_coverage": 1.0,
+  "combined_all_injected_detection_recall": 0.7080078125,
+  "combined_detection_site_bootstrap_ci_95": [
+    0.6767333984375,
+    0.7421875
+  ],
+  "combined_observable_faults": 725,
+  "criteria": {
+    "detection_recall": "PASS",
+    "exact_site_rate": "PASS",
+    "false_alarm_rate": "PASS",
+    "maximum_candidate_sites": "PASS",
+    "mean_candidate_sites": "PASS"
+  },
+  "dataset_integrity_acceptance": "PASS",
+  "exact_site_site_bootstrap_ci_95": [
+    0.6005615234375,
+    0.6718994140625
+  ],
+  "external_observable_faults": 550,
+  "fault_free_false_alarm_rate": 0.0,
+  "fault_free_false_alarms": 0,
+  "fault_instances": 1024,
+  "frozen_target_comparison": "PASS",
+  "interpretation": "AUTHORIZED-COHORT CONSISTENCY DIAGNOSTIC ONLY; NOT FULL-CATALOG OR MODEL ACCURACY AND NOT INDEPENDENT GENERALIZATION",
+  "maximum_observable_candidate_sites_within_authorized_cohort": 17,
+  "mean_observable_candidate_sites_within_authorized_cohort": 1.670344827586207,
+  "metrics_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-CALIBRATION-CAPTURE-METRICS-12B3K-v1",
+  "normal_compatible_faults": 299,
+  "probe_observable_faults": 709,
+  "probe_rescued_faults": 175,
+  "scope": "REPAIR_CALIBRATION 512-SITE CLOSED-CATALOG MEASUREMENT",
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "sites": 512,
+  "stage": "12B-3K",
+  "status": "FROZEN",
+  "vectors": 96
+}

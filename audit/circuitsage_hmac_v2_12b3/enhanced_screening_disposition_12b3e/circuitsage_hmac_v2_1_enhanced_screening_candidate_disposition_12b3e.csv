@@ -1,0 +1,4 @@
+candidate_id,combined_detection_recall,probe_rescued_faults,site_bootstrap_ci_low,site_bootstrap_ci_high,fault_free_false_alarms,screening_acceptance,disposition
+EM_TOPOLOGY_4X64_T24,0.50000000,9,0.44335938,0.55664062,0,NOT_MET,REJECTED_PRESERVED
+EM_STATE_CHECKPOINT_2X64_T32,0.50000000,9,0.44335938,0.55664062,0,NOT_MET,REJECTED_PRESERVED
+EM_TESTPOINT_4X64_T16,0.75976562,142,0.71875000,0.80078125,0,PASS,SELECTED_AND_LOCKED

@@ -1,0 +1,51 @@
+{
+  "canonical_batches": 45,
+  "canonical_netlists_modified": false,
+  "enabled_transactions": 196608,
+  "fault_instances": 2048,
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-PROBE-CAPTURE-AUTHORIZATION-MANIFEST-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_capture_execution_authorization_12b2g.json": {
+      "bytes": 1721,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_capture_execution_authorization_12b2g.json",
+      "sha256": "f1433272421dcd284f9af354639a99e9cbb032da8dd4a9ff03dd744eae2eb00a"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_capture_execution_contract_12b2g.json": {
+      "bytes": 1590,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_capture_execution_contract_12b2g.json",
+      "sha256": "cdc51bbf965e2c657764462317ef9482e46a86da3967af00657a8dab36b6d5da"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_capture_authorization_12b2g/circuitsage_hmac_v2_1_probe_capture_execution_plan_12b2g.csv": {
+      "bytes": 2060,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_capture_authorization_12b2g/circuitsage_hmac_v2_1_probe_capture_execution_plan_12b2g.csv",
+      "sha256": "dad89bf2576355e5edb9dd58faa67b4b6c700f6323674d51db0cf1e986c49f81"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_capture_authorization_12b2g/circuitsage_hmac_v2_1_probe_capture_preflight_12b2g.json": {
+      "bytes": 779,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_capture_authorization_12b2g/circuitsage_hmac_v2_1_probe_capture_preflight_12b2g.json",
+      "sha256": "8bfc511412234cb702592c044c72bf8d9fc45424a5d650b51055e690cf2d160a"
+    }
+  },
+  "pilot_sites": 1024,
+  "probe_bits": 64,
+  "probe_values_captured": 0,
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "selected_vectors": 96,
+  "simulation_calls": 0,
+  "snapshots_per_transaction": 16,
+  "stage": "12B-2G",
+  "stage_12b2f_audit": {
+    "bytes": 1153,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_probe_discovery_instrumentation_feasibility_freeze_12b2f.json",
+    "sha256": "f1103b9e2f07e1e2b6bffe2f65fff7c92c357084e511c5358751313eafb71188"
+  },
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0
+}

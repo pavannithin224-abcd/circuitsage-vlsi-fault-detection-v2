@@ -1,0 +1,62 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-SCREENING-DISPOSITION-FULL-CAPTURE-READINESS-FREEZE-12B3E-v1",
+  "claim_scope": "REPAIR_TRAIN BOUNDED SCREENING FEASIBILITY ONLY",
+  "disposition": {
+    "bytes": 1252,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_screening_disposition_policy_12b3e.json",
+    "sha256": "2d943c938394ea1bdbbc9bade050b5e4d132c2dcc27adb702df7f491a4508ec3"
+  },
+  "disposition_status": "FROZEN",
+  "fault_free_false_alarms": 0,
+  "frozen_detection_target": 0.7,
+  "full_capture_enabled_transactions": 196608,
+  "full_capture_execution": "NOT AUTHORIZED",
+  "full_capture_readiness": "READY FOR SEPARATE AUTHORIZATION",
+  "full_capture_sites_faults_vectors": [
+    1024,
+    2048,
+    96
+  ],
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 3068,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_screening_disposition_manifest_12b3e.json",
+    "sha256": "536625d02780418f3a572fba02ed8ec94457e10ba36c715c6986a8ac103e34f7"
+  },
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-3F — SINGLE-WINNER FULL REPAIR_TRAIN CAPTURE AUTHORIZATION FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "readiness_contract": {
+    "bytes": 1880,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_repair_capture_readiness_contract_12b3e.json",
+    "sha256": "239fb7544df7fe05da631a0223a5259f1d9bea647db6e8625ccd777a043d43cb"
+  },
+  "repair_calibration": "LOCKED / NOT ACCESSED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "report": {
+    "bytes": 1735,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_disposition_12b3e/circuitsage_hmac_v2_1_enhanced_screening_disposition_report_12b3e.md",
+    "sha256": "e576f5d2d1966d8995079975670ed8516da7d0e56962a74735817d640b8ad4aa"
+  },
+  "screening_acceptance": "PASS",
+  "screening_candidates_passing": "1/3",
+  "screening_dataset": "VALID / FROZEN",
+  "selected_candidate": "EM_TESTPOINT_4X64_T16",
+  "selected_combined_detection_recall": 0.75976562,
+  "selected_probe_rescued_faults": 142,
+  "selected_site_bootstrap_ci_95": [
+    0.71875,
+    0.80078125
+  ],
+  "stage": "12B-3E",
+  "status": "PASS",
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access": 0,
+  "winner_lock": {
+    "bytes": 1209,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_disposition_12b3e/circuitsage_hmac_v2_1_enhanced_measurement_winner_lock_12b3e.json",
+    "sha256": "f735fc23c28d7a009841274c85b0cc59ddc82c3b4dad6778ae1896406eb3f0ef"
+  }
+}

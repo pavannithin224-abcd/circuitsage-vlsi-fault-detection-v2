@@ -1,0 +1,4 @@
+family_id,partition,predicted_class,predicted_exact_site_low,predicted_exact_site_high,predicted_meets_floor,confidence,falsified_if
+ibex_cpu,INDEPENDENT_CIRCUIT_TEST,CPU_RISCV,0.0,0.12,NO,HIGH,measured all_injected_exact_site_rate >= 0.15
+secworks_chacha,INDEPENDENT_CIRCUIT_TEST,CRYPTO_ARX_STREAM,0.2,0.7,YES,MEDIUM,measured all_injected_exact_site_rate < 0.15
+serv_cpu,GENERALIZATION_HOLDOUT,CPU_RISCV_BIT_SERIAL,0.0,0.12,NO,LOW,measured all_injected_exact_site_rate >= 0.15

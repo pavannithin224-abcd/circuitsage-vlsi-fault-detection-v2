@@ -1,0 +1,94 @@
+{
+  "architecture_version": "CIRCUITSAGE-HMAC-V2.1-AMBIGUITY-AWARE-LOCATOR-v1",
+  "candidate_grid": [
+    {
+      "candidate_id": "V21_EXACT_SIGNATURE_SET",
+      "candidate_type": "NONPARAMETRIC_REFERENCE",
+      "maximum_shortlist": 45678,
+      "reranker": "NONE",
+      "retrieval": "EXACT CANONICAL RESPONSE-SIGNATURE HASH",
+      "trainable_parameters": 0
+    },
+    {
+      "candidate_id": "V21_WEIGHTED_SIGNATURE_K2048",
+      "candidate_type": "TRAINABLE RETRIEVAL",
+      "maximum_shortlist": 2048,
+      "reranker": "DETERMINISTIC DISTANCE ORDER",
+      "retrieval": "GROUP-WEIGHTED RESPONSE DISTANCE",
+      "trainable_parameters_max": 32
+    },
+    {
+      "candidate_id": "V21_SIGNATURE_GRAPH_LISTWISE_K2048",
+      "candidate_type": "TRAINABLE RETRIEVAL AND RERANKING",
+      "maximum_shortlist": 2048,
+      "reranker": "AMBIGUITY-AWARE LISTWISE LINEAR RERANKER WITH FROZEN GRAPH AND V1 SUPPORT",
+      "retrieval": "EXACT-THEN-WEIGHTED RESPONSE DISTANCE",
+      "trainable_parameters_max": 4096
+    }
+  ],
+  "model_family": "CLOSED-CATALOG BEHAVIOR-SIGNATURE RETRIEVAL WITH GRAPH-AWARE RERANKING",
+  "pipeline": [
+    {
+      "action": "return NO_OBSERVED_ANOMALY when every response matches; otherwise continue",
+      "component": "FROZEN EXACT GOLDEN-REFERENCE DETECTOR",
+      "order": 1
+    },
+    {
+      "action": "return every exact catalog match as a candidate set; never collapse an ambiguous signature",
+      "component": "CANONICAL SIGNATURE INDEX",
+      "order": 2
+    },
+    {
+      "action": "when no exact match exists, retrieve a deterministic shortlist using learned group weights",
+      "component": "WEIGHTED NEAR-SIGNATURE RETRIEVAL",
+      "order": 3
+    },
+    {
+      "action": "rerank only the shortlist using response distance, 119 frozen graph features and frozen V1 support",
+      "component": "GRAPH-AWARE LISTWISE RERANKER",
+      "order": 4
+    },
+    {
+      "action": "emit UNIQUE_SITE, AMBIGUOUS_CANDIDATE_SET, NO_CATALOG_MATCH, or NO_OBSERVED_ANOMALY",
+      "component": "AMBIGUITY-AWARE OUTPUT",
+      "order": 5
+    }
+  ],
+  "query_input": {
+    "allowed": [
+      "ordered test-vector commitment",
+      "observed output digest or timeout per vector",
+      "golden-reference response for the same vectors"
+    ],
+    "derived": [
+      "digest XOR and Hamming summaries",
+      "timeout and latency deltas",
+      "64-vector anomaly/deviation mask",
+      "canonical response-signature hash"
+    ],
+    "forbidden": [
+      "fault instance identity",
+      "physical-site identity",
+      "SA0/SA1 ground truth",
+      "detection or localization target label"
+    ]
+  },
+  "scientific_scope": {
+    "catalog_fault_instances": 45678,
+    "circuit": "FROZEN OPENTITAN HMAC-SHA256 GENERIC NETLIST",
+    "closed_catalog_only": true,
+    "faults": "SINGLE PERSISTENT SA0/SA1",
+    "independent_chip_generalization_claimed": false,
+    "physical_sites": 22839,
+    "query_vectors": 64
+  },
+  "stage": "12B-1A",
+  "static_inputs": {
+    "graph_features": 119,
+    "new_graph_propagation": 0,
+    "v1_combined_features": 646,
+    "v1_role": "FROZEN READ-ONLY SUPPORT / OPTIONAL TIE BREAKER",
+    "v1_weight_changes": 0
+  },
+  "status": "FROZEN"
+}

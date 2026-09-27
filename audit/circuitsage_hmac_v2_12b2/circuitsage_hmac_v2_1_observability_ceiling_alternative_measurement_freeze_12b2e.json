@@ -1,0 +1,32 @@
+{
+  "alternative_measurement_architecture": "FROZEN",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-OBSERVABILITY-CEILING-ALTERNATIVE-MEASUREMENT-FREEZE-v1",
+  "external_io_detection_ceiling": 0.50146484375,
+  "external_target_feasible": false,
+  "fault_selector_value_raw_as_features": "PROHIBITED",
+  "frozen_detection_target": 0.7,
+  "full_repair_campaign": "BLOCKED / NOT AUTHORIZED",
+  "golden_netlist_modified": false,
+  "holdout_access": 0,
+  "identity_leakage_controls": "FROZEN / REQUIRED",
+  "manifest": {
+    "bytes": 2992,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_observability_ceiling_manifest_12b2e.json",
+    "sha256": "1059332439ef13d634fb655a8379dfd0d04a392493ec7632b17aacbe8819e6a8"
+  },
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-2F — SIMULATION-ONLY PROBE DISCOVERY AND INSTRUMENTATION FEASIBILITY FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "probe_capture": "NOT AUTHORIZED",
+  "probe_discovery": "AUTHORIZED / NOT STARTED",
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "review_status": "FROZEN / COMPLETE",
+  "rtl_modified": false,
+  "selected_localization_gain": "PRESERVED",
+  "stage": "12B-2E",
+  "status": "PASS",
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access": 0
+}

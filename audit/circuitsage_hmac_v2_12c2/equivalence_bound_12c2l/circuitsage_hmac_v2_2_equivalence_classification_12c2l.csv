@@ -1,0 +1,5 @@
+family_id,ambiguous_collision_sets,single_site_sets,structurally_equivalent_sets,structurally_equivalent_fraction,partially_equivalent_sets,partially_equivalent_fraction,potentially_splittable_sets,potentially_splittable_fraction,mean_distinct_sites_per_set
+opentitan_hmac_sha256,1451,0,1448,0.997932,2,0.001378,1,0.000689,5.9614
+picorv32_cpu,383,0,319,0.832898,58,0.151436,6,0.015666,12.0653
+secworks_aes,8665,0,7762,0.895788,628,0.072475,275,0.031737,3.6994
+secworks_sha256,3411,0,3401,0.997068,4,0.001173,6,0.001759,2.6482

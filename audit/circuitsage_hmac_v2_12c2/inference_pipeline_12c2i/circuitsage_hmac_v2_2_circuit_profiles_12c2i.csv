@@ -1,0 +1,5 @@
+family_id,fault_instances,observable_faults,unobservable_fraction,signature_uniqueness,exact_site_rate,mean_candidate_set,max_candidate_set,v1_verification_in_scope
+opentitan_hmac_sha256,36784,9844,0.732384,0.10696871,0.02862658,158.726534,1230,YES
+picorv32_cpu,19330,4753,0.754113,0.01830423,0.00450078,54.452977,344,NO
+secworks_aes,53120,51601,0.028596,0.37834538,0.36752636,14.396213,98,NO
+secworks_sha256,18250,17277,0.053315,0.47705041,0.45161644,3.797013,44,NO

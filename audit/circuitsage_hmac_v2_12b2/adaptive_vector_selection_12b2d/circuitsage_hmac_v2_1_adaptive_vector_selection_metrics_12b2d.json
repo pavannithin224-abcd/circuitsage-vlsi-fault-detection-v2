@@ -1,0 +1,37 @@
+{
+  "absolute_targets": {
+    "all_injected_detection_recall_min": 0.7,
+    "all_injected_exact_site_rate_min": 0.35,
+    "ambiguous_false_unique_rate_max": 0.01,
+    "fault_free_false_alarm_rate_max": 0.01,
+    "maximum_observable_candidate_sites_max": 500,
+    "mean_observable_candidate_sites_max": 50.0,
+    "observable_candidate_set_coverage_min": 0.95
+  },
+  "candidate_vectors": 512,
+  "claim_limit": "pilot closed-catalog evidence only; no independent-circuit generalization claim",
+  "complete_pool_detection_ceiling": 0.50146484375,
+  "complete_pool_observable_faults": 1027,
+  "detection_target_feasible_with_complete_pool": false,
+  "frozen_detection_target": 0.7,
+  "full_campaign_disposition": "BLOCKED — PILOT ACCEPTANCE NOT MET",
+  "metrics_version": "CIRCUITSAGE-HMAC-V2.1-ADAPTIVE-SELECTION-METRICS-v1",
+  "scope": "REPAIR_TRAIN PILOT ONLY",
+  "selected_vector_acceptance": "NOT_MET",
+  "selected_vector_metrics": {
+    "all_injected_detection_recall": 0.50146484375,
+    "all_injected_exact_site_rate": 0.41748046875,
+    "maximum_observable_candidate_sites": 69,
+    "mean_observable_candidate_sites": 6.092502434274587,
+    "observable_candidate_set_coverage": 1.0,
+    "observable_fault_instances": 1027,
+    "observable_signature_groups": 900,
+    "unique_signature_fault_instances": 855,
+    "unique_signature_top1_site": 1.0
+  },
+  "selected_vectors": 96,
+  "selection_rounds": 4,
+  "stage": "12B-2D",
+  "status": "FROZEN",
+  "vectors_per_round": 24
+}

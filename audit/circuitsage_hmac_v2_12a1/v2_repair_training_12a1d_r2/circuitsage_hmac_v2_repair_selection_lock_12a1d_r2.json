@@ -1,0 +1,63 @@
+{
+  "acceptance_checks": {
+    "fault_free_false_alarm_rate": true,
+    "observable_candidate_coverage": false,
+    "observable_fault_detection_recall": true,
+    "observable_top5_site_accuracy": false,
+    "unique_signature_top1_site_accuracy": false
+  },
+  "calibration_advancement_target": "NOT_MET",
+  "calibration_rankings": {
+    "bytes": 169918,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_repair_training_12a1d_r2/circuitsage_hmac_v2_selected_repair_calibration_rankings_12a1d_r2.npz",
+    "sha256": "757f508d6f695fcf573113c4feaac7096aabb435ee918c3feb2e70a96e612354"
+  },
+  "detector": "EXACT GOLDEN-REFERENCE ANOMALY GATE / PRESERVED",
+  "deterministic_replay": {
+    "metrics_exact": true,
+    "rankings_exact": true,
+    "status": "PASS",
+    "training_arrays_exact": true
+  },
+  "dev_site_test_opened": false,
+  "holdout_access_count": 0,
+  "lock_version": "CIRCUITSAGE-HMAC-V2-REPAIR-SELECTION-LOCK-v1",
+  "model": {
+    "bytes": 267549,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_repair_training_12a1d_r2/circuitsage_hmac_v2_selected_repaired_locator_12a1d_r2.npz",
+    "sha256": "6c4ddca604054c204e20b3465393d1cf3c414fd5431f37ed7bf722aedc465513"
+  },
+  "model_metadata": {
+    "bytes": 2634,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_repair_training_12a1d_r2/circuitsage_hmac_v2_selected_repaired_locator_metadata_12a1d_r2.json",
+    "sha256": "1c1385ed92d15fbba02d35680019d9d5bd36370961aa53ea73bc6c4c3e02c377"
+  },
+  "selected_candidate_id": "R2_FEATURE_CROSS_RIDGE_K512",
+  "selected_metrics": {
+    "all_injected_detection_recall": 0.5019922063137615,
+    "calibration_observable_fault_instances": 3442,
+    "calibration_observable_profiles": 2758,
+    "candidate_id": "R2_FEATURE_CROSS_RIDGE_K512",
+    "cross_partition_profile_mrr": 0.004255785710571226,
+    "fault_free_false_alarm_rate": 0.0,
+    "mode": "ridge",
+    "observable_candidate_coverage_top50": 0.023823358512492735,
+    "observable_detection_recall": 1.0,
+    "observable_mean_reciprocal_rank": 0.0032116149338990807,
+    "observable_shortlist_candidate_coverage": 0.17402672864613597,
+    "observable_top1_site_accuracy": 0.0002905287623474724,
+    "observable_top5_site_accuracy": 0.002905287623474724,
+    "partition_local_profile_mrr": 0.001976752220840393,
+    "sa0_sa1_accuracy_given_top1_site": 1.0,
+    "shortlist_size": 512,
+    "trainable_parameters": 94905,
+    "unique_signature_top1_site_accuracy": 0.0
+  },
+  "selection_status": "FROZEN",
+  "stage": "12A-1D-R2",
+  "status": "PASS",
+  "training_status": "FROZEN",
+  "v1_model_deserialized": false,
+  "v1_model_modified": false,
+  "validation_access_count": 0
+}

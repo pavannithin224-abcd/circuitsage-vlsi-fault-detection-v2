@@ -1,0 +1,74 @@
+{
+  "acceptance_targets": {
+    "all_injected_exact_site_rate_min": 0.6,
+    "ambiguous_false_unique_rate_max": 0.0,
+    "combined_detection_recall_min": 0.7,
+    "fault_free_false_alarm_rate_max": 0.0,
+    "maximum_observable_candidate_sites_max": 64,
+    "mean_observable_candidate_sites_max": 5.0,
+    "observable_candidate_set_coverage_min": 0.99,
+    "polarity_accuracy_given_correct_unique_site_min": 0.9,
+    "unique_signature_top1_site_min": 0.95
+  },
+  "all_injected_exact_site_rate": 0.548790658882402,
+  "ambiguous_false_unique_rate": 0.0,
+  "ambiguous_signature_faults": 685,
+  "bootstrap_ci_95": {
+    "all_injected_exact_site_rate": [
+      0.5321100917431193,
+      0.5665189741451209
+    ],
+    "detection_recall": [
+      0.677022518765638,
+      0.7072612593828189
+    ],
+    "observable_candidate_set_coverage": [
+      1.0,
+      1.0
+    ]
+  },
+  "bootstrap_replicates": 1000,
+  "candidate_reselections": 0,
+  "combined_all_injected_detection_recall": 0.6916180150125104,
+  "combined_observable_faults": 3317,
+  "criteria": {
+    "all_injected_exact_site_rate": "NOT_MET",
+    "ambiguous_false_unique_rate": "PASS",
+    "candidate_set_coverage": "PASS",
+    "combined_detection_recall": "NOT_MET",
+    "fault_free_false_alarm_rate": "PASS",
+    "maximum_observable_candidate_sites": "NOT_MET",
+    "mean_observable_candidate_sites": "PASS",
+    "polarity_accuracy": "PASS",
+    "unique_signature_top1_site": "PASS"
+  },
+  "external_observable_faults": 2422,
+  "fault_free_false_alarm_rate": 0.0,
+  "fault_free_false_alarms": 0,
+  "fault_instances": 4796,
+  "independent_circuit_generalization": "NOT ESTABLISHED",
+  "interpretation": "CLOSED-CATALOG SITE-HELD-OUT CONSISTENCY; TEST CATALOG CONSTRUCTION AND QUERY USE THE SAME FROZEN CAPTURE COHORT; NOT INDEPENDENT-CIRCUIT GENERALIZATION",
+  "locked_evaluation_acceptance": "NOT_MET",
+  "maximum_observable_candidate_sites": 84,
+  "mean_observable_candidate_sites": 3.756104914078987,
+  "metrics_version": "CIRCUITSAGE-HMAC-V2.1-LOCKED-REPAIR-SITE-TEST-METRICS-12B3O-v1",
+  "normal_compatible_faults": 1479,
+  "observable_candidate_set_coverage": 1.0,
+  "observable_faults": 3317,
+  "observable_mrr": 1.0,
+  "polarity_accuracy_given_correct_unique_site": 1.0,
+  "prediction_commitment_before_truth": "PASS / VERIFIED",
+  "probe_observable_faults": 3257,
+  "probe_rescued_faults": 895,
+  "scope": "ONE LOCKED CLOSED-CATALOG REPAIR_SITE_TEST CAPTURE AND EVALUATION",
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "selected_model": "R31_EXACT_SIGNATURE_SET",
+  "sites": 2398,
+  "stage": "12B-3O",
+  "status": "FROZEN",
+  "threshold_changes": 0,
+  "training_calls": 0,
+  "unique_signature_faults": 2632,
+  "unique_signature_top1_site": 1.0,
+  "vectors": 96
+}

@@ -1,0 +1,50 @@
+{
+  "ambiguity_aware_dataset_status": "FROZEN",
+  "ambiguity_dataset": {
+    "bytes": 381188,
+    "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_ambiguity_aware_dataset_12b1b.npz",
+    "sha256": "23056e33b060f136fbff82a91e9ee558c37dea43b19a8056474b73036cd66c68"
+  },
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-BEHAVIOR-SIGNATURE-DATASET-FREEZE-v1",
+  "calibration_query_profiles": 1503,
+  "catalog_fault_instances": 45678,
+  "catalog_physical_sites": 22839,
+  "cross_partition_profiles_excluded": 2148,
+  "deterministic_replay": "PASS / EXACT",
+  "dev_site_test": "LOCKED / ZERO QUERY ROWS / NOT OPENED",
+  "holdout_access_count": 0,
+  "inference_performed": false,
+  "manifest": {
+    "bytes": 7114,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_behavior_signature_manifest_12b1b.json",
+    "sha256": "26a8d84323e8cce69b61aa22de8d568a715517d80a78baca57040615278590a9"
+  },
+  "models_deserialized": 0,
+  "next_gate": "STAGE 12B-1C — V2.1 LOCATOR TRAINING AUTHORIZATION AND EXECUTION-CONTRACT FREEZE",
+  "schema": {
+    "bytes": 4867,
+    "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_schema_12b1b.json",
+    "sha256": "93e552cf64baace76a32c9e30a3c0fd3fe90ddbd7f7dde80c96285499bf2b11a"
+  },
+  "schema_status": "FROZEN",
+  "signature_hash_collisions": 0,
+  "signature_index": {
+    "bytes": 1316073,
+    "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_index_12b1b.npz",
+    "sha256": "f249de3da8a9a9266aaffa3dd367ec09ec6ae20c10172ee2dc127bbd45682dac"
+  },
+  "signature_index_status": "FROZEN",
+  "stage": "12B-1B",
+  "statistics": {
+    "bytes": 931,
+    "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_statistics_12b1b.json",
+    "sha256": "d948d2aa543a7c4cc91c9bde4e82e1b36f8a586855450bb72a892928866b4795"
+  },
+  "status": "PASS",
+  "train_query_profiles": 7986,
+  "training_performed": false,
+  "unknown_identity_in_query_features": false,
+  "v1_modified": false,
+  "v2_core_modified": false,
+  "validation_access_count": 0
+}

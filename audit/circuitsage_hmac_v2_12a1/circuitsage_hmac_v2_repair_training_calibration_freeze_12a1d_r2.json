@@ -1,0 +1,58 @@
+{
+  "ablation_candidates_trained": 3,
+  "acceptance_checks": {
+    "fault_free_false_alarm_rate": true,
+    "observable_candidate_coverage": false,
+    "observable_fault_detection_recall": true,
+    "observable_top5_site_accuracy": false,
+    "unique_signature_top1_site_accuracy": false
+  },
+  "audit_version": "CIRCUITSAGE-HMAC-V2-REPAIR-TRAINING-CALIBRATION-FREEZE-v1",
+  "calibration_advancement_target": "NOT_MET",
+  "detector_status": "PRESERVED / FROZEN EXACT RULE",
+  "deterministic_ranking_replay": "PASS / EXACT",
+  "deterministic_training_replay": "PASS / EXACT",
+  "dev_site_test": "LOCKED / NOT OPENED",
+  "frozen_inputs_modified": false,
+  "holdout_access_count": 0,
+  "manifest": {
+    "bytes": 8690,
+    "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_repair_training_manifest_12a1d_r2.json",
+    "sha256": "06518b9d7bfd73c6dad54501bec86f7e120156b5e34ea9073d3453224e61b7b4"
+  },
+  "model_selection_status": "FROZEN",
+  "next_gate": "STAGE 12A-1D-R3 — LOCATOR REPAIR DISPOSITION AND V2 CORE FREEZE",
+  "nonparametric_reference_candidates": 1,
+  "repair_training_status": "FROZEN",
+  "selected_candidate_id": "R2_FEATURE_CROSS_RIDGE_K512",
+  "selected_metrics": {
+    "all_injected_detection_recall": 0.5019922063137615,
+    "calibration_observable_fault_instances": 3442,
+    "calibration_observable_profiles": 2758,
+    "candidate_id": "R2_FEATURE_CROSS_RIDGE_K512",
+    "cross_partition_profile_mrr": 0.004255785710571226,
+    "fault_free_false_alarm_rate": 0.0,
+    "mode": "ridge",
+    "observable_candidate_coverage_top50": 0.023823358512492735,
+    "observable_detection_recall": 1.0,
+    "observable_mean_reciprocal_rank": 0.0032116149338990807,
+    "observable_shortlist_candidate_coverage": 0.17402672864613597,
+    "observable_top1_site_accuracy": 0.0002905287623474724,
+    "observable_top5_site_accuracy": 0.002905287623474724,
+    "partition_local_profile_mrr": 0.001976752220840393,
+    "sa0_sa1_accuracy_given_top1_site": 1.0,
+    "shortlist_size": 512,
+    "trainable_parameters": 94905,
+    "unique_signature_top1_site_accuracy": 0.0
+  },
+  "selection_lock": {
+    "bytes": 2628,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_repair_training_12a1d_r2/circuitsage_hmac_v2_repair_selection_lock_12a1d_r2.json",
+    "sha256": "8a9b4394f13df2fd03058a5475bfa00a049585384ca68e9cc4853819aa9d26c4"
+  },
+  "stage": "12A-1D-R2",
+  "status": "PASS",
+  "v1_model_deserialized": false,
+  "v1_model_modified": false,
+  "validation_access_count": 0
+}

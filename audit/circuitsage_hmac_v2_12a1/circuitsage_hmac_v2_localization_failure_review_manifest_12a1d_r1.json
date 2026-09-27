@@ -1,0 +1,60 @@
+{
+  "dev_site_test_opened": false,
+  "holdout_access_count": 0,
+  "input_evidence": {
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_training_calibration_freeze_12a1d.json": {
+      "bytes": 2395,
+      "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_training_calibration_freeze_12a1d.json",
+      "sha256": "c6437b429d8b2f4747dbbdcdcf7b92a7703d75b6428c8fb643d8c75fc3184b96"
+    },
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_training_manifest_12a1d.json": {
+      "bytes": 10604,
+      "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_training_manifest_12a1d.json",
+      "sha256": "2c3df37e43ae93fb5ff14becf873e270ff59be7a8e30f9032feddfa5880b18fe"
+    },
+    "results/circuitsage_hmac_v2_12a1/v2_training_12a1d/circuitsage_hmac_v2_selection_lock_12a1d.json": {
+      "bytes": 2884,
+      "path": "results/circuitsage_hmac_v2_12a1/v2_training_12a1d/circuitsage_hmac_v2_selection_lock_12a1d.json",
+      "sha256": "6fb8d4eb79704652ccb289090e2b249c7600f0db723fdfffe62161e4fe5028b7"
+    },
+    "stage_12a1d_v2_linked_train.py": {
+      "bytes": 46245,
+      "path": "stage_12a1d_v2_linked_train.py",
+      "sha256": "6144da31a28041f045d696d041f147efcfceacccd1fcfecaa52d8561c640020d"
+    }
+  },
+  "manifest_version": "CIRCUITSAGE-HMAC-V2-LOCALIZATION-FAILURE-REVIEW-MANIFEST-v1",
+  "models_deserialized": 0,
+  "new_training_performed": false,
+  "outputs": {
+    "config/v2/circuitsage_hmac_v2_localization_repair_contract_12a1d_r1.json": {
+      "bytes": 3413,
+      "path": "config/v2/circuitsage_hmac_v2_localization_repair_contract_12a1d_r1.json",
+      "sha256": "ccaab77ca3d33225839c166ec68c2c97953e35a26ca660b8a86fe2babfcb7dd6"
+    },
+    "results/circuitsage_hmac_v2_12a1/v2_localization_failure_review_12a1d_r1/circuitsage_hmac_v2_localization_diagnostics_12a1d_r1.json": {
+      "bytes": 5761,
+      "path": "results/circuitsage_hmac_v2_12a1/v2_localization_failure_review_12a1d_r1/circuitsage_hmac_v2_localization_diagnostics_12a1d_r1.json",
+      "sha256": "ee2b3f40d7f3048b4942369c332b30a35392b834cb12863f7ad48c6476dd721e"
+    },
+    "results/circuitsage_hmac_v2_12a1/v2_localization_failure_review_12a1d_r1/circuitsage_hmac_v2_localization_failure_metrics_12a1d_r1.csv": {
+      "bytes": 417,
+      "path": "results/circuitsage_hmac_v2_12a1/v2_localization_failure_review_12a1d_r1/circuitsage_hmac_v2_localization_failure_metrics_12a1d_r1.csv",
+      "sha256": "92761fe0a2ee88256b64ca8d8ae6d3d8a33f2dd04c5394558d492c99657373f2"
+    },
+    "results/circuitsage_hmac_v2_12a1/v2_localization_failure_review_12a1d_r1/circuitsage_hmac_v2_localization_failure_review_12a1d_r1.md": {
+      "bytes": 2015,
+      "path": "results/circuitsage_hmac_v2_12a1/v2_localization_failure_review_12a1d_r1/circuitsage_hmac_v2_localization_failure_review_12a1d_r1.md",
+      "sha256": "f593fa12552555b2c3a38cecbec2c702e6552153f972f5e032ae712145d0c7ed"
+    }
+  },
+  "prior_metrics_csv": {
+    "bytes": 906,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_training_12a1d/circuitsage_hmac_v2_candidate_calibration_metrics_12a1d.csv",
+    "sha256": "15e0756fae11a21dc5262d3a1f5af831070e58cff1817d2b51d4ed68dd19cce3"
+  },
+  "stage": "12A-1D-R1",
+  "status": "PASS",
+  "validation_access_count": 0,
+  "verified_prior_output_count": 9
+}

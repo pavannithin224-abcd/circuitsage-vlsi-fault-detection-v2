@@ -1,0 +1,52 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-SITE-TEST-AUTHORIZATION-FREEZE-12B3N-v1",
+  "authorization": {
+    "bytes": 1983,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_site_test_capture_evaluation_authorization_12b3n.json",
+    "sha256": "4d7b430300a3b0a47a1d9751e7d0c8a1657bb8250e22ca4205ad904b76215006"
+  },
+  "authorization_status": "FROZEN",
+  "baseline_enabled_total_records": [
+    4320,
+    460416,
+    464736
+  ],
+  "canonical_batches": "45/45",
+  "capture_evaluation": "AUTHORIZED / NOT STARTED",
+  "dev_site_test": "CONSUMED / NOT REOPENED",
+  "manifest": {
+    "bytes": 14541,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_site_test_authorization_manifest_12b3n.json",
+    "sha256": "34efd759b417d7c41c87d5f75a5edcf7630d55ccce6ae09fe9618e2fd5387deb"
+  },
+  "model_objects_deserialized": 0,
+  "next_gate": "STAGE 12B-3O — LOCKED REPAIR_SITE_TEST CAPTURE, EVALUATION, AND DATASET FREEZE",
+  "prediction_before_truth_commitment": "REQUIRED",
+  "probe_bits_banks_snapshots": [
+    256,
+    4,
+    16
+  ],
+  "repair_site_test_state": "AUTHORIZED / NOT OPENED",
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "selected_model": "R31_EXACT_SIGNATURE_SET",
+  "selection_lock": "VERIFIED / FROZEN",
+  "sites_faults_vectors": [
+    2398,
+    4796,
+    96
+  ],
+  "source_partition": "REPAIR_SITE_TEST",
+  "stage": "12B-3N",
+  "status": "PASS",
+  "training_threshold_change_candidate_reselection": "0 / 0 / 0",
+  "v1_v2_core_v2_1_modified": [
+    false,
+    false,
+    false
+  ],
+  "validation_holdout_access": [
+    0,
+    0
+  ]
+}

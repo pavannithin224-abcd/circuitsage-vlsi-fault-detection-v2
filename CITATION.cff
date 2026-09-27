@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research artifact, its method, or its measured results,
+  please cite it using these metadata.
+title: >-
+  CircuitSage V2: Behaviour-Signature Fault Localization is Bounded by
+  Structural Fault Equivalence
+abstract: >-
+  A pre-registered study of whether learned models can localize single stuck-at
+  faults across unseen VLSI circuits. Six learned formulations were registered
+  in advance and falsified; a method with zero learned parameters outperformed
+  the best of them by roughly 182x on mean reciprocal rank. Subsequent analysis
+  proved within-collision-set localization is not identifiable under a uniform
+  fault prior, and that between 83.3 and 99.8 percent of ambiguous candidate
+  sets are structurally equivalent - establishing that behaviour-signature
+  localization resolves faults to their equivalence class, the finest resolution
+  any response-based method can achieve. A falsifiable prediction frozen before
+  a sealed test circuit was opened was subsequently confirmed. The
+  pre-registered acceptance outcome is NOT MET, by capture infeasibility on the
+  second independent test circuit rather than by a measured shortfall. This
+  repository publishes the method, the pre-registered contracts, the
+  hash-anchored audit trail, and the negative results.
+type: software
+authors:
+  - family-names: Nithin
+    given-names: Pavan
+    alias: pavannithin224-abcd
+version: 2.2.0
+date-released: '2026-09-26'
+license: Apache-2.0
+repository-code: >-
+  https://github.com/pavannithin224-abcd/circuitsage-vlsi-fault-detection-v2
+keywords:
+  - VLSI fault detection
+  - fault localization
+  - stuck-at faults
+  - fault collapsing
+  - structural fault equivalence
+  - fault observability
+  - behaviour signature
+  - graph neural network
+  - negative results
+  - pre-registered study
+  - reproducible research
+# ---------------------------------------------------------------------------
+# Optional but recommended: mint a DOI so this artifact stays citable even if
+# the repository URL changes.
+#
+#   1. sign in at https://zenodo.org with your GitHub account
+#   2. enable this repository under Settings -> GitHub
+#   3. publish a GitHub release (e.g. v2.2.0)
+#   4. Zenodo mints a DOI automatically, then uncomment and fill:
+#
+# doi: 10.5281/zenodo.XXXXXXX
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX
+#     description: Concept DOI for all versions
+# ---------------------------------------------------------------------------
+references:
+  - type: software
+    title: >-
+      CircuitSage V1: Graph-Aware Fault Detection for an OpenTitan HMAC Circuit
+    authors:
+      - family-names: Nithin
+        given-names: Pavan
+    version: 1.0.0
+    license: Apache-2.0
+    repository-code: >-
+      https://github.com/pavannithin224-abcd/circuitsage-hmac-fault-detection
+    notes: Preceding branch; supplies the verification model reused by Faultiva.

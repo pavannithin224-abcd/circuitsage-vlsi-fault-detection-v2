@@ -1,0 +1,56 @@
+{
+  "external_detection_ceiling": 0.50146484375,
+  "externally_invisible_faults": 1021,
+  "externally_observable_faults": 1027,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-OBSERVABILITY-CEILING-MANIFEST-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_alternative_measurement_architecture_12b2e.json": {
+      "bytes": 1555,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_alternative_measurement_architecture_12b2e.json",
+      "sha256": "44766190f8ee24bbe8e315e96efc2a86f93c64b36657da2ca94a56408ceb2f0d"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_instrumentation_feasibility_acceptance_12b2e.json": {
+      "bytes": 949,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_instrumentation_feasibility_acceptance_12b2e.json",
+      "sha256": "824e3a65ad38a63c3b5a59219ad938976ee3c73b72b2ef4f6095416e1edc0483"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_discovery_contract_12b2e.json": {
+      "bytes": 1361,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_discovery_contract_12b2e.json",
+      "sha256": "f54df9f04ef70391893c01c9804f854abd87d92987a751b9a467106bde63987a"
+    },
+    "results/circuitsage_hmac_v2_12b2/observability_ceiling_review_12b2e/circuitsage_hmac_v2_1_alternative_measurement_registry_12b2e.csv": {
+      "bytes": 1263,
+      "path": "results/circuitsage_hmac_v2_12b2/observability_ceiling_review_12b2e/circuitsage_hmac_v2_1_alternative_measurement_registry_12b2e.csv",
+      "sha256": "c23f4e606e88075640f4f2afdb5ad19f377e28536a85f0e56f427de8487e70ea"
+    },
+    "results/circuitsage_hmac_v2_12b2/observability_ceiling_review_12b2e/circuitsage_hmac_v2_1_instrumentation_environment_12b2e.json": {
+      "bytes": 429,
+      "path": "results/circuitsage_hmac_v2_12b2/observability_ceiling_review_12b2e/circuitsage_hmac_v2_1_instrumentation_environment_12b2e.json",
+      "sha256": "eb6cc18f97ae9141304fdaa15ac15457bef8ad523ae04b04ef3ff119dcf6709e"
+    },
+    "results/circuitsage_hmac_v2_12b2/observability_ceiling_review_12b2e/circuitsage_hmac_v2_1_observability_ceiling_review_12b2e.md": {
+      "bytes": 1632,
+      "path": "results/circuitsage_hmac_v2_12b2/observability_ceiling_review_12b2e/circuitsage_hmac_v2_1_observability_ceiling_review_12b2e.md",
+      "sha256": "fa7da13382b0d40b2d3bb092d4dfe833548d02d8a7fef5f0427a626b5e664327"
+    }
+  },
+  "pilot_faults": 2048,
+  "probe_response_values_captured": 0,
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "simulation_calls": 0,
+  "stage": "12B-2E",
+  "stage_12b2d_audit": {
+    "bytes": 1313,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_adaptive_selection_campaign_contract_freeze_12b2d.json",
+    "sha256": "83c39f566ca45d5dbc58a7b5a54adfae6b83a0fb2ee2115cd2ae562bbb2348f1"
+  },
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0
+}

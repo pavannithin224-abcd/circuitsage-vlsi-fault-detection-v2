@@ -1,0 +1,5 @@
+step,partition,operation,fitting_allowed,threshold_change_allowed,expected_sites,expected_samples,execution,status_before_execution
+1,FROZEN INPUTS,verify hashes and semantic locks,NO,NO,0,0,SEQUENTIAL,AUTHORIZED
+2,DEV_SITE_TEST,locked inference with V21_EXACT_SIGNATURE_SET,NO,NO,3426,438528,SEQUENTIAL,AUTHORIZED / NOT STARTED
+3,DEV_SITE_TEST,ambiguity-aware localization metrics and site bootstrap,NO,NO,3426,438528,SEQUENTIAL,AUTHORIZED / NOT STARTED
+4,OUTPUTS,"freeze predictions, comparison, manifest and audit",NO,NO,0,0,SEQUENTIAL,AUTHORIZED / NOT STARTED

@@ -1,0 +1,23 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2-TRAIN-RESPONSE-FREEZE-v1",
+  "dataset_status": "FROZEN",
+  "exact_npz_replay": "PASS",
+  "fault_and_site_targets_separate": "YES",
+  "frozen_inputs_modified": false,
+  "holdout_access_count": 0,
+  "manifest": {
+    "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_train_response_manifest_12a1b.json",
+    "sha256": "dd667b287285e0fb6cca6930de8415bc97b2a8b4213840205aa7b4b842dbdbca"
+  },
+  "model_objects_deserialized": 0,
+  "model_training_performed": false,
+  "next_gate": "STAGE 12A-1C \u2014 V2 DETECTOR/LOCATOR ARCHITECTURE AND TRAINING-CONTRACT FREEZE",
+  "sa0_sa1_site_separations": 0,
+  "schema_status": "FROZEN",
+  "simulation_performed": false,
+  "stage": "12A-1B",
+  "status": "PASS",
+  "unknown_fault_identity_in_features": "NO",
+  "v1_model_modified": false,
+  "validation_access_count": 0
+}

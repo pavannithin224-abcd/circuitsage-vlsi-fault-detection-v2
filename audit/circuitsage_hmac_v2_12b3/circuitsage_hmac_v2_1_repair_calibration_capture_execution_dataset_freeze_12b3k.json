@@ -1,0 +1,63 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-CALIBRATION-CAPTURE-EXECUTION-DATASET-FREEZE-12B3K-v1",
+  "authorized_cohort_exact_site_rate": 0.6337890625,
+  "baseline_enabled_total_records": [
+    4320,
+    98304,
+    102624
+  ],
+  "batches_verified": "45/45",
+  "canonical_netlists_modified": false,
+  "capture_execution": "COMPLETED / FROZEN",
+  "combined_detection_recall": 0.7080078125,
+  "combined_observable_faults": 725,
+  "dataset_integrity_acceptance": "PASS",
+  "dataset_status": "FROZEN",
+  "deterministic_dataset_replay": "PASS / EXACT",
+  "engine_lineage": "STAGE 12B-3G-R1 PROVEN CAPTURE ENGINE; CALIBRATION-SCOPE SPECIALIZATION",
+  "external_observable_faults": 550,
+  "fault_free_false_alarms": 0,
+  "fault_selector_value_raw_as_features": "PROHIBITED / ABSENT",
+  "frozen_rtl_modified": false,
+  "frozen_target_comparison": "PASS",
+  "holdout_access": 0,
+  "identity_fields_in_feature_npz": 0,
+  "manifest": {
+    "bytes": 31173,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_calibration_capture_dataset_manifest_12b3k.json",
+    "sha256": "99b1bd0240fd76e2a4ecbfc13d262b60f3ec0f5f4db003d67dfc8d653248a8fb"
+  },
+  "mean_maximum_observable_candidate_sites_within_authorized_cohort": [
+    1.670344827586207,
+    17
+  ],
+  "metrics": {
+    "bytes": 1740,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_metrics_12b3k.json",
+    "sha256": "5e07d8c9aa75bed7916b752b58d4a245a2fe5b4e5becce9b364b1683040abcc5"
+  },
+  "missing_duplicate_unknown_baseline_failures": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "model_training_inference": "0 / 0",
+  "next_gate": "STAGE 12B-3L — REPAIR-MODEL TRAINING AND CALIBRATION AUTHORIZATION FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "probe_rescued_faults": 175,
+  "repair_calibration_authorized_cohort": "CONSUMED / FROZEN",
+  "repair_calibration_remaining_sites": "NOT ACCESSED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "repair_train": "NOT ACCESSED",
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "sites_faults_vectors": [
+    512,
+    1024,
+    96
+  ],
+  "source_partition": "REPAIR_CALIBRATION",
+  "stage": "12B-3K",
+  "status": "PASS",
+  "validation_access": 0
+}

@@ -1,0 +1,85 @@
+{
+  "dev_site_test_opened": false,
+  "holdout_access_count": 0,
+  "input_evidence": {
+    "config/v2/circuitsage_hmac_v2_core_disposition_policy_12a1d_r3.json": {
+      "bytes": 2089,
+      "path": "config/v2/circuitsage_hmac_v2_core_disposition_policy_12a1d_r3.json",
+      "sha256": "3eaad9e2dc8f05b7a0871eca406195b1168089bbe3d619c35dac4c5283f3e00f"
+    },
+    "config/v2/circuitsage_hmac_v2_core_lock_12a1d_r3.json": {
+      "bytes": 3004,
+      "path": "config/v2/circuitsage_hmac_v2_core_lock_12a1d_r3.json",
+      "sha256": "5174d6db9d058e7d4c6e40de51a91474850682079453e897518e756bd3a067a2"
+    },
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_core_disposition_manifest_12a1d_r3.json": {
+      "bytes": 6815,
+      "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_core_disposition_manifest_12a1d_r3.json",
+      "sha256": "8434db58158805cddd2461ee8ed8059c59bc719b83c37142c9e900cd44f5f4fb"
+    },
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_core_freeze_12a1d_r3.json": {
+      "bytes": 1482,
+      "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_core_freeze_12a1d_r3.json",
+      "sha256": "307d5c89500521fc3b59cf750799561551e477dce1e8a8762fe7812323f7f5fb"
+    },
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_repair_training_calibration_freeze_12a1d_r2.json": {
+      "bytes": 2487,
+      "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_repair_training_calibration_freeze_12a1d_r2.json",
+      "sha256": "bff78ea6919d5e4305e0b9d48178b342cb8fe7992c34f5f294a8b6c0f9375f3f"
+    },
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_repair_training_manifest_12a1d_r2.json": {
+      "bytes": 8690,
+      "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_repair_training_manifest_12a1d_r2.json",
+      "sha256": "06518b9d7bfd73c6dad54501bec86f7e120156b5e34ea9073d3453224e61b7b4"
+    },
+    "results/circuitsage_hmac_v2_12a1/v2_core_disposition_12a1d_r3/circuitsage_hmac_v2_core_disposition_report_12a1d_r3.md": {
+      "bytes": 1863,
+      "path": "results/circuitsage_hmac_v2_12a1/v2_core_disposition_12a1d_r3/circuitsage_hmac_v2_core_disposition_report_12a1d_r3.md",
+      "sha256": "22ba1484dc88456112890eae189d9581761ef1264aedb71594d60e345f192068"
+    },
+    "results/circuitsage_hmac_v2_12a1/v2_core_disposition_12a1d_r3/circuitsage_hmac_v2_locator_comparison_12a1d_r3.csv": {
+      "bytes": 768,
+      "path": "results/circuitsage_hmac_v2_12a1/v2_core_disposition_12a1d_r3/circuitsage_hmac_v2_locator_comparison_12a1d_r3.csv",
+      "sha256": "2bc766009d4c44f93b043fbc6e0505472664ae405e3f50d84bfc6f50b439c077"
+    },
+    "stage_12a1d_r3_locator_disposition_v2_core_freeze.py": {
+      "bytes": 26558,
+      "path": "stage_12a1d_r3_locator_disposition_v2_core_freeze.py",
+      "sha256": "3b12c06c6860c065973bbef6cd89b5bd900163b1415362af309a6f50897c8b0f"
+    }
+  },
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-CONTRACT-MANIFEST-v1",
+  "model_inference_calls": 0,
+  "model_objects_deserialized": 0,
+  "model_training_calls": 0,
+  "outputs": {
+    "config/v2_1/circuitsage_hmac_v2_1_locator_acceptance_contract_12b1a.json": {
+      "bytes": 1711,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_acceptance_contract_12b1a.json",
+      "sha256": "899b2ff099da20b4631308962c3052e16c7cf875ae296f5b2f6da825d6c6c12a"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_architecture_12b1a.json": {
+      "bytes": 3200,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_architecture_12b1a.json",
+      "sha256": "370fa36bfa952a1fe54d1b7b7f4e27950692387849d94aa73b733de4c45b02fe"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_candidate_grid_12b1a.csv": {
+      "bytes": 525,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_candidate_grid_12b1a.csv",
+      "sha256": "c159aa527d6720093fa3578d0d4e0042d1b0c2138535ac01e567efdddd600653"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_training_contract_12b1a.json": {
+      "bytes": 2101,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_training_contract_12b1a.json",
+      "sha256": "36d6da41f359dee47d146866601655ed46b39d941ef79dcbd48cb689d3260e67"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_environment_12b1a.json": {
+      "bytes": 597,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_environment_12b1a.json",
+      "sha256": "6bed97f508754f9c4782a2ee507b78272034ca92d7d9d24d729b57195294c1bc"
+    }
+  },
+  "stage": "12B-1A",
+  "status": "PASS",
+  "validation_access_count": 0
+}

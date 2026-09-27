@@ -1,0 +1,41 @@
+{
+  "candidate_bundle": {
+    "bytes": 1634169,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_trained_repair_candidates_12b3m.joblib",
+    "sha256": "39b7f8e38672f6a34da42117ff1850b4ef52fa6c43dd2b679074c992c6d2147d"
+  },
+  "created_at": "2026-09-17T15:29:38Z",
+  "dev_site_test": "CONSUMED / NOT REOPENED",
+  "learned_advancement": "NOT_MET",
+  "lock_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-MODEL-SELECTION-LOCK-12B3M-v1",
+  "metrics": {
+    "bytes": 9153,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_repair_candidate_calibration_metrics_12b3m.json",
+    "sha256": "1f6b98157e26e3b90e57e51aaa712bcb4427c5200bfa9f3f910d2c3f7b521951"
+  },
+  "predictions": {
+    "bytes": 24907,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_selected_calibration_predictions_12b3m.npz",
+    "sha256": "1536b5fbb7720b27085695f378f0b0f2bf83dd0720bd15f469094bd0d4398e98"
+  },
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "retraining_after_selection": "PROHIBITED",
+  "safety_and_coverage_acceptance": "PASS",
+  "selected_candidate": "R31_EXACT_SIGNATURE_SET",
+  "selected_metadata": {
+    "bytes": 1876,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_selected_repair_model_metadata_12b3m.json",
+    "sha256": "8e80d3e3cfc6bfb0c76698150a24097a254f908f566e333d2dcc70d67afcc247"
+  },
+  "selected_model": {
+    "bytes": 1644,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_selected_repair_model_12b3m.npz",
+    "sha256": "2f1d35c3f2b71f975859a99238d07e1e0d8620f02d79f3808ca1e5c2ccf6f39a"
+  },
+  "selected_seed": "NONE",
+  "selection_reason": "MANDATORY EXACT-SIGNATURE FALLBACK: LEARNED IMPROVEMENT NOT ESTABLISHED",
+  "stage": "12B-3M",
+  "status": "FROZEN",
+  "threshold_change_after_selection": "PROHIBITED",
+  "validation_holdout": "NOT ACCESSED / NOT ACCESSED"
+}

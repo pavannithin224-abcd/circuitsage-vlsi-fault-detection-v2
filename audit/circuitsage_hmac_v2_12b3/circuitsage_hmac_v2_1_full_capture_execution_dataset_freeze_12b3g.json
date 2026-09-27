@@ -1,0 +1,58 @@
+{
+  "all_injected_exact_site_rate": 0.6787109375,
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-FULL-CAPTURE-EXECUTION-DATASET-FREEZE-12B3G-v1",
+  "baseline_enabled_total_records": [
+    4320,
+    196608,
+    200928
+  ],
+  "batches_verified": "45/45",
+  "canonical_netlists_modified": false,
+  "capture_execution": "COMPLETED / FROZEN",
+  "combined_detection_recall": 0.7587890625,
+  "combined_observable_faults": 1554,
+  "dataset_status": "FROZEN",
+  "deterministic_dataset_replay": "PASS / EXACT",
+  "external_observable_faults": 1027,
+  "fault_free_false_alarms": 0,
+  "fault_selector_value_raw_as_features": "PROHIBITED / ABSENT",
+  "frozen_rtl_modified": false,
+  "full_measurement_acceptance": "PASS",
+  "holdout_access": 0,
+  "identity_fields_in_feature_npz": 0,
+  "manifest": {
+    "bytes": 28130,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_dataset_manifest_12b3g.json",
+    "sha256": "9af923d5596491fb730a1574a6d3c299ca970a2e2e6a64bc0ee1f8a43b24110a"
+  },
+  "mean_maximum_observable_candidate_sites": [
+    1.9594594594594594,
+    36
+  ],
+  "metrics": {
+    "bytes": 1592,
+    "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_metrics_12b3g.json",
+    "sha256": "f41502e7e76c9bb381b926f81db538cfff47bf4d11c5988bdd419925de96b1de"
+  },
+  "missing_duplicate_unknown_baseline_failures": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "model_training_inference": "0 / 0",
+  "next_gate": "STAGE 12B-3H — FULL-CAPTURE RESULT DISPOSITION AND REPAIR-MODEL TRAINING READINESS FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "probe_rescued_faults": 527,
+  "repair_calibration": "LOCKED / NOT ACCESSED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "selected_candidate": "EM_TESTPOINT_4X64_T16",
+  "sites_faults_vectors": [
+    1024,
+    2048,
+    96
+  ],
+  "stage": "12B-3G",
+  "status": "PASS",
+  "validation_access": 0
+}

@@ -1,0 +1,5 @@
+family_id,circuit_class,partition,signature_uniqueness,detection_recall,exact_site_baseline,exact_site_reranked,meets_floor_0_15
+secworks_sha256,CRYPTO_HASH,GENERALIZATION_CALIBRATION,0.4771,0.9467,0.4516,0.6385,YES
+secworks_aes,CRYPTO_BLOCK,GENERALIZATION_TRAIN,0.3783,0.9714,0.3675,0.6359,YES
+opentitan_hmac_sha256,CRYPTO_MAC_WRAPPED,GENERALIZATION_TRAIN,0.107,0.2676,0.0286,0.0785,NO
+picorv32_cpu,CPU_RISCV,GENERALIZATION_TRAIN,0.0183,0.2459,0.0045,0.0404,NO

@@ -1,0 +1,70 @@
+{
+  "calibration_advancement_target": "PASS",
+  "calibration_outputs": {
+    "bytes": 5429,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_training_12b1d/circuitsage_hmac_v2_1_selected_calibration_outputs_12b1d.npz",
+    "sha256": "bd4a79d73d8c28d220a94b327661a23a0d6d0958927a111d2b53d4d665b74160"
+  },
+  "closed_catalog_consistency_only": true,
+  "deterministic_replay": {
+    "fit_arrays_exact": true,
+    "metrics_exact": true,
+    "outputs_exact": true,
+    "status": "PASS"
+  },
+  "dev_site_test_opened": false,
+  "fit_source": "NEW FIT",
+  "holdout_access_count": 0,
+  "lock_version": "CIRCUITSAGE-HMAC-V2.1-SELECTION-LOCK-v1",
+  "selected_candidate_id": "V21_EXACT_SIGNATURE_SET",
+  "selected_metadata": {
+    "bytes": 1937,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_training_12b1d/circuitsage_hmac_v2_1_selected_locator_metadata_12b1d.json",
+    "sha256": "438dd0634ea056a1830df410ea62b2d8568536b308fe4865ff1f9198400b6039"
+  },
+  "selected_metrics": {
+    "acceptance_checks": {
+      "ambiguous_false_unique_rate": true,
+      "exact_signature_candidate_set_coverage": true,
+      "fault_free_false_alarm_rate": true,
+      "no_catalog_match_false_unique_rate": true,
+      "observable_candidate_set_coverage": true,
+      "observable_detection_recall": true,
+      "observable_mrr_improves_v2_core": true,
+      "unique_signature_top1_site_accuracy": true
+    },
+    "ambiguous_false_unique_rate": 0.0,
+    "ambiguous_query_profiles": 68,
+    "calibration_query_profiles": 1503,
+    "candidate_id": "V21_EXACT_SIGNATURE_SET",
+    "closed_catalog_consistency_only": true,
+    "exact_signature_candidate_set_coverage": 1.0,
+    "fault_free_false_alarm_rate": 0.0,
+    "maximum_returned_candidate_set_size": 3,
+    "mean_returned_candidate_set_size": 1.049234863606121,
+    "near_match_query_profiles": 0,
+    "no_catalog_match_false_unique_rate": 0.0,
+    "no_match_canaries": 1,
+    "observable_candidate_set_coverage": 1.0,
+    "observable_detection_recall": 1.0,
+    "observable_mean_reciprocal_rank": 1.0,
+    "observable_top10_set_accuracy": 1.0,
+    "observable_top5_set_accuracy": 1.0,
+    "unique_query_profiles": 1435,
+    "unique_signature_top1_site_accuracy": 1.0
+  },
+  "selection_status": "FROZEN",
+  "stage": "12B-1D",
+  "status": "PASS",
+  "trainable_candidates_fitted": 2,
+  "trained_candidate_bundle": {
+    "bytes": 2926,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_training_12b1d/circuitsage_hmac_v2_1_trained_candidate_bundle_12b1d.npz",
+    "sha256": "ef184516bc8990b0062d9ce4a067f0c898ee7102124238715166d5e45a06ec54"
+  },
+  "training_status": "FROZEN",
+  "v1_model_deserialized": false,
+  "v1_model_modified": false,
+  "v2_core_modified": false,
+  "validation_access_count": 0
+}

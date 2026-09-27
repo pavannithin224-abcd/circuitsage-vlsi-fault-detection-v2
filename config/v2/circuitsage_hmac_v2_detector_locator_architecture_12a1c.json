@@ -1,0 +1,96 @@
+{
+  "architecture_version": "CIRCUITSAGE-HMAC-V2-DETECTOR-LOCATOR-CONTRACT-v1",
+  "candidate_architectures": [
+    {
+      "candidate_hidden": "64;32",
+      "candidate_id": "V2_LINKED_RANKER_SMALL_A1E5",
+      "epochs": 8,
+      "fusion_hidden": "64;16",
+      "learning_rate": "0.001",
+      "negative_candidates_per_query": 128,
+      "query_batch_size": 64,
+      "random_seed": 20260914,
+      "response_hidden": "128;64",
+      "trainable_parameters": 324545,
+      "weight_decay": "0.00001"
+    },
+    {
+      "candidate_hidden": "96;32",
+      "candidate_id": "V2_LINKED_RANKER_WIDE_A1E5",
+      "epochs": 6,
+      "fusion_hidden": "96;24",
+      "learning_rate": "0.0005",
+      "negative_candidates_per_query": 128,
+      "query_batch_size": 48,
+      "random_seed": 20260914,
+      "response_hidden": "192;64",
+      "trainable_parameters": 487537,
+      "weight_decay": "0.00001"
+    }
+  ],
+  "catalog_membership_during_locked_query_inference": "PROHIBITED",
+  "detection": {
+    "input": "64 ordered observed HMAC responses plus frozen normal responses",
+    "normal_compatible_semantics": "NO_OBSERVED_ANOMALY; latent fault cannot be excluded",
+    "observable_fault_semantics": "detects only faults that change at least one captured response",
+    "output": [
+      "OBSERVABLE_ANOMALY",
+      "NO_OBSERVED_ANOMALY"
+    ],
+    "rule": "anomaly iff any response deviation indicator is one",
+    "trainable_parameters": 0,
+    "type": "EXACT GOLDEN-REFERENCE ANOMALY GATE"
+  },
+  "fault_scope": "SINGLE PERSISTENT SA0/SA1 ON FROZEN HMAC CATALOG",
+  "localization": {
+    "ambiguous_response_policy": "return ranked candidate set and uncertainty; never force exact site",
+    "candidate_batching_required": true,
+    "candidate_encoder": "185 -> {candidate candidate_hidden final 32}",
+    "candidate_fault_type_features": 2,
+    "candidate_graph_features": 119,
+    "candidate_universe": 45678,
+    "candidate_v1_support_features": 64,
+    "fault_type_output": "SA0/SA1 of ranked fault instance",
+    "fusion_input_features": 96,
+    "no_catalog_match_policy": "return UNRESOLVED/OUT-OF-CATALOG; never invent a site",
+    "query_response_features": 2304,
+    "response_encoder": "2304 -> {candidate response_hidden final 64}",
+    "score_output": "one unbounded compatibility logit per candidate fault instance",
+    "top_k_outputs": [
+      1,
+      5,
+      10,
+      50
+    ],
+    "type": "SHARED-ENCODER DEEP PAIRWISE GRAPH RANKER"
+  },
+  "maximum_trainable_parameters": 487537,
+  "model_name": "CircuitSage-HMAC V2 Linked Behavior Detector and Graph Locator",
+  "post_simulation_target_features": 0,
+  "stage": "12A-1C",
+  "status": "FROZEN",
+  "target_present_in_model_input": false,
+  "task": "BLINDED OBSERVATION-ONLY FAULT DETECTION AND CANDIDATE RANKING",
+  "unknown_fault_identity_in_query": "PROHIBITED",
+  "v1_link": {
+    "allowed_inputs": [
+      "527 frozen pre-simulation sample features",
+      "119 frozen K3 graph features"
+    ],
+    "construction": "one frozen V1 detectability probability per TRAIN response vector for each candidate fault instance",
+    "forbidden_inputs": [
+      "observed query identity",
+      "ground-truth site",
+      "ground-truth SA0/SA1",
+      "detection label"
+    ],
+    "model_input_features": 646,
+    "model_type": "sklearn.neural_network.MLPClassifier",
+    "role": "READ-ONLY CANDIDATE DETECTABILITY SUPPORT",
+    "source_model": "results/hmac_fault_campaign_11d2/hybrid_training_11d2b/hmac_selected_hybrid_model_11d2b.joblib",
+    "support_vector_features": 64,
+    "threshold_trainable": false,
+    "weight_merging": "PROHIBITED",
+    "weights_trainable": false
+  }
+}

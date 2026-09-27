@@ -1,0 +1,128 @@
+{
+  "dataset_status": "FROZEN",
+  "dev_site_test_query_rows": 0,
+  "holdout_access_count": 0,
+  "input_evidence": {
+    "config/v2_1/circuitsage_hmac_v2_1_locator_acceptance_contract_12b1a.json": {
+      "bytes": 1711,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_acceptance_contract_12b1a.json",
+      "sha256": "899b2ff099da20b4631308962c3052e16c7cf875ae296f5b2f6da825d6c6c12a"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_architecture_12b1a.json": {
+      "bytes": 3200,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_architecture_12b1a.json",
+      "sha256": "370fa36bfa952a1fe54d1b7b7f4e27950692387849d94aa73b733de4c45b02fe"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_candidate_grid_12b1a.csv": {
+      "bytes": 525,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_candidate_grid_12b1a.csv",
+      "sha256": "c159aa527d6720093fa3578d0d4e0042d1b0c2138535ac01e567efdddd600653"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_training_contract_12b1a.json": {
+      "bytes": 2101,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_training_contract_12b1a.json",
+      "sha256": "36d6da41f359dee47d146866601655ed46b39d941ef79dcbd48cb689d3260e67"
+    },
+    "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_features_12a1b.npz": {
+      "bytes": 21778136,
+      "path": "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_features_12a1b.npz",
+      "sha256": "09f5dded67a6f82d14f02b4de23765b66ff954eb6a9779817c8b7286dc6ac2b3"
+    },
+    "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_schema_12a1b.json": {
+      "bytes": 3356,
+      "path": "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_schema_12a1b.json",
+      "sha256": "5743d02ad5a8067aef331e955b6e91acd599b066956b0e572c7d25b2c1f98032"
+    },
+    "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_targets_12a1b.npz": {
+      "bytes": 141739,
+      "path": "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_targets_12a1b.npz",
+      "sha256": "268e407a9d13adab6a81b4650b4c16761dffb99d6d3d7a32ab2c28ff9a57a572"
+    },
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_train_response_dataset_freeze_12a1b.json": {
+      "bytes": 859,
+      "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_train_response_dataset_freeze_12a1b.json",
+      "sha256": "e4b5e6f3aa60c2f49668ed5105549898729af5985e5e8db7d8eabc1e86aaf222"
+    },
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_train_response_manifest_12a1b.json": {
+      "bytes": 4124,
+      "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_train_response_manifest_12a1b.json",
+      "sha256": "dd667b287285e0fb6cca6930de8415bc97b2a8b4213840205aa7b4b842dbdbca"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_contract_manifest_12b1a.json": {
+      "bytes": 4517,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_contract_manifest_12b1a.json",
+      "sha256": "eae8cf0d02155c8fbf3e736307ffca79f13d2268442c10a49a945477d7e62577"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_environment_12b1a.json": {
+      "bytes": 597,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_environment_12b1a.json",
+      "sha256": "6bed97f508754f9c4782a2ee507b78272034ca92d7d9d24d729b57195294c1bc"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_locator_redesign_contract_freeze_12b1a.json": {
+      "bytes": 2228,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_locator_redesign_contract_freeze_12b1a.json",
+      "sha256": "95ccfb93fcc11c5b87b21d0a7fd869a0562c42175ec6aa60310ca20ee272fa01"
+    },
+    "stage_12a1b_blinded_train_response_dataset.py": {
+      "bytes": 24622,
+      "path": "stage_12a1b_blinded_train_response_dataset.py",
+      "sha256": "d0dd96765a10f9821c284b21f6d757771710b46064016c0a1506fbd97d237032"
+    },
+    "stage_12b1a_v2_1_locator_redesign_contract.py": {
+      "bytes": 23981,
+      "path": "stage_12b1a_v2_1_locator_redesign_contract.py",
+      "sha256": "8a5a211c5adc073bf3d67560d50bd4457f181a0c19ca7e2f136c9f905bb6f979"
+    }
+  },
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-BEHAVIOR-SIGNATURE-MANIFEST-v1",
+  "model_inference_calls": 0,
+  "model_objects_deserialized": 0,
+  "model_training_calls": 0,
+  "outputs": {
+    "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_ambiguity_aware_dataset_12b1b.npz": {
+      "bytes": 381188,
+      "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_ambiguity_aware_dataset_12b1b.npz",
+      "sha256": "23056e33b060f136fbff82a91e9ee558c37dea43b19a8056474b73036cd66c68"
+    },
+    "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_index_12b1b.npz": {
+      "bytes": 1316073,
+      "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_index_12b1b.npz",
+      "sha256": "f249de3da8a9a9266aaffa3dd367ec09ec6ae20c10172ee2dc127bbd45682dac"
+    },
+    "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_schema_12b1b.json": {
+      "bytes": 4867,
+      "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_schema_12b1b.json",
+      "sha256": "93e552cf64baace76a32c9e30a3c0fd3fe90ddbd7f7dde80c96285499bf2b11a"
+    },
+    "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_statistics_12b1b.json": {
+      "bytes": 931,
+      "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_statistics_12b1b.json",
+      "sha256": "d948d2aa543a7c4cc91c9bde4e82e1b36f8a586855450bb72a892928866b4795"
+    }
+  },
+  "schema_status": "FROZEN",
+  "stage": "12B-1B",
+  "statistics": {
+    "ambiguous_site_fault_instances": 13759,
+    "calibration_query_profiles": 1503,
+    "catalog_fault_instances": 45678,
+    "catalog_physical_sites": 22839,
+    "catalog_profile_site_memberships": 34651,
+    "cross_partition_profiles_excluded_from_queries": 2148,
+    "dev_site_test_query_profiles": 0,
+    "distinct_response_profiles": 13028,
+    "maximum_catalog_candidate_sites": 12019,
+    "normal_compatible_fault_instances": 22748,
+    "observable_fault_instances": 22930,
+    "query_ambiguous_site_profiles": 1646,
+    "query_profiles_total": 9489,
+    "query_unique_site_profiles": 7843,
+    "signature_hash_collisions": 0,
+    "signature_hashes": 13028,
+    "train_query_profiles": 7986,
+    "unique_site_fault_instances": 9171,
+    "vector_commitment_sha256": "a0308d40a33d9a36b71f0cbff882afec11fe46604b732ed09ace6da734ab1b0a"
+  },
+  "status": "PASS",
+  "validation_access_count": 0
+}

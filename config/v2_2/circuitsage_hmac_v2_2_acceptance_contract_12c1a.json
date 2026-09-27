@@ -1,0 +1,37 @@
+{
+  "acceptance_contract_version": "CIRCUITSAGE-HMAC-V2.2-INDEPENDENT-GENERALIZATION-ACCEPTANCE-12C1A-v1",
+  "failure_disposition": "FREEZE NOT_ESTABLISHED; DO NOT REOPEN TEST; DESIGN A NEW TRAIN/CALIBRATION-ONLY STUDY",
+  "holdout": "REMAINS BLOCKED EVEN IF V2.2 PASSES",
+  "macro_gates": {
+    "all_injected_detection_recall_min": 0.6,
+    "all_injected_exact_site_rate_min": 0.25,
+    "ambiguous_false_unique_rate_max": 0.01,
+    "fault_free_false_alarm_rate_max": 0.01,
+    "observable_candidate_set_coverage_min": 0.9,
+    "observable_detection_recall_min": 0.9,
+    "observable_mrr_min": 0.3,
+    "ood_auroc_min": 0.75,
+    "polarity_accuracy_given_correct_unique_site_min": 0.8,
+    "unique_signature_top1_site_min": 0.7
+  },
+  "mandatory_test_population": "at least two circuit families absent from training, calibration and architecture tuning",
+  "one_shot_rule": "ONE LOCKED TEST EVALUATION; NO RETRAINING, THRESHOLD CHANGE, OR RESELECTION AFTERWARD",
+  "per_circuit_floor": {
+    "all_injected_exact_site_rate_min": 0.15,
+    "fault_free_false_alarm_rate_max": 0.02,
+    "observable_candidate_set_coverage_min": 0.8,
+    "observable_detection_recall_min": 0.8
+  },
+  "prediction_commitment": "REQUIRED BEFORE OPENING INDEPENDENT_TEST TRUTH",
+  "production_readiness": "NOT ESTABLISHED BY THIS CONTRACT",
+  "required_comparators": [
+    "fault-free exact golden-reference detector",
+    "non-learning exact-signature retrieval",
+    "topology-only graph baseline",
+    "frozen V2.1 where interface-compatible"
+  ],
+  "scientific_claim": "INDEPENDENT-CIRCUIT GENERALIZATION IS ESTABLISHED ONLY IF EVERY MANDATORY GATE PASSES ON BOTH LOCKED TEST CIRCUITS",
+  "stage": "12C-1A",
+  "status": "FROZEN",
+  "uncertainty": "hierarchical bootstrap by circuit then physical site; 1000 replicates; 95% intervals"
+}

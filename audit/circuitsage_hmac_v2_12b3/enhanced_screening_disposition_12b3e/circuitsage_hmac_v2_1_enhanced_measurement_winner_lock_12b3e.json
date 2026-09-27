@@ -1,0 +1,32 @@
+{
+  "candidate_family": "SIMULATION_ONLY_TEST_POINT",
+  "lock_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-MEASUREMENT-WINNER-LOCK-12B3E-v1",
+  "probe_bits": 256,
+  "reselection_or_threshold_change": "PROHIBITED",
+  "screening_metrics": {
+    "combined_detection_recall": 0.75976562,
+    "combined_observable_faults": 389,
+    "fault_free_false_alarms": 0,
+    "probe_rescued_faults": 142,
+    "screening_acceptance": "PASS",
+    "site_bootstrap_ci_95": [
+      0.71875,
+      0.80078125
+    ]
+  },
+  "selected_candidate": "EM_TESTPOINT_4X64_T16",
+  "selection_replay": "PASS / UNIQUE",
+  "snapshots": 16,
+  "source_feature_dataset": {
+    "bytes": 4388468,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_testpoint_screening_features_12b3d.npz",
+    "sha256": "08c0b0e8645bee9dcc063f51ff1744207a18c47e5a717839e4bb463b34107f15"
+  },
+  "source_metrics": {
+    "bytes": 2510,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_candidate_metrics_12b3d.json",
+    "sha256": "3e4b20ba8d51452c7f895f8c595ab383495cd5234d5455afd37bbbfc316405b3"
+  },
+  "stage": "12B-3E",
+  "status": "FROZEN"
+}

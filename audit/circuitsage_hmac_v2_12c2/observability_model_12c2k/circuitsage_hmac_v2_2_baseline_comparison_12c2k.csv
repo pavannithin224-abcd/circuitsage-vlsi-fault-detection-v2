@@ -1,0 +1,5 @@
+family_id,partition,majority_class_accuracy,depth_threshold_balanced_accuracy,depth_threshold_direction,gnn_balanced_accuracy,gnn_auroc,gnn_beats_depth_baseline
+opentitan_hmac_sha256,TRAIN,0.619889,0.62977,shallow_is_observable,0.493134,0.620507,NO
+picorv32_cpu,TRAIN,0.560683,0.513469,shallow_is_observable,0.5,0.614239,NO
+secworks_aes,TRAIN,0.998494,0.60543,shallow_is_observable,0.5,0.738033,NO
+secworks_sha256,CALIBRATION,0.998027,0.767816,deep_is_observable,0.5,0.347639,NO

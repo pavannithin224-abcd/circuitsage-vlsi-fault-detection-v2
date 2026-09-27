@@ -1,0 +1,5 @@
+family_id,sites,faults,faults_per_site_min,faults_per_site_max,faults_per_site_mean,prior_is_uniform
+opentitan_hmac_sha256,18392,36784,2,2,2.0,YES
+picorv32_cpu,9665,19330,2,2,2.0,YES
+secworks_aes,26560,53120,2,2,2.0,YES
+secworks_sha256,9125,18250,2,2,2.0,YES

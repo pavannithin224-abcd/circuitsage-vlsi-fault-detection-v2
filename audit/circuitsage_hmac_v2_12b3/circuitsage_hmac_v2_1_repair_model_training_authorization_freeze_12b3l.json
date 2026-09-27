@@ -1,0 +1,65 @@
+{
+  "ambiguity_preservation": "MANDATORY",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-MODEL-TRAINING-AUTHORIZATION-FREEZE-12B3L-v1",
+  "authorization": {
+    "bytes": 1547,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_training_authorization_12b3l.json",
+    "sha256": "771dbd001a7dfeee8c57464573bee8cc44d3ae5db7d116704a29d2967605e216"
+  },
+  "authorization_status": "FROZEN",
+  "calibration_gradient_updates": "PROHIBITED",
+  "candidate_models_trainable_runs": [
+    4,
+    9
+  ],
+  "data_lock": {
+    "bytes": 4068,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_authorization_12b3l/circuitsage_hmac_v2_1_repair_train_calibration_data_lock_12b3l.json",
+    "sha256": "8b4772e40dc09653f62701eca61dc6c71eea544d581d8ea4c860bb8ef3572c69"
+  },
+  "dev_site_test": "CONSUMED / NOT REOPENED",
+  "execution_contract": {
+    "bytes": 2301,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_training_execution_contract_12b3l.json",
+    "sha256": "407db45b1172aa82ca9278c09e07bcd809154fb65d56f3862bafae7aca7e9da0"
+  },
+  "execution_plan": {
+    "bytes": 1069,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_authorization_12b3l/circuitsage_hmac_v2_1_repair_model_candidate_execution_plan_12b3l.csv",
+    "sha256": "59d83a405e2dd79e64b9e1de70802cb5f9acdebe505f20b2491654d371d30fc2"
+  },
+  "manifest": {
+    "bytes": 12505,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_model_training_authorization_manifest_12b3l.json",
+    "sha256": "285607f90aff2adbe22812fe4a768558270d7756d573be01deb3fcb1f9141090"
+  },
+  "next_gate": "STAGE 12B-3M — REPAIR-MODEL TRAINING, CALIBRATION, SELECTION, AND FREEZE",
+  "preflight": {
+    "bytes": 851,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_authorization_12b3l/circuitsage_hmac_v2_1_repair_model_training_preflight_12b3l.json",
+    "sha256": "d03b54cd202142138dea77a972133209f13bde6489070797a330605e97132363"
+  },
+  "query_fault_identity": "PROHIBITED / ABSENT",
+  "repair_calibration_dataset": "VERIFIED / FROZEN",
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "repair_train_calibration_site_overlap": 0,
+  "repair_train_dataset": "VERIFIED / FROZEN",
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "stage": "12B-3L",
+  "status": "PASS",
+  "training_inference_model_deserialization": [
+    0,
+    0,
+    0
+  ],
+  "training_selection": "AUTHORIZED / NOT STARTED",
+  "v1_v2_core_v2_1_modified": [
+    false,
+    false,
+    false
+  ],
+  "validation_holdout_access": [
+    0,
+    0
+  ]
+}

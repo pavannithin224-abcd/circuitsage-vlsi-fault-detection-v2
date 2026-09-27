@@ -1,0 +1,49 @@
+{
+  "canonical_netlists_modified": false,
+  "capture_calls": 0,
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-PROBE-MEASUREMENT-DISPOSITION-MANIFEST-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_redesign_contract_12b2i.json": {
+      "bytes": 2165,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_redesign_contract_12b2i.json",
+      "sha256": "89c478eaa01e884cebae087a4dde2eec9093643f67c265b0fb7956f9695f4e4f"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_measurement_disposition_policy_12b2i.json": {
+      "bytes": 1500,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_measurement_disposition_policy_12b2i.json",
+      "sha256": "89b7a73279cf39b74572931090563b2009406c2ef8f45c91047357086664b17e"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_measurement_disposition_12b2i/circuitsage_hmac_v2_1_improvement_capability_registry_12b2i.csv": {
+      "bytes": 637,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_measurement_disposition_12b2i/circuitsage_hmac_v2_1_improvement_capability_registry_12b2i.csv",
+      "sha256": "35148d4ad5f7ee9856e5901b19bc86be8d9d493f9d0e0581e681f7172ab5eda8"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_measurement_disposition_12b2i/circuitsage_hmac_v2_1_improvement_capability_registry_12b2i.json": {
+      "bytes": 1305,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_measurement_disposition_12b2i/circuitsage_hmac_v2_1_improvement_capability_registry_12b2i.json",
+      "sha256": "2da0379ee24b0a128e70d7385c09bab756f91b4ed8af85479a074aa25ce44793"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_measurement_disposition_12b2i/circuitsage_hmac_v2_1_probe_measurement_disposition_report_12b2i.md": {
+      "bytes": 1490,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_measurement_disposition_12b2i/circuitsage_hmac_v2_1_probe_measurement_disposition_report_12b2i.md",
+      "sha256": "948a443aa3ebc1b619d0732abda9e2d79ccbc899da4a0ffd4ba93058182e4d6f"
+    }
+  },
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "simulation_calls": 0,
+  "stage": "12B-2I",
+  "stage_12b2h_audit": {
+    "bytes": 2356,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_probe_capture_dataset_integrity_freeze_12b2h.json",
+    "sha256": "cc68202cc1ef92d32319c43ca1d8afd2c9bb324ac24fb9125e630d50a7403d91"
+  },
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0
+}

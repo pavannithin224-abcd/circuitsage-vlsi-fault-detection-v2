@@ -1,0 +1,18 @@
+CircuitSage V2
+Copyright 2026 Pavan Nithin
+
+This product includes software developed as part of the CircuitSage research
+programme, licensed under the Apache License, Version 2.0.
+
+This distribution redistributes unmodified pinned snapshots of third-party
+hardware description sources under corpus/. Those snapshots are the work of
+their respective upstream authors and remain under their original licenses
+(Apache-2.0, ISC, BSD-2-Clause). See THIRD_PARTY_NOTICE.md for per-project
+attribution, pinned revisions, and integrity hashes.
+
+Redistributed Apache-2.0 designs:
+  OpenTitan  - Copyright lowRISC contributors - https://github.com/lowRISC/opentitan
+  Ibex       - Copyright lowRISC contributors - https://github.com/lowRISC/ibex
+
+No upstream source was modified. All fault-injection instrumentation is
+implemented separately under rtl/ and tb/.

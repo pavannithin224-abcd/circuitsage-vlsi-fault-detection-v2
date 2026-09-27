@@ -1,0 +1,4 @@
+candidate_id,family,probe_banks,probe_bits,snapshots,cross_batch_presence,yosys_structural_check,verilator_lint,canary_executed,response_values_captured
+EM_TOPOLOGY_4X64_T24,MULTI_BANK_TOPOLOGY,4,256,24,45/45,PASS,PASS,NO,0
+EM_STATE_CHECKPOINT_2X64_T32,SEQUENTIAL_STATE_CHECKPOINT,2,128,32,45/45,PASS,PASS,NO,0
+EM_TESTPOINT_4X64_T16,SIMULATION_ONLY_TEST_POINT,4,256,16,45/45,PASS,PASS,NO,0

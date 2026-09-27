@@ -1,0 +1,61 @@
+{
+  "candidate_architectures": 3,
+  "canonical_netlists_modified": false,
+  "capture_calls": 0,
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-MEASUREMENT-ARCHITECTURE-MANIFEST-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_acceptance_contract_12b3a.json": {
+      "bytes": 1229,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_acceptance_contract_12b3a.json",
+      "sha256": "b80af004f813ed0657182a3ffe139debb701cd267a4b74ff6b1c73fe69504291"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_architecture_12b3a.json": {
+      "bytes": 1414,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_architecture_12b3a.json",
+      "sha256": "80b84674776166f2506d9554ded7befd0b71f994a148eb608bfb50d61539447a"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_budget_policy_12b3a.json": {
+      "bytes": 1191,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_budget_policy_12b3a.json",
+      "sha256": "4f8bf4e07fd44dc8a1e86227072a15ede3cb1d5a302f000ff7302849def6cf08"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_architecture_report_12b3a.md": {
+      "bytes": 1525,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_architecture_report_12b3a.md",
+      "sha256": "8259775bc4e0c716be1306a0aeaacceb868ea7852e0bc223cfe27cabd687fe9b"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_candidate_grid_12b3a.csv": {
+      "bytes": 685,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_candidate_grid_12b3a.csv",
+      "sha256": "a829a254269e1127ee1d2567ee4bce74bb964d9f2ff2633c995c8869f6214403"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_environment_12b3a.json": {
+      "bytes": 421,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_environment_12b3a.json",
+      "sha256": "8504a988a999744275dc683ac7c67cbd067fcf103c1c21b34b10415e5d514d61"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_screening_schedule_12b3a.csv": {
+      "bytes": 523,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_screening_schedule_12b3a.csv",
+      "sha256": "e3b0cfd0d73aba297b5f61ef6ce9b464c44940fd82d00f4f72e6df8a902b056e"
+    }
+  },
+  "probe_discovery_calls": 0,
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "simulation_calls": 0,
+  "stage": "12B-3A",
+  "stage_12b2i_audit": {
+    "bytes": 2252,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_probe_measurement_disposition_freeze_12b2i.json",
+    "sha256": "355e71a08bf6f5e914ee8bb9be55155610c47ec89a3f1fa93be47e745eb1df57"
+  },
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0
+}

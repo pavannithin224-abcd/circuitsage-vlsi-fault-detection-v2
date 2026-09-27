@@ -1,0 +1,12 @@
+check,expected,observed,result
+feature width equals 646,646,646,PASS
+graph branch is standardized (col mean ~ 0),max|colmean| < 0.05,0.008466,PASS
+graph branch is standardized (col std ~ 1),"all in [0.5, 2.0]","[0.837, 1.183]",PASS
+graph branch robust range sane (p99.99),< 20,12.608,PASS
+extreme-fanout outliers are rare,< 0.1% of nodes,5/22839,PASS
+saturation at exactly 0 or 1 is negligible,<= 1% of samples,1/400,PASS
+probability spread is graded,std > 0.05,0.3925,PASS
+responds to fault polarity,>= 80/100,100/100,PASS
+double-scaling demonstrably worse,more saturation,143 vs 1,PASS
+out-of-scope returns OUT_OF_SCOPE,OUT_OF_SCOPE,OUT_OF_SCOPE,PASS
+12C-2I unmodified,dabe558f90ab0897,dabe558f90ab0897,PASS

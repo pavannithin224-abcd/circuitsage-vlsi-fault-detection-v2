@@ -1,0 +1,62 @@
+{
+  "baseline_records": 4320,
+  "canonical_batches": 45,
+  "canonical_netlists_modified": false,
+  "enabled_transactions": 196608,
+  "fault_instances": 2048,
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-FULL-CAPTURE-AUTHORIZATION-MANIFEST-12B3F-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_authorization_12b3f.json": {
+      "bytes": 2133,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_authorization_12b3f.json",
+      "sha256": "139de7a17d9e792674f6bc1203c5aac09963ce33669270952e27e2194337cb3f"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_execution_contract_12b3f.json": {
+      "bytes": 2325,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_execution_contract_12b3f.json",
+      "sha256": "6e1decd6a14759a52f57322ffabb1d53b3040a6d7638d14d1268eebe2ed4410a"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_authorization_12b3f/circuitsage_hmac_v2_1_full_capture_execution_plan_12b3f.csv": {
+      "bytes": 3590,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_authorization_12b3f/circuitsage_hmac_v2_1_full_capture_execution_plan_12b3f.csv",
+      "sha256": "63c9848195b967442a9b78542b4f8dc60fef2db31d92de55c3fbb6dfd941ce79"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_authorization_12b3f/circuitsage_hmac_v2_1_full_capture_preflight_12b3f.json": {
+      "bytes": 898,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_authorization_12b3f/circuitsage_hmac_v2_1_full_capture_preflight_12b3f.json",
+      "sha256": "28db1e62389c45226542ed07f6210dfe7f1957b9fa639bc6b462a9e559ac5eb7"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_authorization_12b3f/circuitsage_hmac_v2_1_full_capture_schema_12b3f.json": {
+      "bytes": 2091,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_authorization_12b3f/circuitsage_hmac_v2_1_full_capture_schema_12b3f.json",
+      "sha256": "5a2b16855e8510b7ab16947ce2832332a942c7e31dd20d1d2ce90651a6af66ed"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_authorization_12b3f/circuitsage_hmac_v2_1_full_capture_sites_12b3f.csv": {
+      "bytes": 46075,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_authorization_12b3f/circuitsage_hmac_v2_1_full_capture_sites_12b3f.csv",
+      "sha256": "25d3c60b5f3d595aa985f5cf4d7e62c71e9961d4b890fb62e8be7d65e146d52b"
+    }
+  },
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "response_values_captured": 0,
+  "selected_candidate": "EM_TESTPOINT_4X64_T16",
+  "simulation_calls": 0,
+  "sites": 1024,
+  "stage": "12B-3F",
+  "stage_12b3e_audit": {
+    "bytes": 2562,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_screening_disposition_full_capture_readiness_freeze_12b3e.json",
+    "sha256": "cc113c7bd00fba6e4d5d946e213332b4cc9292f9525ee6dfae214d5e103b6695"
+  },
+  "status": "PASS",
+  "total_records": 200928,
+  "training_calls": 0,
+  "validation_access": 0,
+  "vectors": 96
+}

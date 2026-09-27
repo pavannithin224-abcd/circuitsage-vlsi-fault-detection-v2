@@ -1,0 +1,5 @@
+family_id,partition,sites,observable_sites,observable_site_fraction,sequential_cell_fraction,mean_depth_to_output,mean_seq_distance_to_output,sites_unreachable_to_output,corr_observable_vs_depth_to_output,corr_observable_vs_seq_distance,corr_observable_vs_fanout,corr_observable_vs_is_sequential
+opentitan_hmac_sha256,GENERALIZATION_TRAIN,18392,6991,0.38011092,0.00407786,11.492714,0.036701,0,-0.331497,0.064591,0.0,0.079958
+picorv32_cpu,GENERALIZATION_TRAIN,9665,4246,0.43931714,0.16564925,9.559855,1.198965,0,-0.310606,0.07308,0.0,-0.137021
+secworks_aes,GENERALIZATION_TRAIN,26560,26520,0.99849397,0.09295934,12.093675,1.144992,0,0.003059,-0.006559,0.0,0.012433
+secworks_sha256,GENERALIZATION_CALIBRATION,9125,9107,0.99802738,0.11320548,11.112987,1.802301,0,0.041421,0.053637,0.0,0.015884

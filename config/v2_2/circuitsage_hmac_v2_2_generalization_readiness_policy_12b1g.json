@@ -1,0 +1,33 @@
+{
+  "claims_before_independent_evaluation": "RESEARCH EXPERIMENT ONLY",
+  "dev_site_test_reopening": "PROHIBITED",
+  "holdout_access": "NOT AUTHORIZED",
+  "immutable_comparators": [
+    "CircuitSage-HMAC V1",
+    "V2 Core",
+    "V2.1"
+  ],
+  "next_authorized_stage": "12C-1A",
+  "policy_version": "CIRCUITSAGE-HMAC-V2.2-GENERALIZATION-READINESS-v1",
+  "required_architecture_elements": [
+    "response-only query encoder",
+    "open-set unknown-signature rejection",
+    "graph-constrained candidate generation",
+    "ambiguity-aware set prediction",
+    "full-catalog hard-negative training",
+    "adaptive discriminating-vector selection"
+  ],
+  "required_generalization_axes": [
+    "unseen test vectors",
+    "unseen physical sites",
+    "unseen response signatures",
+    "unseen fault families",
+    "independent circuits"
+  ],
+  "stage": "12B-1G",
+  "status": "FROZEN",
+  "v2_2_contract_creation": "AUTHORIZED",
+  "v2_2_dataset_construction": "NOT YET AUTHORIZED",
+  "v2_2_model_training": "NOT YET AUTHORIZED",
+  "validation_access": "NOT AUTHORIZED"
+}

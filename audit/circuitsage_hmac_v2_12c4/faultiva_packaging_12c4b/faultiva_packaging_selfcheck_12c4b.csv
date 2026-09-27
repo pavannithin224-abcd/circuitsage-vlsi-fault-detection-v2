@@ -1,0 +1,11 @@
+check,expected,observed,result
+bundle contains the V1 model,present,present,PASS
+bundle contains the propagation cache (gap 1),present,present,PASS
+bundle contains the netlist graph (gap 2),present,present,PASS
+dictionary carries candidate SITES (gap 3),site arrays present,"127,484 entries",PASS
+scaling convention shipped,present,present,PASS
+honest limits shipped,present,present,PASS
+examples run in a clean room,all PASS,3/3,PASS
+SHA256SUMS covers every file,18,18,PASS
+V1 release directory unmodified,12fea5eabf4a6c60,12fea5eabf4a6c60,PASS
+no separate V1 download required,True,True,PASS

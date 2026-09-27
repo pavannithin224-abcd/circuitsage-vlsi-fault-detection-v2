@@ -1,0 +1,5 @@
+family_id,partition,sites,accuracy,balanced_accuracy,auroc,precision,recall,positive_rate
+opentitan_hmac_sha256,TRAIN,18392,0.374891,0.493134,0.620507,0.376858,0.986268,0.380111
+picorv32_cpu,TRAIN,9665,0.439317,0.5,0.614239,0.439317,1.0,0.439317
+secworks_aes,TRAIN,26560,0.998494,0.5,0.738033,0.998494,1.0,0.998494
+secworks_sha256,CALIBRATION,9125,0.998027,0.5,0.347639,0.998027,1.0,0.998027

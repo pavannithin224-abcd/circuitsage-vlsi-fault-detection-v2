@@ -1,0 +1,17 @@
+{
+  "authorization_consumed": false,
+  "authorization_version": "CIRCUITSAGE-HMAC-V2.1-TRAINING-AUTHORIZATION-v1",
+  "candidate_selection": "AUTHORIZED ON DEV_CALIBRATION ONLY",
+  "dev_site_test_evaluation": "NOT AUTHORIZED",
+  "holdout_access": "NOT AUTHORIZED",
+  "locator_training": "AUTHORIZED FOR DEV_TRAIN ONLY",
+  "maximum_trainable_candidates": 2,
+  "next_authorized_stage": "12B-1D",
+  "nonparametric_reference_evaluation": "AUTHORIZED ON DEV_CALIBRATION",
+  "stage": "12B-1C",
+  "status": "FROZEN",
+  "unknown_fault_identity_in_query": "PROHIBITED",
+  "v1_model": "FROZEN READ-ONLY SUPPORT; RETRAINING AND THRESHOLD CHANGES PROHIBITED",
+  "v2_core": "FROZEN READ-ONLY PREDECESSOR; MODIFICATION PROHIBITED",
+  "validation_access": "NOT AUTHORIZED"
+}

@@ -1,0 +1,83 @@
+{
+  "acceptance_contract": {
+    "bytes": 1815,
+    "path": "config/v2_2/circuitsage_hmac_v2_2_acceptance_contract_12c1a.json",
+    "sha256": "9c8eec4d85957c4408ac59e0c8760af90c91d0667c995d91ac969b5a8f205f26"
+  },
+  "acceptance_contract_status": "FROZEN",
+  "architecture": {
+    "bytes": 1808,
+    "path": "config/v2_2/circuitsage_hmac_v2_2_generalization_architecture_12c1a.json",
+    "sha256": "e83da87e0ba773ed1b6872528c216079d31fc83537b4a2eca348bc6a23791649"
+  },
+  "architecture_status": "FROZEN",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.2-GENERALIZATION-CONTRACT-FREEZE-12C1A-v1",
+  "candidate_grid": {
+    "bytes": 639,
+    "path": "config/v2_2/circuitsage_hmac_v2_2_candidate_grid_12c1a.csv",
+    "sha256": "2297edd6a7b61cca28709509a015ff246c43a8379a36ed4842b8d1a2c5528470"
+  },
+  "candidate_models": 4,
+  "dataset_construction": "NOT AUTHORIZED",
+  "future_combined_model_brand": "Faultiva 1.0 — Hybrid VLSI Fault Intelligence",
+  "independent_generalization": "CONTRACTED / NOT YET EVALUATED",
+  "interface_contract": {
+    "bytes": 1375,
+    "path": "config/v2_2/circuitsage_hmac_v2_2_inference_interface_contract_12c1a.json",
+    "sha256": "c5e222640b7404e83fe925ec1b33b2bbf633880b4f21b253ba28d5025686541a"
+  },
+  "manifest": {
+    "bytes": 7789,
+    "path": "results/circuitsage_hmac_v2_12c1/circuitsage_hmac_v2_2_generalization_contract_manifest_12c1a.json",
+    "sha256": "e1a2000508a3e8d141077a487100f3a54250f227963e663f23cbd21749ed2ddc"
+  },
+  "minimum_circuit_families": 7,
+  "minimum_family_partition_counts": {
+    "GENERALIZATION_CALIBRATION": 1,
+    "GENERALIZATION_HOLDOUT": 1,
+    "GENERALIZATION_TRAIN": 3,
+    "INDEPENDENT_CIRCUIT_TEST": 2
+  },
+  "model_family": "CIRCUIT-NORMALIZED GRAPH ENCODER + RESPONSE ENCODER + CROSS-MODAL RETRIEVAL/RERANKING",
+  "next_gate": "STAGE 12C-1B — MULTI-CIRCUIT RTL CORPUS, LICENSE-PROVENANCE, AND FAMILY-SPLIT AUTHORIZATION FREEZE",
+  "partition_contract": {
+    "bytes": 1905,
+    "path": "config/v2_2/circuitsage_hmac_v2_2_circuit_family_partition_contract_12c1a.json",
+    "sha256": "4cbab060ef824f0ff8a17af7e2250d0efcf608ac7121c685bcf9eef4f5b2804c"
+  },
+  "partition_contract_status": "FROZEN",
+  "query_fault_identity": "PROHIBITED",
+  "report": {
+    "bytes": 1489,
+    "path": "results/circuitsage_hmac_v2_12c1/circuitsage_hmac_v2_2_generalization_contract_report_12c1a.md",
+    "sha256": "fa65512854a96adffb163f26853605127e34d96ae7153678e98ffc85acabe704"
+  },
+  "scientific_scope": "INDEPENDENT-CIRCUIT SINGLE PERSISTENT SA0/SA1 GENERALIZATION RESEARCH",
+  "scope_contract": {
+    "bytes": 1878,
+    "path": "config/v2_2/circuitsage_hmac_v2_2_generalization_scope_contract_12c1a.json",
+    "sha256": "993902928433953151b09641c156dbc9d9e154f33f5268b9329142fccfc45361"
+  },
+  "stage": "12C-1A",
+  "status": "PASS",
+  "trainable_candidates": 3,
+  "training_contract": {
+    "bytes": 1333,
+    "path": "config/v2_2/circuitsage_hmac_v2_2_training_selection_contract_12c1a.json",
+    "sha256": "081578897b76530c5d63ce2f283b5c7c19d9c5aaf9d7c1caf421e9ee5a564433"
+  },
+  "training_contract_status": "FROZEN",
+  "training_selection_evaluation": "NOT AUTHORIZED / NOT AUTHORIZED / NOT AUTHORIZED",
+  "unknown_ood_abstention": "MANDATORY",
+  "v1_v2_core_v2_1_modified": [
+    false,
+    false,
+    false
+  ],
+  "v2_1_locked_acceptance": "NOT_MET / PRESERVED",
+  "v2_1_repair_site_test": "CONSUMED / FROZEN / NOT REOPENED",
+  "validation_holdout_access": [
+    0,
+    0
+  ]
+}

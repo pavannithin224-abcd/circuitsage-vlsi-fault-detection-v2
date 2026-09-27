@@ -1,0 +1,57 @@
+{
+  "all_injected_exact_site_rate": 0.6787109375,
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-FULL-CAPTURE-DISPOSITION-TRAINING-READINESS-FREEZE-12B3H-v1",
+  "combined_detection_recall": 0.7587890625,
+  "dev_site_test_validation_holdout_access": [
+    0,
+    0,
+    0
+  ],
+  "disposition_status": "FROZEN",
+  "fault_free_false_alarms": 0,
+  "full_measurement_target": "MET",
+  "independent_generalization": "NOT ESTABLISHED",
+  "manifest": {
+    "bytes": 6908,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_disposition_manifest_12b3h.json",
+    "sha256": "b13651acdda00d58580200dee30e3674495dcb8a0f26a3a4071f65102ec29230"
+  },
+  "mean_maximum_observable_candidate_sites": [
+    1.9594594594594594,
+    36
+  ],
+  "next_gate": "STAGE 12B-3I — REPAIR-MODEL ARCHITECTURE, DATA-PARTITION, AND TRAINING-CONTRACT FREEZE",
+  "policy": {
+    "bytes": 1276,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_disposition_policy_12b3h.json",
+    "sha256": "fe3a60d818426ef124329426623915ab8f81ea16b93961ebf183dedf3443c4d0"
+  },
+  "production_readiness": "NOT ESTABLISHED",
+  "readiness_contract": {
+    "bytes": 2303,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_training_readiness_contract_12b3h.json",
+    "sha256": "d31afdbd6e1895fe3d68652af0999561052c750c94e05ac3efeaece9ff19133f"
+  },
+  "remaining_normal_compatible_faults": 494,
+  "repair_calibration_repair_site_test": "LOCKED / LOCKED",
+  "repair_model_training": "NOT AUTHORIZED / NOT STARTED",
+  "repair_model_training_readiness": "READY FOR ARCHITECTURE AND CONTRACT DESIGN",
+  "report": {
+    "bytes": 1154,
+    "path": "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_disposition_report_12b3h.md",
+    "sha256": "752b5e91e8891da3ab317c680f7a5ffb75fc1be381e7b693b84b82a19ad4b2f2"
+  },
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "stage": "12B-3H",
+  "status": "PASS",
+  "v1_v2_core_v2_1_modified": [
+    false,
+    false,
+    false
+  ],
+  "winner_dataset_lock": {
+    "bytes": 2124,
+    "path": "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_winner_dataset_lock_12b3h.json",
+    "sha256": "0138b4e4860063ae6f3a341ac19896cc996923e185355e72e9840aa7eb306c2a"
+  }
+}

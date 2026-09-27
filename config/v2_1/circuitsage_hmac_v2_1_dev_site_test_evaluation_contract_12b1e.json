@@ -1,0 +1,80 @@
+{
+  "acceptance_contract": {
+    "bytes": 1711,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_locator_acceptance_contract_12b1a.json",
+    "sha256": "899b2ff099da20b4631308962c3052e16c7cf875ae296f5b2f6da825d6c6c12a"
+  },
+  "calibration_metrics": {
+    "acceptance_checks": {
+      "ambiguous_false_unique_rate": true,
+      "exact_signature_candidate_set_coverage": true,
+      "fault_free_false_alarm_rate": true,
+      "no_catalog_match_false_unique_rate": true,
+      "observable_candidate_set_coverage": true,
+      "observable_detection_recall": true,
+      "observable_mrr_improves_v2_core": true,
+      "unique_signature_top1_site_accuracy": true
+    },
+    "ambiguous_false_unique_rate": 0.0,
+    "ambiguous_query_profiles": 68,
+    "calibration_query_profiles": 1503,
+    "candidate_id": "V21_EXACT_SIGNATURE_SET",
+    "closed_catalog_consistency_only": true,
+    "exact_signature_candidate_set_coverage": 1.0,
+    "fault_free_false_alarm_rate": 0.0,
+    "maximum_returned_candidate_set_size": 3,
+    "mean_returned_candidate_set_size": 1.049234863606121,
+    "near_match_query_profiles": 0,
+    "no_catalog_match_false_unique_rate": 0.0,
+    "no_match_canaries": 1,
+    "observable_candidate_set_coverage": 1.0,
+    "observable_detection_recall": 1.0,
+    "observable_mean_reciprocal_rank": 1.0,
+    "observable_top10_set_accuracy": 1.0,
+    "observable_top5_set_accuracy": 1.0,
+    "unique_query_profiles": 1435,
+    "unique_signature_top1_site_accuracy": 1.0
+  },
+  "calibration_or_test_feedback_changes_allowed": 0,
+  "catalog_fault_instances": 45678,
+  "catalog_physical_sites": 22839,
+  "comparison_policy": "compare with frozen V2 Core locator and preserve V1 support unchanged",
+  "contract_version": "CIRCUITSAGE-HMAC-V2.1-LOCKED-SITE-TEST-EVALUATION-v1",
+  "execution": "SEQUENTIAL",
+  "expected_samples": 438528,
+  "expected_sites": 3426,
+  "holdout_access": "PROHIBITED",
+  "interpretation_limit": "closed-catalog test; not independent-chip or production generalization",
+  "model_fitting_calls_allowed": 0,
+  "parallel_workers": 1,
+  "purpose": "one locked DEV_SITE_TEST evaluation of the frozen V2.1 locator",
+  "required_metrics": [
+    "fault-free false-alarm rate",
+    "observable detection recall",
+    "exact-signature candidate-set coverage",
+    "unique-signature top-1 site accuracy",
+    "observable candidate-set coverage",
+    "ambiguous false-unique rate",
+    "observable mean reciprocal rank",
+    "top-5 and top-10 set accuracy",
+    "candidate-set size distribution",
+    "site-bootstrap confidence intervals"
+  ],
+  "scientific_scope": "CLOSED-CATALOG HMAC SINGLE PERSISTENT SA0/SA1",
+  "selected_candidate_bundle": {
+    "bytes": 2926,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_training_12b1d/circuitsage_hmac_v2_1_trained_candidate_bundle_12b1d.npz",
+    "sha256": "ef184516bc8990b0062d9ce4a067f0c898ee7102124238715166d5e45a06ec54"
+  },
+  "selected_candidate_id": "V21_EXACT_SIGNATURE_SET",
+  "selection_lock": {
+    "bytes": 2729,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_training_12b1d/circuitsage_hmac_v2_1_selection_lock_12b1d.json",
+    "sha256": "b57b6e58732a66fb80eff78c9fee4224f883001a57281f3987cce346d0125b34"
+  },
+  "stage": "12B-1E",
+  "status": "FROZEN",
+  "test_partition": "DEV_SITE_TEST",
+  "threshold_or_selection_changes_allowed": 0,
+  "validation_access": "PROHIBITED"
+}

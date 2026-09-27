@@ -1,0 +1,4 @@
+family_id,nodes,structural_strata,mean_stratum_size,max_stratum_size,signature_collision_groups,nodes_in_collision_groups
+opentitan_hmac_sha256,18392,42,437.905,2094,1451,8650
+picorv32_cpu,9665,66,146.439,1045,383,4621
+secworks_aes,26565,44,603.75,3168,8665,32055

@@ -1,0 +1,47 @@
+{
+  "automatic_continuation": "NONE",
+  "detector_disposition": {
+    "component": "EXACT GOLDEN-REFERENCE ANOMALY GATE",
+    "fault_free_false_alarm_rate": 0.0,
+    "limitations": [
+      "only detects behavior that differs from the committed golden responses",
+      "cannot prove that a normal-compatible or unactivated fault is absent",
+      "not independently validated on another chip or unseen fault family"
+    ],
+    "observable_detection_recall": 1.0,
+    "status": "PRESERVED / ACCEPTED WITHIN FROZEN HMAC EXPERIMENT"
+  },
+  "experiment_outcome": "PARTIAL SUCCESS; DETECTION ACCEPTED, LOCALIZATION ADVANCEMENT NOT MET",
+  "future_work": "start a separately contracted V2.1 locator redesign if more localization research is desired",
+  "locator_disposition": {
+    "best_observed_calibration_locator": "V2_LINKED_RANKER_SMALL_A1E5",
+    "best_observed_source_stage": "12A-1D",
+    "exact_location_claim_authorized": false,
+    "reason": "neither original nor repaired locator met the frozen catalog-scale localization targets",
+    "repair_candidate": "R2_FEATURE_CROSS_RIDGE_K512",
+    "repair_outcome": "REJECTED FOR ADVANCEMENT",
+    "required_targets": {
+      "fault_free_false_alarm_rate_max": 0.05,
+      "observable_candidate_coverage_top50_min": 0.95,
+      "observable_detection_recall_min": 0.9,
+      "observable_top5_site_accuracy_min": 0.8,
+      "unique_signature_top1_site_accuracy_min": 0.8
+    },
+    "status": "FAILED ADVANCEMENT / RESEARCH-ONLY"
+  },
+  "locked_partition_disposition": {
+    "DEV_SITE_TEST": "REMAINS LOCKED / NOT OPENED",
+    "HOLDOUT": "NOT ACCESSED / BLOCKED",
+    "VALIDATION": "NOT ACCESSED"
+  },
+  "policy_version": "CIRCUITSAGE-HMAC-V2-CORE-DISPOSITION-v1",
+  "prohibitions": [
+    "DO NOT PRESENT V2 AS A VALIDATED EXACT-SITE LOCATOR",
+    "DO NOT OPEN DEV_SITE_TEST FOR THIS FAILED CALIBRATION BRANCH",
+    "DO NOT MODIFY THE FROZEN V1 RELEASE",
+    "DO NOT RETRAIN OR TUNE AGAIN UNDER STAGE 12A-1D"
+  ],
+  "stage": "12A-1D-R3",
+  "status": "FROZEN",
+  "v1_linkage": "PRESERVED AS FROZEN READ-ONLY CANDIDATE SUPPORT; NOT MODIFIED"
+}

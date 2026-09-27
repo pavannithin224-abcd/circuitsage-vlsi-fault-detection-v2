@@ -1,0 +1,3 @@
+experiment,candidate_id,disposition,observable_mean_reciprocal_rank,unique_signature_top1_site_accuracy,observable_top5_site_accuracy,observable_candidate_coverage_top50,observable_shortlist_candidate_coverage,sa0_sa1_accuracy_given_top1_site,fault_free_false_alarm_rate,observable_detection_recall,calibration_advancement_target
+12A-1D ORIGINAL,V2_LINKED_RANKER_SMALL_A1E5,BEST OBSERVED CALIBRATION LOCATOR; RESEARCH REFERENCE ONLY,0.006296510211273277,0.003484320557491289,0.004067402672864613,0.04154561301568855,NOT_APPLICABLE,0.6666666666666666,0.0,1.0,NOT_MET
+12A-1D-R2 REPAIR,R2_FEATURE_CROSS_RIDGE_K512,REJECTED FOR ADVANCEMENT; FROZEN NEGATIVE RESULT,0.0032116149338990807,0.0,0.002905287623474724,0.023823358512492735,0.17402672864613597,1.0,0.0,1.0,NOT_MET

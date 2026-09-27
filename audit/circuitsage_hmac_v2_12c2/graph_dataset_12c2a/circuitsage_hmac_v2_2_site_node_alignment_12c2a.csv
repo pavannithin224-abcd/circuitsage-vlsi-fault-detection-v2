@@ -1,0 +1,5 @@
+family_id,family_index,sites,site_rank_order,alignment,site_node_index_sha256
+opentitan_hmac_sha256,0,18392,FROZEN 12C-1I enumerate_sites ORDER,site_node_index[site_rank] -> graph node index,23b330ff3ce7efc6a2fffc5a3d77f411db92feb3be90e16a6a9fd0858d0adae3
+picorv32_cpu,1,9665,FROZEN 12C-1I enumerate_sites ORDER,site_node_index[site_rank] -> graph node index,22685178059c646431432e450d2993bc418aed40ec0a2c5dd09fa993670a7b13
+secworks_aes,2,26560,FROZEN 12C-1I enumerate_sites ORDER,site_node_index[site_rank] -> graph node index,a11fe427d4792912fb86590356a21e5f5e4ffdcf83afa5b275936aa4c27c415f
+secworks_sha256,3,9125,FROZEN 12C-1I enumerate_sites ORDER,site_node_index[site_rank] -> graph node index,2c51fdb1d44451fda498cd342cd706d50661ed6be12321fa94de5e5c989fc9bf

@@ -1,0 +1,105 @@
+{
+  "dev_site_test_opened": false,
+  "holdout_access_count": 0,
+  "inference_calls": 0,
+  "input_evidence": {
+    "config/v2_1/circuitsage_hmac_v2_1_locator_acceptance_contract_12b1a.json": {
+      "bytes": 1711,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_acceptance_contract_12b1a.json",
+      "sha256": "899b2ff099da20b4631308962c3052e16c7cf875ae296f5b2f6da825d6c6c12a"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_architecture_12b1a.json": {
+      "bytes": 3200,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_architecture_12b1a.json",
+      "sha256": "370fa36bfa952a1fe54d1b7b7f4e27950692387849d94aa73b733de4c45b02fe"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_candidate_grid_12b1a.csv": {
+      "bytes": 525,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_candidate_grid_12b1a.csv",
+      "sha256": "c159aa527d6720093fa3578d0d4e0042d1b0c2138535ac01e567efdddd600653"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_locator_training_contract_12b1a.json": {
+      "bytes": 2101,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_locator_training_contract_12b1a.json",
+      "sha256": "36d6da41f359dee47d146866601655ed46b39d941ef79dcbd48cb689d3260e67"
+    },
+    "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_ambiguity_aware_dataset_12b1b.npz": {
+      "bytes": 381188,
+      "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_ambiguity_aware_dataset_12b1b.npz",
+      "sha256": "23056e33b060f136fbff82a91e9ee558c37dea43b19a8056474b73036cd66c68"
+    },
+    "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_index_12b1b.npz": {
+      "bytes": 1316073,
+      "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_index_12b1b.npz",
+      "sha256": "f249de3da8a9a9266aaffa3dd367ec09ec6ae20c10172ee2dc127bbd45682dac"
+    },
+    "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_schema_12b1b.json": {
+      "bytes": 4867,
+      "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_schema_12b1b.json",
+      "sha256": "93e552cf64baace76a32c9e30a3c0fd3fe90ddbd7f7dde80c96285499bf2b11a"
+    },
+    "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_statistics_12b1b.json": {
+      "bytes": 931,
+      "path": "results/circuitsage_hmac_v2_12b1/behavior_signature_dataset_12b1b/circuitsage_hmac_v2_1_behavior_signature_statistics_12b1b.json",
+      "sha256": "d948d2aa543a7c4cc91c9bde4e82e1b36f8a586855450bb72a892928866b4795"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_behavior_signature_dataset_freeze_12b1b.json": {
+      "bytes": 2206,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_behavior_signature_dataset_freeze_12b1b.json",
+      "sha256": "a60860b29362566adef560a57d7ee42b70282e82b4254edef6d635401d36520a"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_behavior_signature_manifest_12b1b.json": {
+      "bytes": 7114,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_behavior_signature_manifest_12b1b.json",
+      "sha256": "26a8d84323e8cce69b61aa22de8d568a715517d80a78baca57040615278590a9"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_contract_manifest_12b1a.json": {
+      "bytes": 4517,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_contract_manifest_12b1a.json",
+      "sha256": "eae8cf0d02155c8fbf3e736307ffca79f13d2268442c10a49a945477d7e62577"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_locator_redesign_contract_freeze_12b1a.json": {
+      "bytes": 2228,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_locator_redesign_contract_freeze_12b1a.json",
+      "sha256": "95ccfb93fcc11c5b87b21d0a7fd869a0562c42175ec6aa60310ca20ee272fa01"
+    },
+    "stage_12b1a_v2_1_locator_redesign_contract.py": {
+      "bytes": 23981,
+      "path": "stage_12b1a_v2_1_locator_redesign_contract.py",
+      "sha256": "8a5a211c5adc073bf3d67560d50bd4457f181a0c19ca7e2f136c9f905bb6f979"
+    },
+    "stage_12b1b_behavior_signature_dataset.py": {
+      "bytes": 30770,
+      "path": "stage_12b1b_behavior_signature_dataset.py",
+      "sha256": "047a362bb598fcd1687393b62cb729c5f2604ec4eac2b3d3c6f41c86910d5db6"
+    }
+  },
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-TRAINING-AUTHORIZATION-MANIFEST-v1",
+  "models_deserialized": 0,
+  "outputs": {
+    "config/v2_1/circuitsage_hmac_v2_1_training_authorization_12b1c.json": {
+      "bytes": 759,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_training_authorization_12b1c.json",
+      "sha256": "0ff527e90fefbfd529e259fc15e71eb1f7340959075da6234778f7efbf776a6f"
+    },
+    "config/v2_1/circuitsage_hmac_v2_1_training_execution_contract_12b1c.json": {
+      "bytes": 4444,
+      "path": "config/v2_1/circuitsage_hmac_v2_1_training_execution_contract_12b1c.json",
+      "sha256": "16d717a40d261d7a8cbd5affbdbe0f6fa1afe432f05d8898a32e4594cc3c5f36"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_candidate_execution_plan_12b1c.csv": {
+      "bytes": 484,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_candidate_execution_plan_12b1c.csv",
+      "sha256": "7b617c5f29d3fa104421b6dabee8d86e3cbac9c68e8117d259a3e4a72af096f1"
+    },
+    "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_training_preflight_12b1c.json": {
+      "bytes": 918,
+      "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_training_preflight_12b1c.json",
+      "sha256": "21b85931298b681ad29acc6ec7591959636ff19693f0cd6fac729e021232da1e"
+    }
+  },
+  "stage": "12B-1C",
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access_count": 0
+}

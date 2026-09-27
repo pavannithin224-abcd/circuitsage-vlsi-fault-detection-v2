@@ -1,0 +1,4 @@
+script,exit_code,seconds,stdout_lines,result,error
+examples/predict_one.py,0,1.565,4,PASS,
+examples/end_to_end.py,0,1.534,21,PASS,
+sha256sum -c SHA256SUMS,0,0.0,18,PASS,

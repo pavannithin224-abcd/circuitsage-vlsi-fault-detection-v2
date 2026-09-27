@@ -1,0 +1,57 @@
+{
+  "authorizations": {
+    "holdout_access": "BLOCKED UNTIL FINAL V2 MODEL FREEZE",
+    "response_dataset_construction": "AUTHORIZED FROM TRAIN PARTITION ONLY",
+    "v2_model_architecture_contract": "AUTHORIZED",
+    "v2_training": "NOT YET AUTHORIZED",
+    "validation_inference": "NOT YET AUTHORIZED"
+  },
+  "contract_version": "CIRCUITSAGE-HMAC-V2-CORE-SCOPE-v1",
+  "deferred_scope": [
+    "TRANSIENT FAULTS",
+    "BRIDGING FAULTS",
+    "MULTIPLE SIMULTANEOUS FAULTS",
+    "CROSS-CIRCUIT OR INDEPENDENT-CHIP GENERALIZATION",
+    "QUANTIZATION",
+    "DASHBOARD OR FRONTEND",
+    "PRODUCTION OR SILICON-READINESS CLAIMS"
+  ],
+  "parent_release": {
+    "commit_sha": "7460df3f4cd32e4bcf9f9bc2f294f4d72c6c02b7",
+    "name": "CircuitSage-HMAC v1.0.0",
+    "repository": "https://github.com/pavannithin224-abcd/circuitsage-hmac-fault-detection",
+    "state": "IMMUTABLE FROZEN BASELINE",
+    "tag": "v1.0.0"
+  },
+  "prohibitions": [
+    "MODIFYING OR RETRAINING V1",
+    "USING FAULT IDENTITY, SITE ID, OR FAULT LABEL AS QUERY INPUT",
+    "USING POST-SIMULATION OUTCOMES AS DETECTOR INPUT FEATURES",
+    "OPENING HOLDOUT BEFORE MODEL, THRESHOLD, AND RANKER LOCK",
+    "RETRAINING OR THRESHOLD CHANGES AFTER HOLDOUT ACCESS"
+  ],
+  "project": "CircuitSage-HMAC V2 Core",
+  "stage": "12A-1A",
+  "status": "FROZEN",
+  "supported_scope": {
+    "circuit": "OpenTitan HMAC-SHA256 msg32 wrapper",
+    "fault_instances": 45678,
+    "fault_models": [
+      "SA0",
+      "SA1"
+    ],
+    "fault_multiplicity": "ONE PERSISTENT FAULT",
+    "observation_vectors": "64 FROZEN TRAIN VECTORS",
+    "physical_sites": 22839,
+    "primary_tasks": [
+      "BEHAVIOR-BASED UNKNOWN-FAULT DETECTION",
+      "RANKED PHYSICAL-SITE LOCALIZATION",
+      "FROZEN-V1 CANDIDATE VERIFICATION AND RERANKING"
+    ]
+  },
+  "timebox": {
+    "duration_calendar_days": 7,
+    "estimated_effort_hours": "50-70",
+    "freeze_at_end_even_if_targets_fail": true
+  }
+}

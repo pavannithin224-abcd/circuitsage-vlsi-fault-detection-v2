@@ -1,0 +1,120 @@
+{
+  "candidate_execution_plan": [
+    {
+      "candidate_id": "V21_EXACT_SIGNATURE_SET",
+      "epochs": 0,
+      "execution_order": 1,
+      "fit_partition": "NONE",
+      "maximum_trainable_parameters": 0,
+      "selection_partition": "DEV_CALIBRATION",
+      "shortlist": 45678,
+      "training_method": "NONPARAMETRIC EXACT HASH LOOKUP"
+    },
+    {
+      "candidate_id": "V21_WEIGHTED_SIGNATURE_K2048",
+      "epochs": 12,
+      "execution_order": 2,
+      "fit_partition": "DEV_TRAIN ONLY",
+      "maximum_trainable_parameters": 32,
+      "selection_partition": "DEV_CALIBRATION",
+      "shortlist": 2048,
+      "training_method": "DETERMINISTIC GROUP-WEIGHT SEARCH WITH LISTWISE SET LOSS"
+    },
+    {
+      "candidate_id": "V21_SIGNATURE_GRAPH_LISTWISE_K2048",
+      "epochs": 20,
+      "execution_order": 3,
+      "fit_partition": "DEV_TRAIN ONLY",
+      "maximum_trainable_parameters": 4096,
+      "selection_partition": "DEV_CALIBRATION",
+      "shortlist": 2048,
+      "training_method": "DETERMINISTIC LISTWISE LINEAR RERANKER WITH HARD NEGATIVES"
+    }
+  ],
+  "contract_version": "CIRCUITSAGE-HMAC-V2.1-TRAINING-EXECUTION-v1",
+  "data_use": {
+    "DEV_CALIBRATION": "metrics and final candidate selection only; no gradients or weight updates",
+    "DEV_SITE_TEST": "LOCKED / NOT AUTHORIZED / ZERO QUERY ROWS IN TRAINING DATASET",
+    "DEV_TRAIN": "only partition allowed for fitted parameters, hard negatives and optimization",
+    "HOLDOUT": "PROHIBITED",
+    "VALIDATION": "PROHIBITED"
+  },
+  "failure_routes": {
+    "calibration_target_met": "freeze model and request separate locked DEV_SITE_TEST authorization",
+    "calibration_target_not_met": "freeze negative result and keep DEV_SITE_TEST locked",
+    "replay_failure": "STOP; no model selection"
+  },
+  "hard_negative_policy": {
+    "per_query_maximum": 128,
+    "source_partition": "DEV_TRAIN ONLY",
+    "sources": [
+      "nearest incorrect response signatures",
+      "highest-scoring incorrect shortlist candidates",
+      "graph-neighbor candidates",
+      "SA0/SA1 sibling"
+    ]
+  },
+  "losses": {
+    "ambiguity": "all sites in the exact observational-equivalence set are positives",
+    "fault_type": "conditional binary loss only after site success",
+    "hard_negative_margin": 0.1,
+    "retrieval": "multi-positive listwise set loss"
+  },
+  "model_family": "AMBIGUITY-AWARE BEHAVIOR-SIGNATURE RETRIEVAL AND GRAPH RERANKING",
+  "reproducibility": {
+    "candidate_execution": "SEQUENTIAL",
+    "checkpoint_after_candidate": true,
+    "checkpoint_resume": "REQUIRED",
+    "metric_replay": "EXACT",
+    "parallel_candidates": 1,
+    "seed": 20260915,
+    "thread_limit": 1,
+    "training_replay": "EXACT"
+  },
+  "reranking_features": {
+    "candidate_set_size_features": 2,
+    "exact_match_indicator": 1,
+    "fault_type_sibling_features": 2,
+    "frozen_graph_similarity_features": 4,
+    "frozen_v1_support_agreement_features": 4,
+    "maximum_total_features": 32,
+    "response_distance_components": 4
+  },
+  "resource_limits": {
+    "estimated_cpu_time": "1-6 HOURS",
+    "gpu_required": false,
+    "internet_required": false,
+    "minimum_free_disk_gib": 2.0
+  },
+  "retrieval_features": {
+    "deviation_mask_distance": "per-vector binary mismatch",
+    "digest_distance": "per-vector bit count of candidate/query digest-XOR difference",
+    "exact_signature_match": "SHA-256 equality under frozen vector commitment",
+    "latency_distance": "clipped normalized per-vector absolute difference",
+    "timeout_mismatch": "per-vector binary mismatch"
+  },
+  "selection": {
+    "acceptance": {
+      "ambiguous_false_unique_rate_max": 0.01,
+      "deterministic_replay": "EXACT",
+      "exact_signature_candidate_set_coverage_min": 0.95,
+      "fault_free_false_alarm_rate_max": 0.05,
+      "no_catalog_match_false_unique_rate_max": 0.01,
+      "observable_candidate_set_coverage_min": 0.95,
+      "observable_detection_recall_min": 0.9,
+      "observable_mean_reciprocal_rank_greater_than_v2_core": 0.00629651,
+      "unique_signature_top1_site_accuracy_min": 0.95
+    },
+    "order": [
+      "observable candidate-set coverage",
+      "unique-signature top-1 site accuracy",
+      "ambiguous false-unique rate",
+      "observable mean reciprocal rank",
+      "mean returned candidate-set size"
+    ],
+    "partition": "DEV_CALIBRATION ONLY",
+    "ties": "candidate ID ascending after exact metric equality"
+  },
+  "stage": "12B-1C",
+  "status": "FROZEN"
+}

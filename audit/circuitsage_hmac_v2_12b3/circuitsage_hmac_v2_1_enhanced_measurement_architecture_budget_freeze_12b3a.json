@@ -1,0 +1,69 @@
+{
+  "acceptance": {
+    "bytes": 1229,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_acceptance_contract_12b3a.json",
+    "sha256": "b80af004f813ed0657182a3ffe139debb701cd267a4b74ff6b1c73fe69504291"
+  },
+  "acceptance_status": "FROZEN",
+  "architecture": {
+    "bytes": 1414,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_architecture_12b3a.json",
+    "sha256": "80b84674776166f2506d9554ded7befd0b71f994a148eb608bfb50d61539447a"
+  },
+  "architecture_status": "FROZEN",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-MEASUREMENT-ARCHITECTURE-BUDGET-FREEZE-v1",
+  "bounded_screen_sites_faults_vectors": [
+    256,
+    512,
+    48
+  ],
+  "budget": {
+    "bytes": 1191,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_measurement_budget_policy_12b3a.json",
+    "sha256": "4f8bf4e07fd44dc8a1e86227072a15ede3cb1d5a302f000ff7302849def6cf08"
+  },
+  "budget_status": "FROZEN",
+  "candidate_architectures": 3,
+  "candidate_families": [
+    "MULTI_BANK_TOPOLOGY",
+    "SEQUENTIAL_STATE_CHECKPOINT",
+    "SIMULATION_ONLY_TEST_POINT"
+  ],
+  "candidate_grid": {
+    "bytes": 685,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_candidate_grid_12b3a.csv",
+    "sha256": "a829a254269e1127ee1d2567ee4bce74bb964d9f2ff2633c995c8869f6214403"
+  },
+  "fault_identity_in_query": "PROHIBITED",
+  "frozen_detection_target": 0.7,
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 3478,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_measurement_architecture_manifest_12b3a.json",
+    "sha256": "d8c76808c856e470b0e6b644a3f755af93290a32d3853b8899b5f20cddbd7e3a"
+  },
+  "maximum_banks_bits_snapshots": [
+    4,
+    64,
+    32
+  ],
+  "maximum_concurrent_observation_bits": 256,
+  "next_gate": "STAGE 12B-3B — ENHANCED PROBE-BANK DISCOVERY AND STRUCTURAL FEASIBILITY FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "probe_discovery": "NOT YET AUTHORIZED",
+  "repair_calibration": "LOCKED / NOT ACCESSED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "report": {
+    "bytes": 1525,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_measurement_architecture_12b3a/circuitsage_hmac_v2_1_enhanced_measurement_architecture_report_12b3a.md",
+    "sha256": "8259775bc4e0c716be1306a0aeaacceb868ea7852e0bc223cfe27cabd687fe9b"
+  },
+  "screen_enabled_transactions_max": 73728,
+  "simulation_capture_training": "0 / 0 / 0 — NOT AUTHORIZED",
+  "stage": "12B-3A",
+  "status": "PASS",
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access": 0
+}

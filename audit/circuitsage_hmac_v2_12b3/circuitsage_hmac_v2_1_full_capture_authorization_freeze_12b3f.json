@@ -1,0 +1,50 @@
+{
+  "all_batches_represented": true,
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-FULL-CAPTURE-AUTHORIZATION-FREEZE-12B3F-v1",
+  "authorization": {
+    "bytes": 2133,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_authorization_12b3f.json",
+    "sha256": "139de7a17d9e792674f6bc1203c5aac09963ce33669270952e27e2194337cb3f"
+  },
+  "authorization_status": "FROZEN",
+  "baseline_records": 4320,
+  "canonical_batches": "45/45",
+  "enabled_transactions": 196608,
+  "execution_contract": {
+    "bytes": 2325,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_execution_contract_12b3f.json",
+    "sha256": "6e1decd6a14759a52f57322ffabb1d53b3040a6d7638d14d1268eebe2ed4410a"
+  },
+  "fault_identity_in_query": "PROHIBITED",
+  "full_capture_execution": "AUTHORIZED / NOT STARTED",
+  "full_capture_sites_faults_vectors": [
+    1024,
+    2048,
+    96
+  ],
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 3154,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_authorization_manifest_12b3f.json",
+    "sha256": "78fddb24a2f9d0d76065d15853d361d82240e31999c32494624310a74ab20efc"
+  },
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-3G — SINGLE-WINNER FULL REPAIR_TRAIN CAPTURE EXECUTION AND DATASET FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "probe_bits_banks_snapshots": [
+    256,
+    4,
+    16
+  ],
+  "repair_calibration": "LOCKED / NOT ACCESSED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "screening_acceptance": "PASS / VERIFIED",
+  "selected_candidate": "EM_TESTPOINT_4X64_T16",
+  "stage": "12B-3F",
+  "status": "PASS",
+  "total_records": 200928,
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access": 0
+}

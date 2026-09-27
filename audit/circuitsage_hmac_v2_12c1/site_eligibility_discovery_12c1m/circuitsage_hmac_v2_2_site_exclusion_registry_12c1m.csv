@@ -1,0 +1,8 @@
+family_id,partition,cell_name,cell_type,output_port_count,exclusion_reason,eligible_sites_contributed
+secworks_aes,GENERALIZATION_TRAIN,dec_block,$scopeinfo,0,NO_OUTPUT_PORT,0
+secworks_aes,GENERALIZATION_TRAIN,dec_block.inv_sbox_inst,$scopeinfo,0,NO_OUTPUT_PORT,0
+secworks_aes,GENERALIZATION_TRAIN,enc_block,$scopeinfo,0,NO_OUTPUT_PORT,0
+secworks_aes,GENERALIZATION_TRAIN,keymem,$scopeinfo,0,NO_OUTPUT_PORT,0
+secworks_aes,GENERALIZATION_TRAIN,sbox_inst,$scopeinfo,0,NO_OUTPUT_PORT,0
+secworks_sha256,GENERALIZATION_CALIBRATION,k_constants_inst,$scopeinfo,0,NO_OUTPUT_PORT,0
+secworks_sha256,GENERALIZATION_CALIBRATION,w_mem_inst,$scopeinfo,0,NO_OUTPUT_PORT,0

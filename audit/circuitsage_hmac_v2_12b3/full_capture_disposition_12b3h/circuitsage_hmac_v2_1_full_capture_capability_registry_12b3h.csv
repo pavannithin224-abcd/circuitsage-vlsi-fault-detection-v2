@@ -1,0 +1,11 @@
+capability,value,status,scope
+external_output_detection,0.50146484,BASELINE,REPAIR_TRAIN closed catalog
+enhanced_combined_detection,0.75878906,PASS,REPAIR_TRAIN closed catalog
+probe_rescued_faults,527,PASS,of 2048 injected faults
+all_injected_exact_site,0.67871094,PASS,exact behavior-signature sets
+mean_observable_candidate_sites,1.9595,PASS,observable faults only
+maximum_observable_candidate_sites,36,PASS,observable faults only
+fault_free_false_alarms,0,PASS,96 vectors x 45 batches
+remaining_normal_compatible_faults,494,LIMITATION,current measurement schedule
+independent_generalization,NOT_ESTABLISHED,LIMITATION,unseen circuits/signatures
+repair_model_accuracy,NOT_MEASURED,NOT_STARTED,no model trained

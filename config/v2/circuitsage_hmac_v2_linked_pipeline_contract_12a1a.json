@@ -1,0 +1,55 @@
+{
+  "contract_version": "CIRCUITSAGE-HMAC-V2-LINKED-PIPELINE-v1",
+  "fallback": {
+    "uncertain_detection": "RETURN UNCERTAIN; DO NOT FORCE A FAULT",
+    "unresolved_location": "RETURN RANKED CANDIDATE SET OR NO-CATALOG-MATCH",
+    "v2_runtime_failure": "ALLOW EXPLICIT V1 CANDIDATE-ANALYSIS MODE; NEVER MISLABEL AS UNKNOWN-FAULT DIAGNOSIS"
+  },
+  "required_outputs": [
+    "NO_OBSERVED_ANOMALY OR FAULT_DETECTED",
+    "DETECTION CONFIDENCE",
+    "TOP-1/TOP-5/TOP-10 PHYSICAL-SITE CANDIDATES",
+    "SA0/SA1 CANDIDATE TYPE WHEN RESOLVABLE",
+    "V1 DETECTABILITY-SUPPORT SCORE",
+    "AMBIGUOUS/INVISIBLE/OUT-OF-CATALOG WARNING"
+  ],
+  "stage": "12A-1A",
+  "stages": [
+    {
+      "component": "V2 BEHAVIOR DETECTOR",
+      "order": 1,
+      "purpose": "decide whether the response contains an observable anomaly"
+    },
+    {
+      "component": "V2 GRAPH LOCATOR",
+      "order": 2,
+      "purpose": "rank physical sites and SA0/SA1 candidates from response and topology"
+    },
+    {
+      "architecture": "646 -> 128 -> 64 -> 32 -> 1",
+      "component": "FROZEN V1 HYBRID FUSION MLP",
+      "order": 3,
+      "purpose": "supply a fixed detectability-support feature for each proposed candidate",
+      "state": "FROZEN; NO WEIGHT OR THRESHOLD CHANGE",
+      "trainable_parameters": 93185
+    },
+    {
+      "component": "V2 CALIBRATED RERANKER",
+      "order": 4,
+      "purpose": "combine V2 location evidence with frozen V1 support without naive probability averaging"
+    }
+  ],
+  "status": "FROZEN",
+  "user_input": {
+    "forbidden": [
+      "FAULT INSTANCE ID",
+      "PHYSICAL SITE ID",
+      "FAULT MODEL LABEL SA0/SA1",
+      "GROUND-TRUTH DETECTION LABEL"
+    ],
+    "required": [
+      "TEST-VECTOR IDENTIFIERS OR ORDERED VECTOR COMMITMENT",
+      "OBSERVED CIRCUIT RESPONSES"
+    ]
+  }
+}

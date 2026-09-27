@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-09-17T13:05:17Z",
+  "frozen_inputs": {
+    "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_dataset_manifest_12b3g.json": {
+      "bytes": 28130,
+      "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_dataset_manifest_12b3g.json",
+      "sha256": "9af923d5596491fb730a1574a6d3c299ca970a2e2e6a64bc0ee1f8a43b24110a"
+    },
+    "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_execution_dataset_freeze_12b3g.json": {
+      "bytes": 1924,
+      "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_execution_dataset_freeze_12b3g.json",
+      "sha256": "dcfb5139d6353218bb0f1899160767e0a6f885cf334f4589c31d25f11ae9e4b6"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_checkpoint_12b3g.json": {
+      "bytes": 167181,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_checkpoint_12b3g.json",
+      "sha256": "fccb28d533db1cae51e0ca53da98e46d57afa27c4cc6cb5d91b788f1a798f27d"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_dataset_schema_12b3g.json": {
+      "bytes": 3084,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_dataset_schema_12b3g.json",
+      "sha256": "f719dab6fd324cc093de41853fa374278d327db67e01ad5259fdc21808121b20"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_features_12b3g.npz": {
+      "bytes": 46329857,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_features_12b3g.npz",
+      "sha256": "ea3af3be023fcafa4023776f6650ac9fc1c4cac429b2730eac5329a22e1d161d"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_metrics_12b3g.json": {
+      "bytes": 1592,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_metrics_12b3g.json",
+      "sha256": "f41502e7e76c9bb381b926f81db538cfff47bf4d11c5988bdd419925de96b1de"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_signature_summary_12b3g.csv": {
+      "bytes": 154928,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_signature_summary_12b3g.csv",
+      "sha256": "6525f34f7b6321faf38d9229a11b1e453db804b536d322137af73f37ac271706"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_site_bootstrap_12b3g.csv": {
+      "bytes": 29955,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_site_bootstrap_12b3g.csv",
+      "sha256": "780181271af787dfd09a5f45181b4cd7e8e937063a42ce4c28e58b46af992f79"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_targets_12b3g.npz": {
+      "bytes": 7675,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_targets_12b3g.npz",
+      "sha256": "895457c94418b16e8d0f5e2a1464c5f03bb5a1673e40e23cdd71c95002ddd5b3"
+    },
+    "results/circuitsage_hmac_v2_12b3/stage_12b3g_r1_resume_20260917_171406.log": {
+      "bytes": 10406,
+      "path": "results/circuitsage_hmac_v2_12b3/stage_12b3g_r1_resume_20260917_171406.log",
+      "sha256": "cc85e25395114f24fd4ed16fccf4481c7d7705cb3096b36408e0ff4c6417d172"
+    },
+    "results/circuitsage_hmac_v2_12b3/stage_12b3g_r1_resume_resources_20260917_171406.log": {
+      "bytes": 906,
+      "path": "results/circuitsage_hmac_v2_12b3/stage_12b3g_r1_resume_resources_20260917_171406.log",
+      "sha256": "bea2f7622b5c0870071fb8485cc9802364c6c09d50d24d08d828cab0689ea16d"
+    },
+    "stage_12b3g_full_capture_execution.py": {
+      "bytes": 59273,
+      "path": "stage_12b3g_full_capture_execution.py",
+      "sha256": "54e965fa81a6d152cd31f123d16639b404316af87637c0598fa2ea91a2852b4d"
+    }
+  },
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-FULL-CAPTURE-DISPOSITION-MANIFEST-12B3H-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_disposition_policy_12b3h.json": {
+      "bytes": 1276,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_capture_disposition_policy_12b3h.json",
+      "sha256": "fe3a60d818426ef124329426623915ab8f81ea16b93961ebf183dedf3443c4d0"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_training_readiness_contract_12b3h.json": {
+      "bytes": 2303,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_repair_model_training_readiness_contract_12b3h.json",
+      "sha256": "d31afdbd6e1895fe3d68652af0999561052c750c94e05ac3efeaece9ff19133f"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_capability_registry_12b3h.csv": {
+      "bytes": 712,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_capability_registry_12b3h.csv",
+      "sha256": "89a1319b78913037ac8ec72b2cf1665189a440582ab1340e9163f74ea552a20e"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_capability_registry_12b3h.json": {
+      "bytes": 1644,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_capability_registry_12b3h.json",
+      "sha256": "a4fc514597e4d273ca4192d5a554f381373510bd0e18c522610dc024d7d7af34"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_disposition_report_12b3h.md": {
+      "bytes": 1154,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_disposition_report_12b3h.md",
+      "sha256": "752b5e91e8891da3ab317c680f7a5ffb75fc1be381e7b693b84b82a19ad4b2f2"
+    },
+    "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_winner_dataset_lock_12b3h.json": {
+      "bytes": 2124,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_disposition_12b3h/circuitsage_hmac_v2_1_full_capture_winner_dataset_lock_12b3h.json",
+      "sha256": "0138b4e4860063ae6f3a341ac19896cc996923e185355e72e9840aa7eb306c2a"
+    }
+  },
+  "repair_calibration_access": 0,
+  "repair_model_training_readiness": "READY FOR CONTRACT DESIGN",
+  "repair_site_test_access": 0,
+  "source_dataset_acceptance": "PASS",
+  "stage": "12B-3H",
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0
+}

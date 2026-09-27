@@ -1,0 +1,35 @@
+{
+  "ambiguity_rule": "UNIQUE OUTPUT ONLY WHEN CALIBRATED POSTERIOR AND MARGIN GATES PASS; OTHERWISE RETURN A SET OR ABSTAIN",
+  "architecture_version": "CIRCUITSAGE-HMAC-V2.2-GENERALIZATION-ARCHITECTURE-12C1A-v1",
+  "components": {
+    "detector_head": "calibrated fault probability with fixed fault-free threshold",
+    "fusion": "behavior-to-node metric retrieval followed by graph-constrained reranking",
+    "graph_encoder": {
+      "absolute_node_identity": "PROHIBITED",
+      "families": [
+        "GraphSAGE",
+        "GATv2"
+      ],
+      "input": "normalized directed netlist graph with portable semantic node/edge features",
+      "maximum_trainable_parameters": 1500000
+    },
+    "locator_head": "ranked node/candidate-set probabilities with ambiguity preservation",
+    "open_set_head": "unknown-signature/OOD score and mandatory abstention",
+    "polarity_head": "SA0/SA1 probability only after a candidate site is proposed",
+    "response_encoder": {
+      "architecture": "masked temporal MLP or 1D convolution with circuit-independent dimensions",
+      "fault_identity": "ABSENT",
+      "input": "external/probe delta tensors and validity masks only"
+    },
+    "verification_adapter": "optional frozen V1 support when its feature contract is valid; otherwise unavailable"
+  },
+  "model_family": "CIRCUIT-NORMALIZED GRAPH ENCODER + RESPONSE ENCODER + CROSS-MODAL RETRIEVAL/RERANKING",
+  "normalization": [
+    "graph statistics normalized per circuit using TRAIN-frozen rules",
+    "no circuit name, path, source label, site index, or partition token",
+    "response lengths represented by masks rather than circuit identity"
+  ],
+  "serialization": "NPZ/JSON or safe tensor format preferred; executable pickle prohibited for public release",
+  "stage": "12C-1A",
+  "status": "FROZEN"
+}

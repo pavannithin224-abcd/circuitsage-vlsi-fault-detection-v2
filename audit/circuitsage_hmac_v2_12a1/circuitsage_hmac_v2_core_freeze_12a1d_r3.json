@@ -1,0 +1,34 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2-CORE-FREEZE-v1",
+  "automatic_continuation": "NONE",
+  "best_observed_locator": "V2_LINKED_RANKER_SMALL_A1E5",
+  "calibration_advancement_target": "NOT_MET",
+  "core_lock": {
+    "bytes": 3004,
+    "path": "config/v2/circuitsage_hmac_v2_core_lock_12a1d_r3.json",
+    "sha256": "5174d6db9d058e7d4c6e40de51a91474850682079453e897518e756bd3a067a2"
+  },
+  "detector_disposition": "ACCEPTED WITHIN FROZEN TEST REGIME",
+  "dev_site_test": "LOCKED / NOT OPENED / NOT AUTHORIZED",
+  "disposition_status": "FROZEN",
+  "holdout_access_count": 0,
+  "independent_generalization": "NOT ESTABLISHED",
+  "locator_disposition": "ADVANCEMENT NOT MET / RESEARCH-ONLY",
+  "manifest": {
+    "bytes": 6815,
+    "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_core_disposition_manifest_12a1d_r3.json",
+    "sha256": "8434db58158805cddd2461ee8ed8059c59bc719b83c37142c9e900cd44f5f4fb"
+  },
+  "new_inference_performed": false,
+  "new_training_performed": false,
+  "next_gate": "OPTIONAL STAGE 12B-1A — V2.1 LOCATOR REDESIGN CONTRACT; LOCKED EVALUATION REMAINS BLOCKED",
+  "production_readiness": "NOT ESTABLISHED",
+  "repair_locator": "R2_FEATURE_CROSS_RIDGE_K512",
+  "repair_vs_original": "REGRESSED ON PRIMARY LOCALIZATION METRICS",
+  "stage": "12A-1D-R3",
+  "status": "PASS",
+  "v1_model_deserialized": false,
+  "v1_model_modified": false,
+  "v2_core_status": "COMPLETED AND FROZEN TIMEBOXED RESEARCH EXPERIMENT",
+  "validation_access_count": 0
+}

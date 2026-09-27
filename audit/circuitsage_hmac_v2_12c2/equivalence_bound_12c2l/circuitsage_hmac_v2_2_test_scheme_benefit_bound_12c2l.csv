@@ -1,0 +1,5 @@
+family_id,current_exact_site_estimate,faults_in_splittable_sets,max_gain_from_perfect_vector_design,optimistic_exact_site_upper_bound,per_circuit_floor,floor_reachable_via_test_scheme
+opentitan_hmac_sha256,0.06807308,2,5.437e-05,0.06812745,0.15,NO
+picorv32_cpu,0.02431454,12,0.0006208,0.02493533,0.15,NO
+secworks_aes,0.53064759,550,0.01035392,0.54100151,0.15,YES
+secworks_sha256,0.63852055,12,0.00065753,0.63917808,0.15,YES

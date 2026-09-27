@@ -1,0 +1,59 @@
+{
+  "candidate_sets": {
+    "bytes": 576940,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_candidate_sets_12b3o.csv",
+    "sha256": "b2d1b428d3175e76788ccbcc5819c5742cc11f0e0cde1b8cfa58fc29c204e908"
+  },
+  "features": {
+    "bytes": 109657510,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_features_12b3o.npz",
+    "sha256": "ac5a9a8982c3ab0de8b9b534954e2087a8cb18d2235bd7b25d60d3e73ab98b93"
+  },
+  "lock_version": "CIRCUITSAGE-HMAC-V2.1-IMPROVEMENT-FINAL-LOCK-12B3P-v1",
+  "locked_evaluation_acceptance": "NOT_MET",
+  "metrics": {
+    "bytes": 2732,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_metrics_12b3o.json",
+    "sha256": "c67debe4bdba2f55a68a34c7df1912ae341bb091ddf7b3ae277e08f4fb06cf37"
+  },
+  "model": {
+    "bytes": 1644,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_model_training_12b3m/circuitsage_hmac_v2_1_selected_repair_model_12b3m.npz",
+    "sha256": "2f1d35c3f2b71f975859a99238d07e1e0d8620f02d79f3808ca1e5c2ccf6f39a"
+  },
+  "prediction_commitment": {
+    "bytes": 1558,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_prediction_commitment_12b3o.json",
+    "sha256": "d62385b1d89db1911daabdff6d725788e2c00f68c5f4975d419a2b953f0c5871"
+  },
+  "predictions": {
+    "bytes": 106472,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_predictions_12b3o.npz",
+    "sha256": "06bfc5e2ff3a8c0e2ec178a7f53c5789cb1d855a9b6fffcde74637b394d3f54b"
+  },
+  "retraining_threshold_change_candidate_reselection": "PROHIBITED / PROHIBITED / PROHIBITED",
+  "schema": {
+    "bytes": 3434,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_dataset_schema_12b3o.json",
+    "sha256": "90172fe8e0b61387dd6763653bf39246f0da8b0961a9103add5963fde61b1f73"
+  },
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "selected_model": "R31_EXACT_SIGNATURE_SET",
+  "source_audit": {
+    "bytes": 2630,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_site_test_capture_evaluation_freeze_12b3o.json",
+    "sha256": "49ab57043bfdc4166c99e1276705c84a5ef0f80910e054843a5b3a9196c1ee7c"
+  },
+  "source_manifest": {
+    "bytes": 32064,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_site_test_evaluation_manifest_12b3o.json",
+    "sha256": "e4bd3f0e7a5c85946b9b2ff61e851c6b26bc0e1c077582908ca0c1f94248d482"
+  },
+  "stage": "12B-3P",
+  "status": "FROZEN",
+  "targets": {
+    "bytes": 14395,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_targets_12b3o.npz",
+    "sha256": "dfaeb6e0d5a371275afa785367a9b6c6128eaffdf600051f3f100475d4ace9d4"
+  }
+}

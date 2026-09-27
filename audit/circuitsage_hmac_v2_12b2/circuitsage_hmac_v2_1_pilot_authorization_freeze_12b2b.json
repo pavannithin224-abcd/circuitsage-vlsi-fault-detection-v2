@@ -1,0 +1,30 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-PILOT-AUTHORIZATION-FREEZE-v1",
+  "authorization_status": "FROZEN",
+  "candidate_vector_commitment": "47dd8944b9519465df19f098c2fb2a6a8823a8736452992cf52c73efcc435d78",
+  "candidate_vector_pool_status": "FROZEN",
+  "candidate_vectors": 512,
+  "execution_contract_status": "FROZEN",
+  "full_campaign": "NOT AUTHORIZED",
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 2696,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_pilot_authorization_manifest_12b2b.json",
+    "sha256": "c3fdc621bec4ffe51e98f4c63a190f33f7f0db3cdc41dfa49c6ee55947169bb0"
+  },
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-2C — ADAPTIVE VECTOR PILOT-SCREENING EXECUTION AND DATASET INTEGRITY FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "pilot_fault_instances": 2048,
+  "pilot_screening": "AUTHORIZED / NOT STARTED",
+  "pilot_site_commitment": "87eceaf80a800cf60b8a7e3cb20e0ec3f934158dc35ae3d10f73e8cf9d25313c",
+  "pilot_site_plan_status": "FROZEN",
+  "pilot_sites": 1024,
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "stage": "12B-2B",
+  "status": "PASS",
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access": 0
+}

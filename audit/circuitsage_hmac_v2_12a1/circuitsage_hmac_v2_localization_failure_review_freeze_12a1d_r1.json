@@ -1,0 +1,39 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2-LOCALIZATION-FAILURE-REVIEW-FREEZE-v1",
+  "controlled_ablation_required": true,
+  "detector_disposition": "PASS / PRESERVED",
+  "dev_site_test": "LOCKED / NOT AUTHORIZED",
+  "diagnostics": {
+    "bytes": 5761,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_localization_failure_review_12a1d_r1/circuitsage_hmac_v2_localization_diagnostics_12a1d_r1.json",
+    "sha256": "ee2b3f40d7f3048b4942369c332b30a35392b834cb12863f7ad48c6476dd721e"
+  },
+  "frozen_inputs_modified": false,
+  "holdout": "NOT ACCESSED / PROHIBITED",
+  "locator_disposition": "REPAIR REQUIRED BEFORE LOCKED EVALUATION",
+  "manifest": {
+    "bytes": 3272,
+    "path": "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_localization_failure_review_manifest_12a1d_r1.json",
+    "sha256": "6eb629b9aa6b12384e5cdeac26f2d6b9871fa60b67375dc62810598bdf14cc05"
+  },
+  "next_gate": "STAGE 12A-1D-R2 — RESPONSE-CONDITIONED LOCATOR REPAIR TRAINING AND CALIBRATION",
+  "prior_calibration_advancement": "NOT_MET / PRESERVED",
+  "repair_contract": {
+    "bytes": 3413,
+    "path": "config/v2/circuitsage_hmac_v2_localization_repair_contract_12a1d_r1.json",
+    "sha256": "ccaab77ca3d33225839c166ec68c2c97953e35a26ca660b8a86fe2babfcb7dd6"
+  },
+  "repair_contract_status": "FROZEN",
+  "repair_training": "AUTHORIZED FOR DEV_TRAIN ONLY",
+  "report": {
+    "bytes": 2015,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_localization_failure_review_12a1d_r1/circuitsage_hmac_v2_localization_failure_review_12a1d_r1.md",
+    "sha256": "f593fa12552555b2c3a38cecbec2c702e6552153f972f5e032ae712145d0c7ed"
+  },
+  "review_status": "FROZEN / COMPLETE",
+  "single_root_cause_established": false,
+  "stage": "12A-1D-R1",
+  "status": "PASS",
+  "v1_model_modified": false,
+  "validation": "NOT ACCESSED / PROHIBITED"
+}

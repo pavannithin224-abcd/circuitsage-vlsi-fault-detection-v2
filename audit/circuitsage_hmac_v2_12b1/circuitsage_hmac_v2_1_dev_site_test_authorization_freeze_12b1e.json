@@ -1,0 +1,45 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-SITE-TEST-AUTHORIZATION-FREEZE-v1",
+  "authorization": {
+    "bytes": 736,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_dev_site_test_evaluation_authorization_12b1e.json",
+    "sha256": "b417bbb337b3bf065638495b94737ac31c1af8026209f6e739b46fdcb4dd3e8c"
+  },
+  "authorization_status": "FROZEN",
+  "calibration_advancement_target": "PASS / VERIFIED",
+  "dev_site_test": "AUTHORIZED / NOT OPENED",
+  "evaluation_contract": {
+    "bytes": 3352,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_dev_site_test_evaluation_contract_12b1e.json",
+    "sha256": "69fe6b8fad3ed2e014cd49161e0e002eb41147a95ef54ebf5e6d2e63392e9c52"
+  },
+  "evaluation_contract_status": "FROZEN",
+  "execution_plan": {
+    "bytes": 564,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_dev_site_test_execution_plan_12b1e.csv",
+    "sha256": "111d7bcbddc27f28e2b8265485344b0fc052aef946314c1b0092b091f1d8e766"
+  },
+  "holdout_access_count": 0,
+  "inference_calls": 0,
+  "manifest": {
+    "bytes": 5709,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_dev_site_test_authorization_manifest_12b1e.json",
+    "sha256": "c890c80c025afba37ce96329116afe166cfabd1e7aab39b5bfda3a2bdc416630"
+  },
+  "model_fitting_calls": 0,
+  "model_objects_deserialized": 0,
+  "model_training": "PROHIBITED",
+  "next_gate": "STAGE 12B-1F — LOCKED V2.1 DEV_SITE_TEST DETECTION/LOCALIZATION EVALUATION",
+  "preflight": {
+    "bytes": 856,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_dev_site_test_preflight_12b1e.json",
+    "sha256": "338b584d4a7f36b44fd70315586654c479c4a1026524f04830d51316e6cb158b"
+  },
+  "selected_candidate_id": "V21_EXACT_SIGNATURE_SET",
+  "stage": "12B-1E",
+  "status": "PASS",
+  "threshold_changes": 0,
+  "v1_modified": false,
+  "v2_core_modified": false,
+  "validation_access_count": 0
+}

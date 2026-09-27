@@ -1,0 +1,37 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-ADAPTIVE-SELECTION-CAMPAIGN-CONTRACT-FREEZE-v1",
+  "campaign_contract_status": "FROZEN",
+  "candidate_selected_vectors": [
+    512,
+    96
+  ],
+  "complete_pool_detection_ceiling": 0.50146484375,
+  "complete_pool_observable_faults": "1027/2048",
+  "detection_target_feasible": false,
+  "frozen_detection_target": 0.7,
+  "full_repair_campaign": "BLOCKED — PILOT ACCEPTANCE NOT MET",
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 2675,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_adaptive_selection_manifest_12b2d.json",
+    "sha256": "6f5d171a6c72eca8cb578b4e5a17f4ab269ea632ba33a34a75d5a8b62eae84a2"
+  },
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-2E — OBSERVABILITY-CEILING REVIEW AND ALTERNATIVE-MEASUREMENT CONTRACT FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "selected_detection_recall": 0.50146484375,
+  "selected_exact_site_rate": 0.41748046875,
+  "selected_mean_maximum_candidates": [
+    6.092502434274587,
+    69
+  ],
+  "selection_acceptance": "NOT_MET",
+  "selection_status": "FROZEN",
+  "stage": "12B-2D",
+  "status": "PASS",
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access": 0
+}

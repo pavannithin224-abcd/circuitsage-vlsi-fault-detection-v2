@@ -1,0 +1,64 @@
+{
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-PROBE-CAPTURE-DATASET-INTEGRITY-FREEZE-v1",
+  "baseline_enabled_records": [
+    4320,
+    196608
+  ],
+  "baseline_failures": 0,
+  "batches_verified": "45/45",
+  "canonical_netlists_modified": false,
+  "capture_execution": "COMPLETED / FROZEN",
+  "combined_measurement_detection_ceiling": 0.5029296875,
+  "combined_observable_faults": 1030,
+  "dataset_status": "FROZEN",
+  "deterministic_dataset_replay": "PASS / EXACT",
+  "external_observable_faults": 1027,
+  "fault_instances": 2048,
+  "fault_selector_value_raw_as_features": "PROHIBITED / ABSENT",
+  "features": {
+    "bytes": 8433764,
+    "path": "results/circuitsage_hmac_v2_12b2/probe_capture_12b2h/circuitsage_hmac_v2_1_probe_response_features_12b2h.npz",
+    "sha256": "7a072f038923bb99612da3573e778aa65478fa62b279d3d7e2f10551c5e0a58e"
+  },
+  "frozen_detection_target": 0.7,
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "identity_fields_in_feature_npz": 0,
+  "manifest": {
+    "bytes": 26510,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_probe_capture_dataset_manifest_12b2h.json",
+    "sha256": "602443f59e78752918694db606e9e08856f99de29da94fcdcfbe362347338333"
+  },
+  "metrics": {
+    "bytes": 629,
+    "path": "results/circuitsage_hmac_v2_12b2/probe_capture_12b2h/circuitsage_hmac_v2_1_probe_observability_metrics_12b2h.json",
+    "sha256": "954b02d4b3bfdaaf5595921745705036d5bb047526bfd08f1ff9d005c912a86f"
+  },
+  "missing_duplicate_samples": [
+    0,
+    0
+  ],
+  "model_training_inference": "0 / 0",
+  "next_gate": "STAGE 12B-2I — PROBE-MEASUREMENT FEASIBILITY DISPOSITION AND REPAIR-TRAINING CONTRACT FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "pilot_sites": 1024,
+  "probe_bits_snapshots": [
+    64,
+    16
+  ],
+  "probe_observable_faults": 1008,
+  "probe_rescued_external_invisible_faults": 3,
+  "repair_calibration": "LOCKED / NOT ACCESSED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "selected_vectors": 96,
+  "stage": "12B-2H",
+  "status": "PASS",
+  "target_feasibility": "NOT_MET",
+  "targets": {
+    "bytes": 7677,
+    "path": "results/circuitsage_hmac_v2_12b2/probe_capture_12b2h/circuitsage_hmac_v2_1_probe_response_targets_12b2h.npz",
+    "sha256": "ed678bd956ee271b8a3c8158c1adf819b91ed562af94cf4b1ef7bdfe23f42436"
+  },
+  "unknown_records": 0,
+  "validation_access": 0
+}

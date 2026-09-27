@@ -1,0 +1,88 @@
+{
+  "bootstrap": {
+    "bytes": 29972,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_evaluation_12b1f/circuitsage_hmac_v2_1_site_bootstrap_12b1f.csv",
+    "sha256": "624ade1bdb02be0cd0a5b15511f01ad044df42f49efedf35310034672f71fb79"
+  },
+  "breakdowns": {
+    "bytes": 523,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_evaluation_12b1f/circuitsage_hmac_v2_1_site_test_breakdowns_12b1f.csv",
+    "sha256": "62bac56f6641385846ad6a2487f3617ca79d50efa0af8996170d4387c579091f"
+  },
+  "candidate_selection_calls": 0,
+  "comparison": {
+    "bytes": 2762,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_evaluation_12b1f/circuitsage_hmac_v2_1_vs_v2_core_comparison_12b1f.json",
+    "sha256": "3ad64c3bba52dc776393904d1425a862e7566013d6ddad7195864042523b1a6a"
+  },
+  "dev_site_test_state": "CONSUMED AND FROZEN",
+  "evaluation_status": "FROZEN",
+  "holdout_access_count": 0,
+  "independent_generalization": "NOT ESTABLISHED",
+  "lock_version": "CIRCUITSAGE-HMAC-V2.1-SITE-TEST-EVALUATION-LOCK-v1",
+  "metrics": {
+    "all_injected_detection_recall": 0.5001459427904261,
+    "all_injected_exact_site_rate": 0.19381202568593112,
+    "ambiguous_false_unique_rate": 0.0,
+    "ambiguous_site_fault_instances": 2099,
+    "closed_catalog_consistency_only": true,
+    "dev_site_test_fault_instances": 6852,
+    "dev_site_test_samples": 438528,
+    "dev_site_test_sites": 3426,
+    "exact_signature_candidate_set_coverage": 1.0,
+    "fault_free_false_alarm_rate": 0.0,
+    "independent_generalization": "NOT ESTABLISHED",
+    "maximum_candidate_set_size_observable": 1668,
+    "mean_candidate_set_size_observable": 141.6267872775022,
+    "median_candidate_set_size_observable": 2.0,
+    "no_catalog_match_false_unique_rate": 0.0,
+    "normal_compatible_fault_instances": 3425,
+    "observable_candidate_set_coverage": 1.0,
+    "observable_detection_recall": 1.0,
+    "observable_fault_instances": 3427,
+    "observable_mean_reciprocal_rank": 1.0,
+    "observable_top10_set_accuracy": 1.0,
+    "observable_top5_set_accuracy": 1.0,
+    "sa0_candidate_coverage": 1.0,
+    "sa1_candidate_coverage": 1.0,
+    "selected_candidate_id": "V21_EXACT_SIGNATURE_SET",
+    "site_bootstrap_95_percent_ci": {
+      "all_injected_exact_site_rate": [
+        0.18126094570928197,
+        0.20548744892002335
+      ],
+      "observable_candidate_set_coverage": [
+        1.0,
+        1.0
+      ],
+      "observable_detection_recall": [
+        1.0,
+        1.0
+      ],
+      "unique_signature_top1_site_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "site_bootstrap_replicates": 1000,
+    "site_bootstrap_seed": 20260915,
+    "test_response_profiles": 2712,
+    "unique_signature_top1_site_accuracy": 1.0,
+    "unique_site_fault_instances": 1328
+  },
+  "model_fitting_calls": 0,
+  "model_objects_deserialized": 0,
+  "predictions": {
+    "bytes": 33205,
+    "path": "results/circuitsage_hmac_v2_12b1/v2_1_evaluation_12b1f/circuitsage_hmac_v2_1_site_test_predictions_12b1f.npz",
+    "sha256": "94484c9d1e2419cdfe3841c76c19050888e79296c0acb6c04bebbbfc4722eb33"
+  },
+  "selected_candidate_changed": false,
+  "selected_candidate_id": "V21_EXACT_SIGNATURE_SET",
+  "stage": "12B-1F",
+  "status": "PASS",
+  "threshold_selection_calls": 0,
+  "v1_modified": false,
+  "v2_core_modified": false,
+  "validation_access_count": 0
+}

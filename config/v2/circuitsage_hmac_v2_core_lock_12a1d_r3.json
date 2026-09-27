@@ -1,0 +1,65 @@
+{
+  "best_observed_locator_candidate": "V2_LINKED_RANKER_SMALL_A1E5",
+  "best_observed_locator_metrics": {
+    "fault_free_false_alarm_rate": 0.0,
+    "observable_candidate_coverage_top50": 0.04154561301568855,
+    "observable_detection_recall": 1.0,
+    "observable_mean_reciprocal_rank": 0.006296510211273277,
+    "observable_top5_site_accuracy": 0.004067402672864613,
+    "sa0_sa1_accuracy_given_top1_site": 0.6666666666666666,
+    "unique_signature_top1_site_accuracy": 0.003484320557491289
+  },
+  "calibration_advancement_target": "NOT_MET",
+  "comparison": {
+    "bytes": 768,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_core_disposition_12a1d_r3/circuitsage_hmac_v2_locator_comparison_12a1d_r3.csv",
+    "sha256": "2bc766009d4c44f93b043fbc6e0505472664ae405e3f50d84bfc6f50b439c077"
+  },
+  "detector": "FROZEN ACCEPTED COMPONENT WITH DOCUMENTED SCOPE",
+  "dev_site_test_opened": false,
+  "disposition_policy": {
+    "bytes": 2089,
+    "path": "config/v2/circuitsage_hmac_v2_core_disposition_policy_12a1d_r3.json",
+    "sha256": "3eaad9e2dc8f05b7a0871eca406195b1168089bbe3d619c35dac4c5283f3e00f"
+  },
+  "exact_site_localization_claim": "NOT SUPPORTED",
+  "holdout_access_count": 0,
+  "lifecycle": "COMPLETED AND FROZEN TIMEBOXED RESEARCH EXPERIMENT",
+  "locator": "FROZEN NEGATIVE RESULT / NOT ACCEPTED FOR ADVANCEMENT",
+  "lock_version": "CIRCUITSAGE-HMAC-V2-CORE-LOCK-v1",
+  "locked_dev_site_test_evaluation_authorized": false,
+  "model_inference_calls": 0,
+  "model_training_calls": 0,
+  "r2_minus_original_metric_deltas": {
+    "fault_free_false_alarm_rate": 0.0,
+    "observable_candidate_coverage_top50": -0.017722254503195815,
+    "observable_detection_recall": 0.0,
+    "observable_mean_reciprocal_rank": -0.003084895277374196,
+    "observable_top5_site_accuracy": -0.0011621150493898893,
+    "sa0_sa1_accuracy_given_top1_site": 0.33333333333333337,
+    "unique_signature_top1_site_accuracy": -0.003484320557491289
+  },
+  "r2_selected_candidate": "R2_FEATURE_CROSS_RIDGE_K512",
+  "r2_selected_metrics": {
+    "fault_free_false_alarm_rate": 0.0,
+    "observable_candidate_coverage_top50": 0.023823358512492735,
+    "observable_detection_recall": 1.0,
+    "observable_mean_reciprocal_rank": 0.0032116149338990807,
+    "observable_shortlist_candidate_coverage": 0.17402672864613597,
+    "observable_top5_site_accuracy": 0.002905287623474724,
+    "sa0_sa1_accuracy_given_top1_site": 1.0,
+    "unique_signature_top1_site_accuracy": 0.0
+  },
+  "report": {
+    "bytes": 1863,
+    "path": "results/circuitsage_hmac_v2_12a1/v2_core_disposition_12a1d_r3/circuitsage_hmac_v2_core_disposition_report_12a1d_r3.md",
+    "sha256": "22ba1484dc88456112890eae189d9581761ef1264aedb71594d60e345f192068"
+  },
+  "stage": "12A-1D-R3",
+  "status": "PASS",
+  "unknown_fault_detection_claim": "SUPPORTED ONLY FOR OBSERVABLE DEVIATIONS IN THE FROZEN HMAC TEST REGIME",
+  "v1_model_deserialized_by_stage": false,
+  "v1_model_modified": false,
+  "v2_core_result": "PARTIAL SUCCESS",
+  "validation_access_count": 0
+}

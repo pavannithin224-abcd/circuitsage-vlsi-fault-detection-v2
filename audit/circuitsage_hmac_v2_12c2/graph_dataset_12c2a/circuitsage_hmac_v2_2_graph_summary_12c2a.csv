@@ -1,0 +1,5 @@
+family_id,partition,family_index,nodes,edges,sites,sequential_nodes,output_driving_nodes,input_driven_nodes,max_depth_from_input,max_depth_to_output,nodes_unreachable_to_output,node_feature_count
+opentitan_hmac_sha256,GENERALIZATION_TRAIN,0,18392,35416,18392,75,113,3042,9,22,0,20
+picorv32_cpu,GENERALIZATION_TRAIN,1,9665,21225,9665,1601,201,1828,7,35,0,20
+secworks_aes,GENERALIZATION_TRAIN,2,26565,50547,26560,2469,130,3639,17,27,5,20
+secworks_sha256,GENERALIZATION_CALIBRATION,3,9127,19062,9125,1033,258,1618,8,22,2,20

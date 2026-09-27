@@ -1,0 +1,39 @@
+{
+  "acceptance_status": "FROZEN",
+  "adaptive_pilot_generation": "AUTHORIZED / NOT STARTED",
+  "architecture_status": "FROZEN",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-IMPROVEMENT-CONTRACT-FREEZE-v1",
+  "candidate_vector_pool": 512,
+  "full_campaign_generation": "NOT YET AUTHORIZED",
+  "holdout_access_count": 0,
+  "manifest": {
+    "bytes": 7065,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_improvement_contract_manifest_12b2a.json",
+    "sha256": "6cec27daefce3ecedc061c2b9eb85cd4f0f92d4ffa59d3fc10095913753ae3a1"
+  },
+  "maximum_selected_vectors": 96,
+  "model_inference_calls": 0,
+  "model_objects_deserialized": 0,
+  "model_training": "NOT YET AUTHORIZED",
+  "model_training_calls": 0,
+  "next_gate": "STAGE 12B-2B — ADAPTIVE TEST-VECTOR CANDIDATE POOL AND PILOT-SCREENING AUTHORIZATION FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "partition_contract_status": "FROZEN",
+  "repair_branch": "NEW / ISOLATED FROM FROZEN V2.1",
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "repair_train_calibration_test_sites": [
+    11191,
+    2398,
+    2398
+  ],
+  "response_payloads_generated": 0,
+  "scope_status": "FROZEN",
+  "source_sites": "ORIGINAL DEV_TRAIN ONLY",
+  "stage": "12B-2A",
+  "status": "PASS",
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access_count": 0,
+  "vector_policy_status": "FROZEN"
+}

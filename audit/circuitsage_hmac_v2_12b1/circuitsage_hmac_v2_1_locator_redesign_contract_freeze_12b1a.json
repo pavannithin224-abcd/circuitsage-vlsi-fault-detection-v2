@@ -1,0 +1,53 @@
+{
+  "acceptance_contract": {
+    "bytes": 1711,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_locator_acceptance_contract_12b1a.json",
+    "sha256": "899b2ff099da20b4631308962c3052e16c7cf875ae296f5b2f6da825d6c6c12a"
+  },
+  "acceptance_contract_status": "FROZEN",
+  "ambiguity_aware": true,
+  "architecture": {
+    "bytes": 3200,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_locator_architecture_12b1a.json",
+    "sha256": "370fa36bfa952a1fe54d1b7b7f4e27950692387849d94aa73b733de4c45b02fe"
+  },
+  "architecture_status": "FROZEN",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-LOCATOR-REDESIGN-CONTRACT-FREEZE-v1",
+  "candidate_grid": {
+    "bytes": 525,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_locator_candidate_grid_12b1a.csv",
+    "sha256": "c159aa527d6720093fa3578d0d4e0042d1b0c2138535ac01e567efdddd600653"
+  },
+  "candidate_grid_status": "FROZEN",
+  "candidates": 3,
+  "closed_catalog_scope": true,
+  "dev_site_test": "LOCKED / NOT OPENED / NOT AUTHORIZED",
+  "environment": {
+    "bytes": 597,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_environment_12b1a.json",
+    "sha256": "6bed97f508754f9c4782a2ee507b78272034ca92d7d9d24d729b57195294c1bc"
+  },
+  "environment_status": "FROZEN",
+  "holdout_access_count": 0,
+  "independent_generalization": "NOT CLAIMED",
+  "manifest": {
+    "bytes": 4517,
+    "path": "results/circuitsage_hmac_v2_12b1/circuitsage_hmac_v2_1_contract_manifest_12b1a.json",
+    "sha256": "eae8cf0d02155c8fbf3e736307ffca79f13d2268442c10a49a945477d7e62577"
+  },
+  "model_family": "CLOSED-CATALOG BEHAVIOR-SIGNATURE RETRIEVAL WITH GRAPH-AWARE RERANKING",
+  "model_training": "NOT STARTED / NOT AUTHORIZED BY THIS STAGE",
+  "next_gate": "STAGE 12B-1B — BEHAVIOR-SIGNATURE INDEX AND AMBIGUITY-AWARE DATASET FREEZE",
+  "stage": "12B-1A",
+  "status": "PASS",
+  "trainable_candidates": 2,
+  "training_contract": {
+    "bytes": 2101,
+    "path": "config/v2_1/circuitsage_hmac_v2_1_locator_training_contract_12b1a.json",
+    "sha256": "36d6da41f359dee47d146866601655ed46b39d941ef79dcbd48cb689d3260e67"
+  },
+  "training_contract_status": "FROZEN",
+  "v1_status": "FROZEN / READ ONLY / UNCHANGED",
+  "v2_core_status": "FROZEN / READ ONLY / UNCHANGED",
+  "validation_access_count": 0
+}

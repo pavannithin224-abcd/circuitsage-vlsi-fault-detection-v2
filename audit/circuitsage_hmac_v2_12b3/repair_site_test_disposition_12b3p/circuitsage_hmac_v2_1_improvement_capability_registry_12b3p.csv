@@ -1,0 +1,11 @@
+capability,value,target,status,scope
+combined_all_injected_detection,0.69161802,>=0.70000000,NOT_MET,locked REPAIR_SITE_TEST
+observable_candidate_set_coverage,1.00000000,>=0.99000000,PASS,observable faults
+unique_signature_top1_site,1.00000000,>=0.95000000,PASS,unique signatures
+all_injected_exact_site,0.54879066,>=0.60000000,NOT_MET,all injected faults
+mean_observable_candidate_sites,3.7561,<=5.0000,PASS,observable faults
+maximum_observable_candidate_sites,84,<=64,NOT_MET,observable faults
+polarity_given_correct_unique_site,1.00000000,>=0.90000000,PASS,correct unique sites
+fault_free_false_alarms,0,0,PASS,frozen vectors and batches
+normal_compatible_faults,1479,informational,LIMITATION,current measurement
+independent_generalization,NOT_ESTABLISHED,separate V2.2 study,LIMITATION,unseen circuits/signatures

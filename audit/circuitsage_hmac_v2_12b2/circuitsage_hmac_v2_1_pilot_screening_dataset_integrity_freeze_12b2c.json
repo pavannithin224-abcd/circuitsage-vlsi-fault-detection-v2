@@ -1,0 +1,47 @@
+{
+  "activated_fault_instances": 1716,
+  "adaptive_vector_selection": "AUTHORIZED / NOT STARTED",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-PILOT-SCREENING-DATASET-INTEGRITY-FREEZE-v1",
+  "batches_verified": "45/45",
+  "candidate_vectors": 512,
+  "dataset": {
+    "bytes": 14214706,
+    "path": "results/circuitsage_hmac_v2_12b2/pilot_screening_12b2c/circuitsage_hmac_v2_1_pilot_response_dataset_12b2c.npz",
+    "sha256": "a5df6c2d3d83645f338f40a43298c1ddc71cf54cc6b1a06fd839580867525814"
+  },
+  "dataset_status": "FROZEN",
+  "detected_without_activity": 0,
+  "deterministic_dataset_replay": "PASS / EXACT",
+  "enabled_records": 1048576,
+  "fault_instances": 2048,
+  "full_repair_campaign": "NOT AUTHORIZED",
+  "holdout_access": 0,
+  "manifest": {
+    "bytes": 14137,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_pilot_dataset_manifest_12b2c.json",
+    "sha256": "0f852a4d8b9671af8a511b59f64014ded3cbc6827731c305d525fc2403c46d73"
+  },
+  "metrics": {
+    "bytes": 16452,
+    "path": "results/circuitsage_hmac_v2_12b2/pilot_screening_12b2c/circuitsage_hmac_v2_1_candidate_vector_pilot_metrics_12b2c.csv",
+    "sha256": "da37faece47ac3fa2fa490ce196d3742d0e27e30d63dcfc50566a69f5b3cfb3d"
+  },
+  "missing_duplicate_samples": [
+    0,
+    0
+  ],
+  "model_training": "NOT AUTHORIZED",
+  "next_gate": "STAGE 12B-2D — ADAPTIVE VECTOR SELECTION AND FULL REPAIR-CAMPAIGN CONTRACT FREEZE",
+  "observable_fault_instances": 1027,
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "pilot_execution_status": "COMPLETED / FROZEN",
+  "pilot_sites": 1024,
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "stage": "12B-2C",
+  "status": "PASS",
+  "unknown_records": 0,
+  "v1_modified": false,
+  "v2_1_modified": false,
+  "v2_core_modified": false,
+  "validation_access": 0
+}

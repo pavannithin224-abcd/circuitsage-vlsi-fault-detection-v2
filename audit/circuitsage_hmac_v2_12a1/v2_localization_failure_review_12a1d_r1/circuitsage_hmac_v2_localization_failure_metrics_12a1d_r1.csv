@@ -1,0 +1,6 @@
+metric,observed,required,gap_to_requirement,status
+observable_candidate_coverage_top50,0.04154561301568855,0.95,0.9084543869843114,NOT_MET
+unique_signature_top1_site_accuracy,0.003484320557491289,0.8,0.7965156794425088,NOT_MET
+observable_top5_site_accuracy,0.004067402672864613,0.8,0.7959325973271354,NOT_MET
+fault_free_false_alarm_rate,0.0,0.05,0.05,PASS
+observable_detection_recall,1.0,0.9,0.09999999999999998,PASS

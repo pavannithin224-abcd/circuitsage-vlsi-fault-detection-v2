@@ -1,0 +1,67 @@
+{
+  "ambiguous_site_fault_instances": 13759,
+  "artifacts": {
+    "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_features_12a1b.npz": {
+      "bytes": 21778136,
+      "sha256": "09f5dded67a6f82d14f02b4de23765b66ff954eb6a9779817c8b7286dc6ac2b3"
+    },
+    "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_schema_12a1b.json": {
+      "bytes": 3356,
+      "sha256": "5743d02ad5a8067aef331e955b6e91acd599b066956b0e572c7d25b2c1f98032"
+    },
+    "results/circuitsage_hmac_v2_12a1/blinded_train_response_dataset_12a1b/circuitsage_hmac_v2_train_response_targets_12a1b.npz": {
+      "bytes": 141739,
+      "sha256": "268e407a9d13adab6a81b4650b4c16761dffb99d6d3d7a32ab2c28ff9a57a572"
+    }
+  },
+  "dataset_status": "FROZEN",
+  "fault_instances": 45678,
+  "input_evidence": {
+    "config/v2/circuitsage_hmac_v2_acceptance_contract_12a1a.json": "3943601adcdd603e78b07699317066b3a187d22d1f7f9b71106aab4feed95c93",
+    "config/v2/circuitsage_hmac_v2_core_scope_contract_12a1a.json": "38118c0ba90c7d2af6ef8a01fcf7bd1e86ef13929fa7766e640db1ee08d482e6",
+    "config/v2/circuitsage_hmac_v2_linked_pipeline_contract_12a1a.json": "312fde4cb5ecc7819418e4affe88d1b07c7dbe5cbdeab5af92f14403ffd7427d",
+    "results/circuitsage_hmac_v2_12a1/circuitsage_hmac_v2_core_contract_freeze_12a1a.json": "b0d1a0c2bebbe0a4579dad5fca0efec01b8d569926cb4cdab1efc9e9a086fa75",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/ambiguous.csv": "ac864708f5dacf22f21dae26aea010d9b59a70df744b401acf2b1b4320888216",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/catalog.sqlite3": "3841847129e6a3ffbcd5511adf119db191b25d65d13b655fc340c4392f99124b",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/checks.json": "f16d9a46cc785a041cc26f04bc652fac6ac0e984e1996579a60bd54a2604901a",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/example_provenance.json": "2979abcb474d24d894b71ef89af1012704e95cdbe4d707966668b2bed7e35479",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/freeze.json": "a6f7312b9cd8a137da711133cd425a706c1705a84eb444df4a45eb2e3129ee71",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/no_match.csv": "ad708a67f3e0095983ea91e9538c12fbf9245b313dcc6d81668dfcafe4dfac59",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/normal.csv": "904f69d89bfc84a5ee5ab12395775e45c083c540cc8a53842c777e7d84ee99aa",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/summary.json": "ee863aa1b5c491292e68c07ce88eb7e81213be792cbbc464da6eb693788e0415",
+    "results/hmac_behavior_diagnosis_pilot/baseline_11e1b/unique.csv": "c18659c77991ac3ede52f4c5dd3a070b7bd28aecbb100d844db7775ac9341de9",
+    "results/hmac_fault_campaign_11c5/hmac_fault_site_group_split_11c5d.csv": "602fa310547f68d1e9b5ceb6f148d6b125c69df0589929f9edfde9d264922c61",
+    "results/hmac_fault_campaign_11c5/hmac_fault_site_group_split_manifest_11c5d.json": "1c96b7c7c7f5301e70037aaa9a0d18effd28cae6bf15e9f85cc85f0c413473fb",
+    "stage_12a1a_v2_core_contract.py": "1fca14eb7384794baa5b8a0bc68aa2124f3a92fbd1f8d80f63984e96e39f9b9e"
+  },
+  "manifest_version": "CIRCUITSAGE-HMAC-V2-TRAIN-RESPONSE-MANIFEST-v1",
+  "normal_compatible_fault_instances": 22748,
+  "observable_fault_instances": 22930,
+  "partition_site_counts": {
+    "DEV_CALIBRATION": 3426,
+    "DEV_SITE_TEST": 3426,
+    "DEV_TRAIN": 15987
+  },
+  "physical_sites": 22839,
+  "privacy": {
+    "features_contain_fault_identity": false,
+    "public_release_authorized": false,
+    "targets_contain_private_development_labels": true
+  },
+  "response_vectors": 64,
+  "schema_status": "FROZEN",
+  "source_partition": "TRAIN ONLY",
+  "stage": "12A-1B",
+  "statistics": {
+    "cross_partition_profiles": 2148,
+    "distinct_response_profiles": 13028,
+    "fault_instances_with_cross_partition_profile": 32660,
+    "maximum_candidate_site_count": 12019,
+    "normal_compatible_profiles": 1,
+    "normal_profile_fault_members": 22748,
+    "normal_profile_index": 0,
+    "observable_profiles": 13027
+  },
+  "status": "PASS",
+  "unique_site_fault_instances": 9171
+}

@@ -1,0 +1,80 @@
+{
+  "advancement_selection": "NOT PERFORMED",
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-SCREENING-EXECUTION-DATASET-FREEZE-12B3D-v1",
+  "batches_verified": "45/45",
+  "candidate_batch_pairs": "135/135",
+  "candidate_results": {
+    "EM_STATE_CHECKPOINT_2X64_T32": {
+      "acceptance": "NOT_MET",
+      "combined_detection_recall": 0.5,
+      "combined_observable_faults": 256,
+      "fault_free_false_alarms": 0,
+      "site_bootstrap_ci": [
+        0.44335938,
+        0.55664062
+      ]
+    },
+    "EM_TESTPOINT_4X64_T16": {
+      "acceptance": "PASS",
+      "combined_detection_recall": 0.75976562,
+      "combined_observable_faults": 389,
+      "fault_free_false_alarms": 0,
+      "site_bootstrap_ci": [
+        0.71875,
+        0.80078125
+      ]
+    },
+    "EM_TOPOLOGY_4X64_T24": {
+      "acceptance": "NOT_MET",
+      "combined_detection_recall": 0.5,
+      "combined_observable_faults": 256,
+      "fault_free_false_alarms": 0,
+      "site_bootstrap_ci": [
+        0.44335938,
+        0.55664062
+      ]
+    }
+  },
+  "canonical_netlists_modified": false,
+  "dataset_status": "FROZEN",
+  "deterministic_dataset_replay": "PASS / EXACT",
+  "fault_selector_value_raw_as_features": "PROHIBITED / ABSENT",
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "identity_fields_in_feature_npz": 0,
+  "logical_candidate_evaluations": 73728,
+  "manifest": {
+    "bytes": 29620,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_screening_dataset_manifest_12b3d.json",
+    "sha256": "5ac0b7fa29349d5e53bc8bfdd16a25f66237077280399b6590aa2be7f94dcfc4"
+  },
+  "metrics": {
+    "bytes": 2510,
+    "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_execution_12b3d/circuitsage_hmac_v2_1_enhanced_screening_candidate_metrics_12b3d.json",
+    "sha256": "3e4b20ba8d51452c7f895f8c595ab383495cd5234d5455afd37bbbfc316405b3"
+  },
+  "missing_duplicate_unknown_baseline_failures": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "model_training_inference": "0 / 0",
+  "next_gate": "STAGE 12B-3E — ENHANCED MEASUREMENT SCREENING DISPOSITION AND FULL-CAPTURE READINESS FREEZE",
+  "original_dev_site_test": "CONSUMED / NOT REOPENED",
+  "passing_candidates": [
+    "EM_TESTPOINT_4X64_T16"
+  ],
+  "physical_enabled_simulations": 24576,
+  "repair_calibration": "LOCKED / NOT ACCESSED",
+  "repair_site_test": "LOCKED / NOT ACCESSED",
+  "screen_sites_faults_vectors": [
+    256,
+    512,
+    48
+  ],
+  "screening_execution": "COMPLETED / FROZEN",
+  "stage": "12B-3D",
+  "status": "PASS",
+  "validation_access": 0
+}

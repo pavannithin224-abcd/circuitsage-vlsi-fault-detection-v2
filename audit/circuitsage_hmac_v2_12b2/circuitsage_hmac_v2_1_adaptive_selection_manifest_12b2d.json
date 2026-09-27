@@ -1,0 +1,50 @@
+{
+  "candidate_vectors": 512,
+  "complete_pool_detection_ceiling": 0.50146484375,
+  "full_campaign_authorized": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-ADAPTIVE-SELECTION-MANIFEST-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_full_repair_campaign_contract_12b2d.json": {
+      "bytes": 1064,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_full_repair_campaign_contract_12b2d.json",
+      "sha256": "b81ef49913f7235a120545240529996c159c55d45c9412ef217599e41e8f2598"
+    },
+    "results/circuitsage_hmac_v2_12b2/adaptive_vector_selection_12b2d/circuitsage_hmac_v2_1_adaptive_vector_selection_lock_12b2d.json": {
+      "bytes": 1693,
+      "path": "results/circuitsage_hmac_v2_12b2/adaptive_vector_selection_12b2d/circuitsage_hmac_v2_1_adaptive_vector_selection_lock_12b2d.json",
+      "sha256": "963fa242559e6681b8c3f58d3de103f1b638bc4476425c7a80776c6b435597b1"
+    },
+    "results/circuitsage_hmac_v2_12b2/adaptive_vector_selection_12b2d/circuitsage_hmac_v2_1_adaptive_vector_selection_metrics_12b2d.json": {
+      "bytes": 1479,
+      "path": "results/circuitsage_hmac_v2_12b2/adaptive_vector_selection_12b2d/circuitsage_hmac_v2_1_adaptive_vector_selection_metrics_12b2d.json",
+      "sha256": "69dad070e994e8808e19373e34f47abeb3b7633b16f59bf6142f40ca855ae139"
+    },
+    "results/circuitsage_hmac_v2_12b2/adaptive_vector_selection_12b2d/circuitsage_hmac_v2_1_adaptive_vector_selection_trace_12b2d.csv": {
+      "bytes": 8993,
+      "path": "results/circuitsage_hmac_v2_12b2/adaptive_vector_selection_12b2d/circuitsage_hmac_v2_1_adaptive_vector_selection_trace_12b2d.csv",
+      "sha256": "6191a9e133f93eb66f52d70aa97991b7655782485341d4df23e66fcd4398555f"
+    },
+    "results/circuitsage_hmac_v2_12b2/adaptive_vector_selection_12b2d/circuitsage_hmac_v2_1_selected_adaptive_vectors_12b2d.npz": {
+      "bytes": 7553,
+      "path": "results/circuitsage_hmac_v2_12b2/adaptive_vector_selection_12b2d/circuitsage_hmac_v2_1_selected_adaptive_vectors_12b2d.npz",
+      "sha256": "be9df0a3a70e61b54fc793439328bbcc307b9373fd881b0e97d500919ec27bff"
+    }
+  },
+  "pilot_audit": {
+    "bytes": 1789,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_pilot_screening_dataset_integrity_freeze_12b2c.json",
+    "sha256": "148856642c8968a7d6263cfa18fc6c639b25a6572441724466005f5fa67df268"
+  },
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "selected_vectors": 96,
+  "simulation_calls": 0,
+  "stage": "12B-2D",
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0
+}

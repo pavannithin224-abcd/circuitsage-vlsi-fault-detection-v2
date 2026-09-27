@@ -1,0 +1,74 @@
+{
+  "canonical_batches_checked": 45,
+  "canonical_netlists_modified": false,
+  "cross_batch_probe_consistency": "PASS / EXACT",
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-PROBE-DISCOVERY-MANIFEST-v1",
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_capture_contract_12b2f.json": {
+      "bytes": 1369,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_probe_capture_contract_12b2f.json",
+      "sha256": "7b1977406c2208b0287653ae5395330945963dc2388bc649586e9501fbed8919"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/circuitsage_hmac_v2_1_cross_batch_probe_consistency_12b2f.json": {
+      "bytes": 31616,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/circuitsage_hmac_v2_1_cross_batch_probe_consistency_12b2f.json",
+      "sha256": "9d9b349ed7f615867a24e911676d626dc6c612774457a6d2b8b5422ea14d794c"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/circuitsage_hmac_v2_1_global_probe_bank_12b2f.csv": {
+      "bytes": 12182,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/circuitsage_hmac_v2_1_global_probe_bank_12b2f.csv",
+      "sha256": "e6abe61682aaaccbaea8bbd6d90f1036e1bac8835a5999590bc545c396d5ab51"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/circuitsage_hmac_v2_1_global_probe_bank_12b2f.json": {
+      "bytes": 2981,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/circuitsage_hmac_v2_1_global_probe_bank_12b2f.json",
+      "sha256": "23cba70a6fa199bb59c62b84ad2546603903abc68cd9d5e7eb7e2e15e5f95632"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/opentitan_hmac_sha256_msg32_faultbatch000_probe_canary.json": {
+      "bytes": 19117983,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/opentitan_hmac_sha256_msg32_faultbatch000_probe_canary.json",
+      "sha256": "c8266b157bc890b77badda02d717bf9ba848c501480a6db6a1edff32607382de"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/opentitan_hmac_sha256_msg32_faultbatch000_probe_canary.v": {
+      "bytes": 3732837,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/opentitan_hmac_sha256_msg32_faultbatch000_probe_canary.v",
+      "sha256": "36c1bb4c427c568a2fb81ef6459c5e9792ad1b2b52ee5b36cd87a379b21e512a"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/tb_v21_probe_canary.sv": {
+      "bytes": 690,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/tb_v21_probe_canary.sv",
+      "sha256": "d47d7f8cbc5e58af34ab260921845ff66818f57bdb2150c4d5f8e04da2570d2c"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/verilator_observer_lint.log": {
+      "bytes": 184719,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/verilator_observer_lint.log",
+      "sha256": "89b8c503f4b86d4f009b8cd6d59732868ffbb47ca571b03dc405ebce492ba44a"
+    },
+    "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/yosys_observer_canary.log": {
+      "bytes": 1717,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_discovery_12b2f/observer_canary/yosys_observer_canary.log",
+      "sha256": "0b6a5d2d1fb1466250812095459a78ca776d1e3f17a18f77f08b315bfb39cc52"
+    }
+  },
+  "probe_bits": 64,
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "response_values_captured": 0,
+  "simulation_binaries_executed": 0,
+  "stage": "12B-2F",
+  "stage_12b2e_audit": {
+    "bytes": 1320,
+    "path": "results/circuitsage_hmac_v2_12b2/circuitsage_hmac_v2_1_observability_ceiling_alternative_measurement_freeze_12b2e.json",
+    "sha256": "5165e617f75717233b5b6619861071e6c6b0a848fce35fc69309ac06b573fef1"
+  },
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0,
+  "verilator_lint": "PASS",
+  "yosys_structural_check": "PASS"
+}

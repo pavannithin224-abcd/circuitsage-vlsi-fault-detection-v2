@@ -1,0 +1,75 @@
+{
+  "all_injected_exact_site_rate": 0.548790658882402,
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-IMPROVEMENT-FINAL-FREEZE-12B3P-v1",
+  "combined_detection_recall": 0.6916180150125104,
+  "comparison": {
+    "bytes": 1189,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_disposition_12b3p/circuitsage_hmac_v2_1_improvement_comparison_12b3p.json",
+    "sha256": "0f2d5bda6ad24ba1cd6f19edeca06eee6b298a5baad0097ab971ae4d47d31e54"
+  },
+  "detection_target_gap": 0.008381984987489544,
+  "dev_site_test_validation_holdout_access": [
+    0,
+    0,
+    0
+  ],
+  "disposition_status": "FROZEN",
+  "exact_site_target_gap": 0.051209341117598006,
+  "fault_free_false_alarms": 0,
+  "final_lock": {
+    "bytes": 3036,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_disposition_12b3p/circuitsage_hmac_v2_1_improvement_final_lock_12b3p.json",
+    "sha256": "1c4f00097d1e89747341656e930af9c3350aa47f09f23f71c2c454973722a799"
+  },
+  "future_combined_model_brand": "Faultiva 1.0 — Hybrid VLSI Fault Intelligence",
+  "independent_generalization": "NOT ESTABLISHED",
+  "locked_evaluation_acceptance": "NOT_MET / PRESERVED",
+  "manifest": {
+    "bytes": 9844,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_improvement_disposition_manifest_12b3p.json",
+    "sha256": "f0ae308277731d93835c80a6210a7633d58991312f87b6d7f4f6539b3df90720"
+  },
+  "mean_maximum_observable_candidate_sites": [
+    3.756104914078987,
+    84
+  ],
+  "next_gate": "STAGE 12C-1A — V2.2 GENERALIZATION ARCHITECTURE, DATA-PARTITION, AND ACCEPTANCE-CONTRACT FREEZE",
+  "next_gate_authorization": "CONTRACT CREATION ONLY; DATASET AND TRAINING NOT AUTHORIZED",
+  "observable_candidate_set_coverage": 1.0,
+  "policy": {
+    "bytes": 1542,
+    "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_improvement_final_disposition_policy_12b3p.json",
+    "sha256": "92ddd5c5c8d92ce619e6f9ef52e872d33e512b920f3dffbe59dc2c3241355e2d"
+  },
+  "prediction_commitment_before_truth": "PASS / VERIFIED",
+  "production_or_silicon_readiness": "NOT ESTABLISHED",
+  "repair_site_test": "CONSUMED / FROZEN / DO NOT REOPEN",
+  "report": {
+    "bytes": 2160,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_disposition_12b3p/circuitsage_hmac_v2_1_improvement_final_report_12b3p.md",
+    "sha256": "163fad39db473a681771a0de42fbdcb9667b641754479e2b97fc86b2b95d6ff7"
+  },
+  "selected_measurement_model": [
+    "EM_TESTPOINT_4X64_T16",
+    "R31_EXACT_SIGNATURE_SET"
+  ],
+  "stage": "12B-3P",
+  "status": "PASS",
+  "training_threshold_change_candidate_reselection": [
+    0,
+    0,
+    0
+  ],
+  "unique_signature_top1_site": 1.0,
+  "unmet_criteria": [
+    "all_injected_exact_site_rate",
+    "combined_detection_recall",
+    "maximum_observable_candidate_sites"
+  ],
+  "v1_v2_core_v2_1_modified": [
+    false,
+    false,
+    false
+  ],
+  "v2_1_improvement_lifecycle": "COMPLETED AND FROZEN CLOSED-CATALOG RESEARCH EXPERIMENT"
+}

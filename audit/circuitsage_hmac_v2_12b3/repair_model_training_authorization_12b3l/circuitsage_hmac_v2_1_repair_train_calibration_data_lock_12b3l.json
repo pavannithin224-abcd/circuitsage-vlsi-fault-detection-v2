@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-17T15:16:32Z",
+  "dev_site_test": "CONSUMED / NOT AUTHORIZED",
+  "lock_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-TRAIN-CALIBRATION-DATA-LOCK-12B3L-v1",
+  "physical_site_overlap": 0,
+  "query_identity_fields": "PROHIBITED / ABSENT",
+  "repair_calibration": {
+    "audit": {
+      "bytes": 2273,
+      "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_calibration_capture_execution_dataset_freeze_12b3k.json",
+      "sha256": "e41a3aa395b18bb0311f45db7489a9fc55d684f9ace2e236563a169bc3b5c7a7"
+    },
+    "fault_instances": 1024,
+    "features": {
+      "bytes": 23589853,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_features_12b3k.npz",
+      "sha256": "4a75ac2a4cc11690490ba29d26665cca29a67b0b59ae4140c6e233e32520ddc5"
+    },
+    "gradient_updates": "PROHIBITED",
+    "manifest": {
+      "bytes": 31173,
+      "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_calibration_capture_dataset_manifest_12b3k.json",
+      "sha256": "99b1bd0240fd76e2a4ecbfc13d262b60f3ec0f5f4db003d67dfc8d653248a8fb"
+    },
+    "metrics": {
+      "bytes": 1740,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_metrics_12b3k.json",
+      "sha256": "5e07d8c9aa75bed7916b752b58d4a245a2fe5b4e5becce9b364b1683040abcc5"
+    },
+    "schema": {
+      "bytes": 3210,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_dataset_schema_12b3k.json",
+      "sha256": "dc59d2efda4e1f7490abfe23ed19a39f203bed09c485bd882bd3708b495ca8b9"
+    },
+    "sites": 512,
+    "targets": {
+      "bytes": 3965,
+      "path": "results/circuitsage_hmac_v2_12b3/repair_calibration_capture_execution_12b3k/circuitsage_hmac_v2_1_repair_calibration_capture_targets_12b3k.npz",
+      "sha256": "a97f822efe95f41cc619743824d327c03e22da3104f9dfdbfae2cb0ef885923f"
+    },
+    "use": "ONE-TIME CANDIDATE SELECTION, CONFIDENCE/OOD CALIBRATION, AND STOPPING DECISION"
+  },
+  "repair_site_test": "LOCKED / NOT AUTHORIZED",
+  "repair_train": {
+    "audit": {
+      "bytes": 1924,
+      "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_execution_dataset_freeze_12b3g.json",
+      "sha256": "dcfb5139d6353218bb0f1899160767e0a6f885cf334f4589c31d25f11ae9e4b6"
+    },
+    "fault_instances": 2048,
+    "features": {
+      "bytes": 46329857,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_features_12b3g.npz",
+      "sha256": "ea3af3be023fcafa4023776f6650ac9fc1c4cac429b2730eac5329a22e1d161d"
+    },
+    "manifest": {
+      "bytes": 28130,
+      "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_full_capture_dataset_manifest_12b3g.json",
+      "sha256": "9af923d5596491fb730a1574a6d3c299ca970a2e2e6a64bc0ee1f8a43b24110a"
+    },
+    "metrics": {
+      "bytes": 1592,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_metrics_12b3g.json",
+      "sha256": "f41502e7e76c9bb381b926f81db538cfff47bf4d11c5988bdd419925de96b1de"
+    },
+    "schema": {
+      "bytes": 3084,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_dataset_schema_12b3g.json",
+      "sha256": "f719dab6fd324cc093de41853fa374278d327db67e01ad5259fdc21808121b20"
+    },
+    "sites": 1024,
+    "targets": {
+      "bytes": 7675,
+      "path": "results/circuitsage_hmac_v2_12b3/full_capture_execution_12b3g/circuitsage_hmac_v2_1_full_capture_targets_12b3g.npz",
+      "sha256": "895457c94418b16e8d0f5e2a1464c5f03bb5a1673e40e23cdd71c95002ddd5b3"
+    },
+    "use": "FIT TRAINABLE PARAMETERS, TRAIN-ONLY SCALERS, AND INTERNAL GROUP-FOLD EARLY STOPPING"
+  },
+  "selected_measurement": "EM_TESTPOINT_4X64_T16",
+  "stage": "12B-3L",
+  "status": "FROZEN",
+  "validation_holdout": "NOT AUTHORIZED / NOT AUTHORIZED"
+}

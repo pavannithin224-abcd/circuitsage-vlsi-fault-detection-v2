@@ -1,0 +1,6 @@
+check,result,detail
+every faulty case detected,PASS,8 cases
+no fault-free case reported as faulty,PASS,4 cases
+true site inside candidate set whenever localized,PASS,coverage invariant
+V1 verification refuses out-of-scope circuits,PASS,no extrapolation beyond HMAC
+every result carries an unobservability notice,PASS,12 results

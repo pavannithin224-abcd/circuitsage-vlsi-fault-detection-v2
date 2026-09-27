@@ -1,0 +1,51 @@
+{
+  "authorizations": {
+    "dev_site_test_evaluation": "NOT AUTHORIZED",
+    "holdout": "NOT AUTHORIZED",
+    "model_training": "NOT YET AUTHORIZED",
+    "next_stage_signature_dataset_construction": "AUTHORIZED FROM DEV_TRAIN ONLY",
+    "validation": "NOT AUTHORIZED"
+  },
+  "contract_version": "CIRCUITSAGE-HMAC-V2.1-LOCATOR-TRAINING-v1",
+  "data_partitions": {
+    "DEV_CALIBRATION": "candidate selection and frozen acceptance measurement only",
+    "DEV_SITE_TEST": "LOCKED UNTIL EVERY V2.1 CALIBRATION ADVANCEMENT CRITERION PASSES",
+    "DEV_TRAIN": "signature-index construction, trainable distance weights, hard negatives and listwise fitting",
+    "HOLDOUT": "PROHIBITED",
+    "VALIDATION": "PROHIBITED"
+  },
+  "execution": {
+    "candidate_count": 3,
+    "candidate_execution": "SEQUENTIAL",
+    "checkpoint_resume": "REQUIRED",
+    "deterministic_replay": "EXACT",
+    "estimated_cpu_time": "1-6 HOURS",
+    "gpu_required": false,
+    "internet_required": false,
+    "parallel_candidates": 1,
+    "trainable_candidates": 2
+  },
+  "fit_rules": {
+    "ambiguous_signature_loss": "MULTI-POSITIVE SET LOSS; ALL OBSERVATIONALLY EQUIVALENT SITES ARE CORRECT",
+    "candidate_identity_use": "INDEXING AND LOSS TARGET ONLY; NEVER QUERY INPUT",
+    "catalog_construction_partition": "DEV_TRAIN RESPONSES ONLY",
+    "fault_type_loss": "CONDITIONAL SA0/SA1 LOSS ONLY AFTER CORRECT SITE RETRIEVAL",
+    "hard_negatives": [
+      "nearest incorrect response signatures",
+      "graph-neighbor sites",
+      "SA0/SA1 sibling",
+      "highest-scoring incorrect shortlist members"
+    ],
+    "physical_site_grouping": "SA0 AND SA1 OF A SITE MUST REMAIN TOGETHER",
+    "query_identity_feature_count": 0,
+    "target_feature_count": 0,
+    "unique_signature_loss": "SITE-LEVEL LISTWISE RETRIEVAL"
+  },
+  "frozen_predecessors": {
+    "V1": "READ ONLY / MUST NOT CHANGE",
+    "V2_CORE_12A": "COMPLETED / READ ONLY / MUST NOT CHANGE"
+  },
+  "purpose": "test whether direct behavior-signature retrieval and ambiguity-aware scoring improve closed-catalog localization",
+  "stage": "12B-1A",
+  "status": "FROZEN"
+}

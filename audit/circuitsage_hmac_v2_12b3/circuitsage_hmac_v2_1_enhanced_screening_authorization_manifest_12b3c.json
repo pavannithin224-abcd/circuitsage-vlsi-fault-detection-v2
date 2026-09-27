@@ -1,0 +1,78 @@
+{
+  "candidate_count": 3,
+  "canonical_batches": 45,
+  "canonical_netlists_modified": false,
+  "enabled_transactions_per_candidate": 24576,
+  "fault_instances": 512,
+  "frozen_rtl_modified": false,
+  "holdout_access": 0,
+  "inference_calls": 0,
+  "manifest_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-SCREENING-AUTHORIZATION-MANIFEST-12B3C-v1",
+  "maximum_total_enabled_transactions": 73728,
+  "model_objects_deserialized": 0,
+  "original_dev_site_test_access": 0,
+  "outputs": {
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_screening_authorization_12b3c.json": {
+      "bytes": 1821,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_screening_authorization_12b3c.json",
+      "sha256": "c89a6676dd3b8c46f8fa876c9fce3d317d047aa975a5fabe4081474330ab6397"
+    },
+    "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_screening_execution_contract_12b3c.json": {
+      "bytes": 1639,
+      "path": "config/v2_1_improvement/circuitsage_hmac_v2_1_enhanced_screening_execution_contract_12b3c.json",
+      "sha256": "e694b6cac9f50e5f56db9fcefe6c0e6bd66980c447dcd0f23530a68c9ce9fea1"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_execution_plan_12b3c.csv": {
+      "bytes": 9081,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_execution_plan_12b3c.csv",
+      "sha256": "b6fd254f1e673a192fbedcb150de2d1782e636a13d47ba28536757cb0b9887cb"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_preflight_12b3c.json": {
+      "bytes": 1125,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_preflight_12b3c.json",
+      "sha256": "31c40035f6caad9cc700a089fb3dd80074a40f840ec384508a7de0da07ee45e9"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_schema_12b3c.json": {
+      "bytes": 1116,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_schema_12b3c.json",
+      "sha256": "338b7a52446f24166e33682205806f68da3ea64ff3f5ed841acdb8663f7a2e92"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_sites_12b3c.csv": {
+      "bytes": 33512,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_sites_12b3c.csv",
+      "sha256": "497626404598a616bd6bf9b71a8876a4ff1c4071db2fa242c6b86a0bb8d8dcea"
+    },
+    "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_vectors_12b3c.npz": {
+      "bytes": 4317,
+      "path": "results/circuitsage_hmac_v2_12b3/enhanced_screening_authorization_12b3c/circuitsage_hmac_v2_1_enhanced_screening_vectors_12b3c.npz",
+      "sha256": "9bfed2ad7046b842f3dc1b8899c2b683937fdca2c87f5b1e3c1c4c953817b5e4"
+    }
+  },
+  "prior_response_records": {
+    "features": {
+      "bytes": 8433764,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_capture_12b2h/circuitsage_hmac_v2_1_probe_response_features_12b2h.npz",
+      "sha256": "7a072f038923bb99612da3573e778aa65478fa62b279d3d7e2f10551c5e0a58e"
+    },
+    "targets": {
+      "bytes": 7677,
+      "path": "results/circuitsage_hmac_v2_12b2/probe_capture_12b2h/circuitsage_hmac_v2_1_probe_response_targets_12b2h.npz",
+      "sha256": "ed678bd956ee271b8a3c8158c1adf819b91ed562af94cf4b1ef7bdfe23f42436"
+    }
+  },
+  "repair_calibration_access": 0,
+  "repair_site_test_access": 0,
+  "response_values_captured": 0,
+  "screen_sites": 256,
+  "screen_vectors": 48,
+  "simulation_calls": 0,
+  "stage": "12B-3C",
+  "stage_12b3b_audit": {
+    "bytes": 2236,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_enhanced_probe_discovery_structural_freeze_12b3b.json",
+    "sha256": "30f335ac2ad532183efac322d76d39392a4e6127043df94aab1febf891db3a67"
+  },
+  "status": "PASS",
+  "training_calls": 0,
+  "validation_access": 0
+}

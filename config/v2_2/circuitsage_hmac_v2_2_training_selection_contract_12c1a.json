@@ -1,0 +1,35 @@
+{
+  "after_selection": "weights, scalers, thresholds, vector schedule and probe policy frozen before independent test",
+  "determinism": "fixed seeds, deterministic data order, single declared environment and exact replay required",
+  "early_stopping": "circuit-macro calibration metric with pre-registered patience",
+  "gradient_partitions": [
+    "GENERALIZATION_TRAIN"
+  ],
+  "gradient_prohibited_partitions": [
+    "GENERALIZATION_CALIBRATION",
+    "INDEPENDENT_CIRCUIT_TEST",
+    "GENERALIZATION_HOLDOUT"
+  ],
+  "hard_negatives": "full-catalog or deterministic topology-stratified negatives within TRAIN circuits only",
+  "objectives": [
+    "fault-free versus faulty detection",
+    "contrastive behavior-to-faulty-node retrieval",
+    "pairwise graph reranking",
+    "candidate-set coverage",
+    "polarity classification conditioned on supported localization",
+    "OOD rejection and calibration"
+  ],
+  "selection_order": [
+    "safety",
+    "OOD/false alarms",
+    "circuit-macro detection",
+    "candidate coverage",
+    "MRR/exact site",
+    "simplicity"
+  ],
+  "selection_partition": "GENERALIZATION_CALIBRATION ONLY AFTER SEPARATE CAPTURE AUTHORIZATION",
+  "stage": "12C-1A",
+  "status": "FROZEN",
+  "training": "NOT YET AUTHORIZED",
+  "training_contract_version": "CIRCUITSAGE-HMAC-V2.2-TRAINING-SELECTION-12C1A-v1"
+}

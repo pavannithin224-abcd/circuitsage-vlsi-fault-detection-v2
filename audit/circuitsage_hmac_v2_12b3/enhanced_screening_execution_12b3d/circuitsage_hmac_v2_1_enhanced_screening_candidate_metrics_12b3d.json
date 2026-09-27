@@ -1,0 +1,71 @@
+{
+  "advancement_selection": "NOT PERFORMED; SEPARATE DISPOSITION REQUIRED",
+  "candidate_metrics": [
+    {
+      "acceptance": "NOT_MET",
+      "candidate_id": "EM_TOPOLOGY_4X64_T24",
+      "combined_detection_recall": "0.50000000",
+      "combined_observable_faults": 256,
+      "external_observable_faults": 247,
+      "fault_free_baseline_records": 2160,
+      "fault_free_false_alarms": 0,
+      "frozen_detection_target": "0.70000000",
+      "probe_bits": 256,
+      "probe_observable_faults": 250,
+      "probe_rescued_faults": 9,
+      "site_bootstrap_ci_high": "0.55664062",
+      "site_bootstrap_ci_low": "0.44335938",
+      "snapshots": 24
+    },
+    {
+      "acceptance": "NOT_MET",
+      "candidate_id": "EM_STATE_CHECKPOINT_2X64_T32",
+      "combined_detection_recall": "0.50000000",
+      "combined_observable_faults": 256,
+      "external_observable_faults": 247,
+      "fault_free_baseline_records": 2160,
+      "fault_free_false_alarms": 0,
+      "frozen_detection_target": "0.70000000",
+      "probe_bits": 128,
+      "probe_observable_faults": 250,
+      "probe_rescued_faults": 9,
+      "site_bootstrap_ci_high": "0.55664062",
+      "site_bootstrap_ci_low": "0.44335938",
+      "snapshots": 32
+    },
+    {
+      "acceptance": "PASS",
+      "candidate_id": "EM_TESTPOINT_4X64_T16",
+      "combined_detection_recall": "0.75976562",
+      "combined_observable_faults": 389,
+      "external_observable_faults": 247,
+      "fault_free_baseline_records": 2160,
+      "fault_free_false_alarms": 0,
+      "frozen_detection_target": "0.70000000",
+      "probe_bits": 256,
+      "probe_observable_faults": 383,
+      "probe_rescued_faults": 142,
+      "site_bootstrap_ci_high": "0.80078125",
+      "site_bootstrap_ci_low": "0.71875000",
+      "snapshots": 16
+    }
+  ],
+  "fault_free_false_alarm_target": 0.0,
+  "fault_instances": 512,
+  "frozen_detection_target": 0.7,
+  "interpretation": "REPAIR_TRAIN SCREENING FEASIBILITY; NOT INDEPENDENT GENERALIZATION ACCURACY",
+  "logical_candidate_evaluations": 73728,
+  "maximum_advancing_candidates": 1,
+  "metrics_version": "CIRCUITSAGE-HMAC-V2.1-ENHANCED-SCREENING-METRICS-12B3D-v1",
+  "passing_candidates": [
+    "EM_TESTPOINT_4X64_T16"
+  ],
+  "passive_union_observer_equivalence": "ONE TRANSACTION; THREE NON-PERTURBING FROZEN PROJECTIONS",
+  "physical_enabled_simulations": 24576,
+  "scope": "REPAIR_TRAIN BOUNDED SCREEN ONLY",
+  "screen_sites": 256,
+  "site_bootstrap_replicates": 1000,
+  "stage": "12B-3D",
+  "status": "FROZEN",
+  "vectors": 48
+}

@@ -1,0 +1,77 @@
+{
+  "all_injected_exact_site_rate": 0.548790658882402,
+  "audit_version": "CIRCUITSAGE-HMAC-V2.1-REPAIR-SITE-TEST-CAPTURE-EVALUATION-FREEZE-12B3O-v1",
+  "baseline_enabled_total_records": [
+    4320,
+    460416,
+    464736
+  ],
+  "batches_verified": "45/45",
+  "capture_evaluation": "COMPLETED / FROZEN",
+  "combined_detection_recall": 0.6916180150125104,
+  "dataset_status": "FROZEN",
+  "deterministic_capture_prediction_scoring_replay": "PASS / EXACT",
+  "dev_site_test": "CONSUMED / NOT REOPENED",
+  "external_rescued_combined_observable_faults": [
+    2422,
+    895,
+    3317
+  ],
+  "fault_free_false_alarms": 0,
+  "independent_generalization": "NOT ESTABLISHED",
+  "locked_evaluation_acceptance": "NOT_MET",
+  "manifest": {
+    "bytes": 32064,
+    "path": "results/circuitsage_hmac_v2_12b3/circuitsage_hmac_v2_1_repair_site_test_evaluation_manifest_12b3o.json",
+    "sha256": "e4bd3f0e7a5c85946b9b2ff61e851c6b26bc0e1c077582908ca0c1f94248d482"
+  },
+  "mean_maximum_observable_candidate_sites": [
+    3.756104914078987,
+    84
+  ],
+  "metrics": {
+    "bytes": 2732,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_metrics_12b3o.json",
+    "sha256": "c67debe4bdba2f55a68a34c7df1912ae341bb091ddf7b3ae277e08f4fb06cf37"
+  },
+  "model_objects_deserialized_inference_calls": [
+    1,
+    4796
+  ],
+  "next_gate": "STAGE 12B-3P — REPAIR_SITE_TEST RESULT DISPOSITION AND V2.1 IMPROVEMENT FREEZE",
+  "observable_candidate_set_coverage": 1.0,
+  "polarity_accuracy_given_correct_unique_site": 1.0,
+  "prediction_commitment": {
+    "bytes": 1558,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_capture_execution_12b3o/circuitsage_hmac_v2_1_repair_site_test_prediction_commitment_12b3o.json",
+    "sha256": "d62385b1d89db1911daabdff6d725788e2c00f68c5f4975d419a2b953f0c5871"
+  },
+  "prediction_commitment_before_truth": "PASS / VERIFIED",
+  "repair_site_test": "CONSUMED / FROZEN / DO NOT REOPEN",
+  "selected_measurement_model": [
+    "EM_TESTPOINT_4X64_T16",
+    "R31_EXACT_SIGNATURE_SET"
+  ],
+  "sites_faults_vectors": [
+    2398,
+    4796,
+    96
+  ],
+  "stage": "12B-3O",
+  "status": "PASS",
+  "training_threshold_change_candidate_reselection": [
+    0,
+    0,
+    0
+  ],
+  "truth_commitment": {
+    "bytes": 500,
+    "path": "results/circuitsage_hmac_v2_12b3/repair_site_test_authorization_12b3n/circuitsage_hmac_v2_1_repair_site_test_truth_commitment_12b3n.json",
+    "sha256": "1e5ed12c3eb2d87bbf3ba4d255b7515bb36b2a2b1d042e7fb01aa8dc89390531"
+  },
+  "unique_signature_top1_site": 1.0,
+  "validation_holdout_access": [
+    0,
+    0
+  ]
+}

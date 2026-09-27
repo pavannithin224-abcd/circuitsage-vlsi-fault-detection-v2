@@ -1,0 +1,4 @@
+family_id,partition,predicted_class,predicted_band_low,predicted_band_high,predicted_meets_floor,confidence,captured,measured_exact_site,measured_inside_band,actual_meets_floor,outcome,label_source
+ibex_cpu,INDEPENDENT_CIRCUIT_TEST,CPU_RISCV,0.0,0.12,NO,HIGH,NO,,,,NOT_SCORABLE,NEW LABEL - SEE SCORING RULE DEFECT
+secworks_chacha,INDEPENDENT_CIRCUIT_TEST,CRYPTO_ARX_STREAM,0.2,0.7,YES,MEDIUM,YES,0.344031,YES,YES,CONFIRMED,FROZEN 12C-2H SCORING RULE
+serv_cpu,GENERALIZATION_HOLDOUT,CPU_RISCV_BIT_SERIAL,0.0,0.12,NO,LOW,NO,,,,NOT_SCORABLE,HELD SEALED BY USER DECISION (12C-3A)
