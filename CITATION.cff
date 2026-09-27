@@ -30,6 +30,11 @@ date-released: '2026-09-26'
 license: Apache-2.0
 repository-code: >-
   https://github.com/pavannithin224-abcd/circuitsage-vlsi-fault-detection-v2
+doi: 10.5281/zenodo.22986950
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22986950
+    description: Concept DOI resolving to the latest version
 keywords:
   - VLSI fault detection
   - fault localization
@@ -51,11 +56,6 @@ keywords:
 #   3. publish a GitHub release (e.g. v2.2.0)
 #   4. Zenodo mints a DOI automatically, then uncomment and fill:
 #
-# doi: 10.5281/zenodo.XXXXXXX
-# identifiers:
-#   - type: doi
-#     value: 10.5281/zenodo.XXXXXXX
-#     description: Concept DOI for all versions
 # ---------------------------------------------------------------------------
 references:
   - type: software
