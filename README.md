@@ -237,6 +237,7 @@ checkable is what this repository is for.
   author  = {Nithin, Pavan},
   year    = {2026},
   version = {2.2.0},
+  doi     = {10.5281/zenodo.22986950},
   url     = {https://github.com/pavannithin224-abcd/circuitsage-vlsi-fault-detection-v2}
 }
 ```

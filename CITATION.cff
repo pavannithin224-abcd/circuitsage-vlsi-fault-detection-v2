@@ -47,16 +47,6 @@ keywords:
   - negative results
   - pre-registered study
   - reproducible research
-# ---------------------------------------------------------------------------
-# Optional but recommended: mint a DOI so this artifact stays citable even if
-# the repository URL changes.
-#
-#   1. sign in at https://zenodo.org with your GitHub account
-#   2. enable this repository under Settings -> GitHub
-#   3. publish a GitHub release (e.g. v2.2.0)
-#   4. Zenodo mints a DOI automatically, then uncomment and fill:
-#
-# ---------------------------------------------------------------------------
 references:
   - type: software
     title: >-
