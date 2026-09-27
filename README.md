@@ -7,6 +7,7 @@
 Six models, pre-registered. All six falsified. The thing that beat them has no parameters at all.
 
 <p>
+<a href="https://doi.org/10.5281/zenodo.22986950"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281%2Fzenodo.22986950.svg"></a>
 <img alt="license" src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square">
 <img alt="stages" src="https://img.shields.io/badge/stages-76-555?style=flat-square">
 <img alt="transactions" src="https://img.shields.io/badge/transactions-7.85M-555?style=flat-square">
